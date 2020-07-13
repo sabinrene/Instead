@@ -111,6 +111,20 @@
 
 
 
+            $.ajax("App/controller/Session.php",{
+              type: 'post',
+              async: false,
+              data: {
+                type: "getIdCourses"
+              },
+              success: function(data){
+                alert(data);
+                //  window.open("../../Pages/Courses/CourseTemplate.php","_self");
+             }
+            }
+            )
+
+
 
 
             $.ajax("App/controller/Update.php",{
@@ -121,7 +135,7 @@
                 value: "buyCourse"
               },
               success: function(data){
-                alert(data);
+              //  alert(data);
                 // data = jQuery.parseJSON(data);
              }
             }

@@ -46,9 +46,41 @@ elseif ($_POST['type']=="getliveOrOnline") {
   echo $_SESSION["liveOrOnline"];
 }
 
+/*----------------------- save idCourses for payments in shopping Cart -----------------------------*/
+
+elseif ($_POST['type']=="setIdCourses") {
+  session_start();
+  $idCourses = json_decode(stripslashes($_POST['idCourses']));
+  $_SESSION["idCourses"]=$idCourses;
+
+/*
+$data = json_decode(stripslashes($_POST['data']));
+
+  // here i would like use foreach:
+
+  foreach($data as $d){
+     echo $d;
+  }
+*/
+}
+
+elseif ($_POST['type']=="getIdCourses") {
+  session_start();
+  echo json_encode( $_SESSION["idCourses"]);
 
 
+/*
+$data = json_decode(stripslashes($_POST['data']));
 
+  // here i would like use foreach:
+
+  foreach($data as $d){
+     echo $d;
+  }
+*/
+}
+
+//
 
 
 

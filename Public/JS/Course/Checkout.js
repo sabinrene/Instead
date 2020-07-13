@@ -32,7 +32,7 @@ function readCoursetoBuy() {
       type: "readCourseById"
     },
     success: function(data){
-      alert(data);
+    //  alert(data);
     data = JSON.parse(data);
     totalPrice =  updateCoursesCheckout(data);
     }

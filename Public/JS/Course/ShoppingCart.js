@@ -160,14 +160,14 @@ $.ajax("../../App/controller/read.php",{
     totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
     idCourses[i] = data[i]['idCourse'];
 
-    alert(idCourses[i]);
+  //  alert(idCourses[i]);
 
 
 
    }
 
 
-
+sendIdCoursesToSession(idCourses);
 
 
 
@@ -185,22 +185,40 @@ $.ajax("../../App/controller/read.php",{
 
 
 
-function sendIdCoursesToSession(){
+function sendIdCoursesToSession(idCourses){
 
 
-/*  dataString = ??? ; // array?
+  dataString = ??? ; // array?
 var jsonString = JSON.stringify(dataString);
-   $.ajax({
-        type: "POST",
-        url: "script.php",
-        data: {data : jsonString},
-        cache: false,
 
-        success: function(){
-            alert("OK");
-        }
-    });*/
+
+$.ajax("../../App/controller/Session.php",{
+  type: 'post',
+  async: false,
+  data: {
+    type: "setIdCourses",
+    idCourses: jsonString
+  },
+  success: function(data){
+    //  window.open("../../Pages/Courses/CourseTemplate.php","_self");
+ }
 }
+)
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 function isNumber(n){
     return Number(n)=== n;
