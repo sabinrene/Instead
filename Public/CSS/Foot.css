@@ -1,0 +1,165 @@
+
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Foot {
+    position: relative;
+    z-index: 0;
+    height: 200px;
+    color: #303747;
+    background-color: rgb(27, 26, 30);
+    border-top: 2px solid black;
+}
+
+.Foot-Center {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+}
+    .Foot-Left {
+        float: left;
+        margin-left: 50px;
+    }
+    .Foot-Right {
+        float: right;
+        margin-right: 50px;
+    }
+
+
+
+
+.GraDiv {
+    position: relative;
+    background: linear-gradient(90deg, rgba(64,42,60,1) 10%, rgba(121,9,84,1) 100%);
+    height: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Mobile Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (max-width: 479px) {
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Footer {
+    /* General */
+}
+.FootWrap {
+    width: 200px;
+    font-size: 0.85em;
+    margin: 0 auto;
+}
+.FootWrap ul li {
+    font-size: 0.80em;
+}
+
+/*   Footer Info   */
+.iLeft {
+    width: 100%;
+}
+.iRight {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+/* Mobile Version END */
+}
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Tablet Styles                           */
+/* ---------------------------------------------------------------- */
+                    /*     0px - 479px    */
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+
+
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Footer {
+    /* General */
+}
+.FootWrap {
+    width: 450px;
+    font-size: 0.85em;
+}
+.FootWrap ul li {
+    font-size: 0.9em;
+}
+
+
+/*   Footer Info   */
+.iLeft {
+    width: 200px;
+}
+.iRight {
+    float: right;
+    width: 200px;
+}
+
+/* Tablet Version END */
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+/*                          Desktop Styles                          */
+/* ---------------------------------------------------------------- */
+                    /*     960px - Infinity    */
+@media only screen and (min-width: 961px) {
+
+
+
+/*--------------------*/
+/*       Footer       */
+/*--------------------*/
+.Footer {
+    height: 300px;
+    width: 100%;
+    color: #303747;
+    padding: 40px 0px;
+    border-top: 2px solid #EA4A3B;
+
+}
+.FootWrap {
+    width: 800px;
+    font-size: 1em;
+}
+.FootWrap ul li {
+    font-size: 0.9em;
+}
+
+
+/*   Footer Info   */
+.iLeft {
+    width: 320px;
+}
+.iRight {
+    float: right;
+}
+
+
+
+
+/* Desktop Version END */
+}

@@ -1,0 +1,201 @@
+/* ClearFIX */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 58px;
+    margin: 0 0 58px;
+  }
+  p, li {
+    color: #adb7bd;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+
+        /* ------------- */
+        /* Shopping Cart */
+        /* ------------- */
+.CTop {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    background-color: black;
+/*    background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%2329303b' fill-opacity='0.63' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+*/
+}
+
+
+.Top-Title {
+    position: relative;
+    top: 45%;
+    left: 5%;
+    width: 60%;
+    transform: translate(0%, -50%);
+    color: whitesmoke;
+    text-shadow: 0px 2px 3px #555;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 2px #def, 0 0 0 #000, 1px 1px 4px #def;
+}
+/* Don't show shadows when selecting text */
+.Top-Title::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+.Top-Title::selection { background: #5af; color: #fff; text-shadow: none; }
+
+
+
+.Cart-Wrap {
+
+    position: relative;
+    width: 80%;
+    min-height: 10px;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+  .CartL {
+    position: relative;
+    width: 780px;
+    float: left;
+    margin: 40px 0;
+    padding: 10px;
+    height: auto;
+    font-size: 0.95em;
+  }
+    .CartL-Box {
+      border: 1px solid lightgray;
+      height: 120px;
+      margin-bottom: 7px;
+    }
+
+    .L-BoxIn {
+      position: relative;
+      height: 90%;
+      margin-bottom: 40px;
+      top: 50%;
+      transform: translate(0,-50%);
+    }
+
+    .CartL-BoxPic {
+      position: relative;
+      float: left;
+      height: 100%;
+      width: 200px;
+      overflow: hidden;
+    }
+    .BoxPic {
+      height: 100%;
+      width: 200px;
+      padding-left: 5px;
+    }
+
+    .CartL-Titles {
+      position: relative;
+      float: left;
+      padding-left: 4px;
+      width: 420px;
+      height: 100%;
+      overflow: hidden;
+    }
+    .CartL-Titles h3 {
+      margin-bottom: -12px;
+    }
+    .CartL-Titles p {
+      color: #686f7a;
+      line-height: 18px;
+    }
+
+    .CartL-rem {
+      position: relative;
+      float: left;
+      padding-left: 10px;
+      top: 50%;
+      transform: translate(0,-50%);
+    }
+    .CartL-rem a {
+      color: #0f7b94;
+      text-decoration: none;
+    }
+    .CartL-Price {
+      position: relative;
+      float: right;
+      padding-right: 15px;
+      top: 50%;
+      transform: translate(0,-50%);
+      color: #ec5252;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+
+
+
+
+  .CartR {
+    position: relative;
+    width: auto;
+    float: right;
+    margin-right: 40px;
+    height: 500px;
+  }
+  .CartR-Box {
+    position: relative;
+    top: 30px;
+    height: 200px;
+  }
+    .CartR-Box span {
+      color: grey;
+      font-size: 1.2em;
+    }
+    .CartR-Box h1 {
+      color: black;
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+
+
+
+    .ChkOutBtn {
+      background-color:#ec5252;
+      border:1px solid #d02718;
+      color:#ffffff;
+      font-size:17px;
+      font-weight:bold;
+      padding:19px 59px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #810e05;
+    }
+    .ChkOutBtn:hover {
+      background:linear-gradient(to bottom, #ec5252 25%, #c62d1f 100%);
+    }
+
+
+
+
+
+
+
+
+    .studentsLiked{
+      position: relative;
+      margin-top: 40px;
+      left: 40%;
+      margin-left: 35px;
+    }
