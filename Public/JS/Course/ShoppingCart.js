@@ -188,7 +188,7 @@ sendIdCoursesToSession(idCourses);
 function sendIdCoursesToSession(idCourses){
 
 
-  dataString = ??? ; // array?
+  dataString = idCourses ; // array?
 var jsonString = JSON.stringify(dataString);
 
 
