@@ -52,7 +52,7 @@
           <h4>
             <span><i class="fa fa-circle"></i></span>
             <span><i class="fa fa-circle"></i></span>
-                  Online Education and Training
+                  Online Education and Training Hola como estas?
             <span><i class="fa fa-circle"></i></span>
             <span><i class="fa fa-circle"></i></span>
           </h4>
