@@ -43,8 +43,8 @@
                       `UsersCourses`SET `userCourses`= '$this->userCourse',
                                         `text`= '$this->userCourse'
 
-                    WHERE `idUsers` = $this->idUser
-                    AND `idCourse` = $this->idCourse ";
+                    WHERE `idUsers` = '$this->idUser'
+                    AND `idCourse` = '$this->idCourse' ";
             $this->con->conn()->exec($sql);
             $this->con->close();
               }
