@@ -7,6 +7,7 @@ require_once('../model/Lectures.php');
 require_once('../model/Images.php');
 require_once('../model/RecWWYL.php');
 require_once('../model/PDF.php');
+require_once('../model/UserCourse.php');
 
 /*--------------------------------- COURSE -----------------------------------*/
     if ($_POST['type']=="updateCourse") {
@@ -112,8 +113,44 @@ require_once('../model/PDF.php');
 
     }
 
+    /*------------------------------- UserCourse  --------------------------------*/
+    elseif ($_POST['type']=="updateUserCourse") {
+      session_start();
+      $updateUserCourse = new Update();
+      $updateUserCourse->queryBuy();
+      $updateUserCourse->setData($_SESSION['idUser'],$_SESSION['idCourse'],"buyCourse");
+      $updateUserCourse->updateBuyCourse();
+    }
+
+
+
+
   class Update
    {
+     /*----------------------------------------------------------------------------*/
+     /*-------------------------------- BUY -----------------------------------*/
+     /*----------------------------------------------------------------------------*/
+       private $buy;
+         function queryBuy(){
+           $db = new Database();
+           $this->buy = new UserCourse($db);
+         }
+
+
+         function setData($idUser, $idCourse,$typeInsert){
+           $this->buy->setIdCourse($idCourse);
+           $this->buy->setIdUser($idUser);
+           $this->buy->setUserCourse($typeInsert);
+         }
+         function updateBuyCourse(){
+           $this->buy->Update();
+         }
+
+
+
+
+
+
 /*----------------------------------------------------------------------------*/
 /*-------------------------------- PDF -----------------------------------*/
 /*----------------------------------------------------------------------------*/

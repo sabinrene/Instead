@@ -108,10 +108,29 @@
         if (response.success) {
 
           if (response.data.x_cod_response == 1) {
-            //Codigo personalizado
-            alert("Transaccion Aprobada");
+
+
+
+
+
+            $.ajax("App/controller/Update.php",{
+              type: 'post',
+              async: false,
+              data: {
+                type: "updateUserCourse",
+                value: "buyCourse"
+              },
+              success: function(data){
+                 data = jQuery.parseJSON(data);
+             }
+            }
+           )
+
+
 
             console.log('transacción aceptada');
+
+
           }
           //Transaccion Rechazada
           if (response.data.x_cod_response == 2) {
