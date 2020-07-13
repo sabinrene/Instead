@@ -24,7 +24,7 @@
 
 
 <body>
-<!-- JS -->
+<!-- Javascript -->
   <div id="liveCoursesButton" class=""></div>
   <div id="onlineCoursesButton" class=""></div>
 <!-- JS -->
