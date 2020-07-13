@@ -140,7 +140,7 @@ function readCoursestoBuy () {
               "data-epayco-tax-base='"+(totalPrice-totalPrice*0.19)+"'"+
               "data-epayco-name='Cyclone'"+
               "data-epayco-description='Cyclone'"+
-              "data-epayco-currency='COP'"+
+              "data-epayco-currency='USD'"+
               "data-epayco-country='CO'"+
               "data-epayco-test='true'"+
               "data-epayco-external='true'"+
@@ -150,7 +150,6 @@ function readCoursestoBuy () {
           "</script>"+
       "</form>"
     );
-
 
 
 
