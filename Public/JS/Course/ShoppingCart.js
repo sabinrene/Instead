@@ -149,7 +149,7 @@ $.ajax("../../App/controller/read.php",{
     data = jQuery.parseJSON(data);
 
     var totalPrice = 0;
-    var idCourses ="";
+    var idCourses ;
 
 
     for (var i = 0; i < data.length; i++) {
