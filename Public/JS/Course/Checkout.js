@@ -129,7 +129,7 @@ function readCoursestoBuy () {
    }
   )
 
-
+alert(totalPrice);
     $('#paymentForm').append(
       "<form>"+
           "<script src='https://checkout.epayco.co/checkout.js'"+
