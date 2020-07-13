@@ -58,8 +58,8 @@ function readCoursetoBuy() {
             "data-epayco-country='CO'"+
             "data-epayco-test='true'"+
             "data-epayco-external='true'"+
-            "data-epayco-response='https://www.insteadacademy.com/PaymentResponse.html'"+
-            "data-epayco-confirmation='https://www.insteadacademy.com/PaymentConfirmation.php'"+
+            "data-epayco-response='http://www.insteadacademy.com/PaymentResponse.html'"+
+            "data-epayco-confirmation='http://www.insteadacademy.com/PaymentConfirmation.php'"+
             "data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>"+
         "</script>"+
     "</form>"
