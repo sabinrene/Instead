@@ -80,6 +80,7 @@ function readCoursetoBuy() {
 /*---------------------------- Buy courses --------------------------------*/
 
 function readCoursestoBuy () {
+  var totalPrice = 0;
   /*----------------------------- Read courses ---------------------------------*/
   $.ajax("../../App/controller/read.php",{
     type: 'post',
@@ -89,7 +90,7 @@ function readCoursestoBuy () {
     },
     success: function(data) {
       data = jQuery.parseJSON(data);
-      var totalPrice = 0;
+
 
       for (var i = 0; i < data.length; i++) {
 
@@ -129,7 +130,6 @@ function readCoursestoBuy () {
    }
   )
 
-alert(totalPrice);
     $('#paymentForm').append(
       "<form>"+
           "<script src='https://checkout.epayco.co/checkout.js'"+
@@ -150,6 +150,14 @@ alert(totalPrice);
           "</script>"+
       "</form>"
     );
+
+
+
+
+
+
+
+
 }
 
 
