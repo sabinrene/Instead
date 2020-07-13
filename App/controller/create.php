@@ -101,7 +101,6 @@ elseif ($_POST['type']=="addToCard") {
   $buyCourse->queryBuy();
   $buyCourse->setData($_SESSION['idUser'],$_SESSION['idCourse'],$_POST['type']);
   $buyCourse->saveBuyCourse();
-  echo true;
 }
 
 

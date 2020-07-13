@@ -1,4 +1,7 @@
 <?php
+
+require_once('create.php');
+
 /*En esta página se reciben las variables enviadas desde ePayco hacia el servidor.
 Antes de realizar cualquier movimiento en base de datos se deben comprobar algunos valores
 Es muy importante comprobar la firma enviada desde ePayco
@@ -30,11 +33,15 @@ if ($x_signature == $signature) {
     $x_cod_response = $_REQUEST['x_cod_response'];
     switch ((int) $x_cod_response) {
         case 1:
-        <script>
-        alert("Lo logramos");
-        </script>
-            # code transacción aceptada
-            //echo "transacción aceptada";
+
+        /*------------------------------- UserCourse  --------------------------------*/
+        elseif ($_POST['type']=="addToCard") {
+          session_start();
+          $buyCourse = new Create();
+          $buyCourse->queryBuy();
+          $buyCourse->setData($_SESSION['idUser'],$_SESSION['idCourse'],"buyCourse");
+          $buyCourse->saveBuyCourse();
+        }
             break;
         case 2:
             # code transacción rechazada
