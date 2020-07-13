@@ -177,7 +177,9 @@ $.ajax("../../App/controller/read.php",{
 
 
 function sendIdCoursesToSession(){
-  dataString = ??? ; // array?
+
+
+/*  dataString = ??? ; // array?
 var jsonString = JSON.stringify(dataString);
    $.ajax({
         type: "POST",
@@ -188,7 +190,7 @@ var jsonString = JSON.stringify(dataString);
         success: function(){
             alert("OK");
         }
-    });
+    });*/
 }
 
 function isNumber(n){
