@@ -37,6 +37,7 @@
 
 
         function update(){/*`imagecourse`= '$this->imageName',*/
+          echo $this->userCourse;
           try{
             $sql = "UPDATE
                       `UsersCourses`SET `userCourses`= '$this->userCourse',
