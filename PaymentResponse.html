@@ -119,11 +119,13 @@
               },
               success: function(data){
               data =  jQuery.parseJSON(data);
-                alert(data[0]);
-                alert(data[1]);
-                alert(data[2]);
 
-                //  window.open("../../Pages/Courses/CourseTemplate.php","_self");
+              for (var i = 0; i < data.length; i++) {
+
+                alert(data[i]);
+
+              }
+
              }
             }
             )
@@ -136,7 +138,8 @@
               async: false,
               data: {
                 type: "updateUserCourse",
-                value: "buyCourse"
+                value: "buyCourse",
+                idCourse:
               },
               success: function(data){
               //  alert(data);
