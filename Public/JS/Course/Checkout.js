@@ -57,9 +57,9 @@ function readCoursetoBuy() {
             "data-epayco-currency='COP'"+
             "data-epayco-country='CO'"+
             "data-epayco-test='true'"+
-            "data-epayco-external='true'"+
+            "data-epayco-external='true'"+//App/controller/PaymentConfirmation.php
             "data-epayco-response='http://www.insteadacademy.com/PaymentResponse.html'"+
-            "data-epayco-confirmation='http://www.insteadacademy.com/PaymentConfirmation.php'"+
+            "data-epayco-confirmation='http://www.insteadacademy.com/App/controller/PaymentConfirmation.php'"+
             "data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>"+
         "</script>"+
     "</form>"
@@ -145,7 +145,7 @@ function readCoursestoBuy () {
               "data-epayco-test='true'"+
               "data-epayco-external='true'"+
               "data-epayco-response='http://www.insteadacademy.com/PaymentResponse.html'"+
-              "data-epayco-confirmation='http://www.insteadacademy.com/PaymentConfirmation.php'"+
+              "data-epayco-confirmation='http://www.insteadacademy.com/App/controller/PaymentConfirmation.php'"+
               "data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>"+
           "</script>"+
       "</form>"
