@@ -30,6 +30,9 @@ if ($x_signature == $signature) {
     $x_cod_response = $_REQUEST['x_cod_response'];
     switch ((int) $x_cod_response) {
         case 1:
+        <script>
+        alert("Lo logramos");
+        </script>
             # code transacción aceptada
             //echo "transacción aceptada";
             break;
