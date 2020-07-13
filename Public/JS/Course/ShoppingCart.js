@@ -149,15 +149,47 @@ $.ajax("../../App/controller/read.php",{
     data = jQuery.parseJSON(data);
 
     var totalPrice = 0;
-
+    var idCourses ;
     for (var i = 0; i < data.length; i++) {
     totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
+    idCourses[i] = data[i]['idCourse'];
+
+    alert(idCourses[i]);
    }
+
+
+
+
+
+
+
+
+
    $('#totalPrice').empty();
    $('#totalPrice').append('$'+ totalPrice);
   }
  }
 )
+
+
+
+
+
+
+function sendIdCoursesToSession(){
+  dataString = ??? ; // array?
+var jsonString = JSON.stringify(dataString);
+   $.ajax({
+        type: "POST",
+        url: "script.php",
+        data: {data : jsonString},
+        cache: false,
+
+        success: function(){
+            alert("OK");
+        }
+    });
+}
 
 function isNumber(n){
     return Number(n)=== n;
