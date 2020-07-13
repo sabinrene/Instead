@@ -121,7 +121,6 @@ require_once('../model/UserCourse.php');
       $updateUserCourse = new Update();
       $updateUserCourse->queryBuy();
       $updateUserCourse->setData($_SESSION['idUser'],$_SESSION['idCourse'],"buyCourse");
-      echo " y por entramos por aca";exit;
       $updateUserCourse->updateBuyCourse();
     }
 
@@ -146,6 +145,8 @@ require_once('../model/UserCourse.php');
            $this->buy->setUserCourse($typeInsert);
          }
          function updateBuyCourse(){
+           echo "1";exit;
+
            $this->buy->Update();
          }
 
