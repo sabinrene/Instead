@@ -115,6 +115,8 @@ require_once('../model/UserCourse.php');
 
     /*------------------------------- UserCourse  --------------------------------*/
     elseif ($_POST['type']=="updateUserCourse") {
+
+      echo "entramos por aca";exit;
       session_start();
       $updateUserCourse = new Update();
       $updateUserCourse->queryBuy();

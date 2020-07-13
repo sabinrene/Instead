@@ -55,18 +55,7 @@
 
 
 
-        function updateNamePDF(){
-            try{
-              $sql = "UPDATE `PDF` SET
-              `namePDF`='$this->namePDF'
-              WHERE `idPDF` =  '$this->idPDF'";
-              $this->con->conn()->exec($sql);
-              $this->con->close();
-                }
-            catch(PDOException $e){
-                echo $query . "<br>" . $e->getMessage();
-              }
-        }
+      
 
 
 
