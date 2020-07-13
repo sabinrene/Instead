@@ -36,7 +36,7 @@
 
 
 
-        function upadate(){/*`imagecourse`= '$this->imageName',*/
+        function update(){/*`imagecourse`= '$this->imageName',*/
           try{
             $sql = "UPDATE
                       `UsersCourses`SET `userCourses`= '$this->userCourse',
@@ -55,7 +55,7 @@
 
 
 
-      
+
 
 
 
