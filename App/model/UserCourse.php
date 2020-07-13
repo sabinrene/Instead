@@ -36,7 +36,7 @@
 
 
 
-        function update(){/*`imagecourse`= '$this->imageName',*/
+    /*    function update(){
           echo $this->userCourse;
           try{
             $sql = "UPDATE
@@ -51,11 +51,33 @@
           catch(PDOException $e){
               echo $query . "<br>" . $e->getMessage();
             }
-        }
+        }*/
 
+        function update(){
+              echo $this->idUser.$this->idCourse.$this->userCourse;
+              try{
+                $sql = "UPDATE
+                          `UsersCourses`SET `userCourses`= '$this->userCourse',
+                                            `text`= '$this->userCourse'
 
+                        WHERE `idUsers` = '$this->idUser'
+                        AND `idCourse` = '$this->idCourse' ";
+                $this->con->conn()->exec($sql);
+                $this->con->close();
+                  }
+              catch(PDOException $e){
+                  echo $query . "<br>" . $e->getMessage();
+                }
+            }
 
+/*
+UPDATE
+                      `UsersCourses`SET `userCourses`= 'hola',
+                                        `text`= 'hola'
 
+                    WHERE `idUsers` = '10'
+                    AND `idCourse` = '5'
+*/
 
 
 
