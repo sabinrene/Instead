@@ -65,36 +65,6 @@ function readCoursetoBuy() {
     "</form>"
   );
 
-  /*
-<form>
-    <script src='https://checkout.epayco.co/checkout.js' 
-        data-epayco-key='19dc45f2f08337bb051590e5cbbc8185' 
-        class='epayco-button' 
-        data-epayco-amount='83300' 
-        data-epayco-tax='13300'
-        data-epayco-tax-base='70000'
-        data-epayco-name='Cyclone' 
-        data-epayco-description='Cyclone' 
-        data-epayco-currency='COP'    
-        data-epayco-country='CO' 
-        data-epayco-test='true' 
-        data-epayco-external='true' 
-        data-epayco-response='www.insteadacademy.com/public_html/PaymentConfirmation.php'  
-        data-epayco-confirmation='www.insteadacademy.com/public_html/PaymentResponse.html' 
-        data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'> 
-    </script> 
-</form>
-
-  */
-
-
-
-
-
-
-
-
-
 //data-epayco-button
   //  document.getElementById("formulary").setAttribute('data-epayco-button',"../../Public/images/00-Home/Instead.png");
   //    alert(document.getElementById("formulary").getAttribute('data-epayco-button'));
@@ -123,27 +93,63 @@ function readCoursestoBuy () {
 
       for (var i = 0; i < data.length; i++) {
 
-        updateCoursesCheckout(readCourse(data[i]['idCourse']));
 
+
+
+        updateCoursesCheckout(readCourse(data[i]['idCourse']));
         if (isNumber(      parseFloat(   readCourse(data[i]['idCourse'])["price"]   )      )) {
           totalPrice = totalPrice +  parseFloat(   readCourse(data[i]['idCourse'])["price"]   )   ;
         }
-     }
+
+
+
+        }
+
+
+
+
+
      if (totalPrice==0) {
        alert("Please add courses to shopping cart ");
        window.open("../../Pages/Cart/ShoppingCart.php","_self");
-
-
-
      }
+
+
+
+
+
      $('#totalPrice').empty();
      $('#totalPrice').append('$'+ totalPrice);
+
+
+
+
+
     }
    }
   )
 
 
-
+    $('#paymentForm').append(
+      "<form>"+
+          "<script src='https://checkout.epayco.co/checkout.js'"+
+              "data-epayco-key='19dc45f2f08337bb051590e5cbbc8185'"+
+              "class='epayco-button'"+
+              "data-epayco-amount='"+totalPrice+"'"+
+              "data-epayco-tax='"+(totalPrice*0.19)+"'"+
+              "data-epayco-tax-base='"+(totalPrice-totalPrice*0.19)+"'"+
+              "data-epayco-name='Cyclone'"+
+              "data-epayco-description='Cyclone'"+
+              "data-epayco-currency='USD'"+
+              "data-epayco-country='CO'"+
+              "data-epayco-test='true'"+
+              "data-epayco-external='true'"+
+              "data-epayco-response='www.insteadacademy.com/public_html/PaymentResponse.html'"+
+              "data-epayco-confirmation='www.insteadacademy.com/public_html/PaymentConfirmation.php'"+
+              "data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>"+
+          "</script>"+
+      "</form>"
+    );
 }
 
 
