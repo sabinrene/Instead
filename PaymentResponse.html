@@ -122,7 +122,31 @@
 
               for (var i = 0; i < data.length; i++) {
 
-                alert(data[i]);
+              //  alert(data[i]);
+
+                $.ajax("App/controller/Update.php",{
+                  type: 'post',
+                  async: false,
+                  data: {
+                    type: "updateUserCourse",
+                    value: "buyCourse",
+                    idCourse: data[i]
+                  },
+                  success: function(data){
+                  //  alert(data);
+                    // data = jQuery.parseJSON(data);
+                 }
+                }
+               )
+
+
+
+
+
+
+
+
+
 
               }
 
@@ -133,20 +157,7 @@
 
 
 
-            $.ajax("App/controller/Update.php",{
-              type: 'post',
-              async: false,
-              data: {
-                type: "updateUserCourse",
-                value: "buyCourse",
-                idCourse: 2
-              },
-              success: function(data){
-              //  alert(data);
-                // data = jQuery.parseJSON(data);
-             }
-            }
-           )
+
 
 
 
