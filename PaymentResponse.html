@@ -111,7 +111,7 @@
 
 
 
-            $.ajax("App/controller/Session.php",{
+        /*    $.ajax("App/controller/Session.php",{
               type: 'post',
               async: false,
               data: {
@@ -153,11 +153,24 @@
 
              }
             }
-            )
+          )*/
 
 
 
-
+          $.ajax("App/controller/Update.php",{
+            type: 'post',
+            async: false,
+            data: {
+              type: "updateUserCourse",
+              value: "buyCourse"
+            //  idCourse: data[i]
+            },
+            success: function(data){
+            //  alert(data);
+              // data = jQuery.parseJSON(data);
+           }
+          }
+         )
 
 
 
