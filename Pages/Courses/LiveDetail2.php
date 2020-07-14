@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Smart Plant 3D </title>
+    <title> Smart Plant P&ID </title>
 
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
     <link rel="stylesheet" href="../../Public/CSS/Course/LiveDetail2.css">
@@ -25,7 +25,7 @@
 
 
     <div class="Banner">
-        <div class="Banner-Txt"> <a href="../../index.php">Smart Plant 3D</a></div>
+        <div class="Banner-Txt"> <a href="../../index.php">Smart Plant P&ID </a></div>
     </div>
 
 
@@ -41,40 +41,32 @@
                 <div id="description" class="Description">
 
                   <div class="BoxBot-Desc">
-                      <h2> SP3D - Piping Course </h2>
+                      <h2> SP P&ID - Training Module </h2>
 
-                      <p> Smart Plant 3D (SP3D) is a modeling software used in
-                        the engineering sector for pipe designing. This SP3D
-                        training builds the skills required for executing detailed
-                        designing projects in power plants, petrochemical setups,
-                        oil and gas industry, and food and beverage manufacturing
-                        units etc. </p>
+                      <p> SmartPlant P&ID (piping and instrumentation diagram) is an engineering solution that
+helps engineers in efficiently creating and improving plant configurations. By assisting
+designers and engineers in creating and managing the plant configuration,
+streamlining tasks throughout the workflow, and efficiently delivering a high-quality
+design. </p>
 
                   <div class="PartOne">
-                    <h3> Common Introduction: </h3>
+                    <h3> Topics Covered: </h3>
                     <ul>
-                      <li> SmartPlant 3D Introduction </li>
-                      <li> Templates/Session Files </li>
-                      <li> Filters (Database query) </li>
-                      <li> Views </li>
+                      <li> SmartPlant Engineering Manager </li>
+                      <li> Creating a Plant Breakdown </li>
+                      <li> Creating a SmartPlant P&ID </li>
+                      <li> Placing equipment </li>
                       <li> Common Toolbar </li>
-                      <li> Selecting Objects </li>
-                      <li> Space management </li>
-                      <li> Interference Detection </li>
                     </ul>
                   </div>
 
                   <div class="PartTwo">
-                    <h3> Piping: </h3>
+                    <h3> Prerequisites: </h3>
                     <ul>
-                      <li> Piping Hierarchy </li>
-                      <li> Templates/Session Files </li>
-                      <li> Filters (Database query) </li>
-                      <li> Views </li>
-                      <li> Common Toolbar </li>
-                      <li> Selecting Objects </li>
-                      <li> Space management </li>
-                      <li> Interference Detection </li>
+                      <li> Basic knowledge of P&ID’s </li>
+                      <li> Basic instrumentation </li>
+                      <li> AutoCAD </li>
+                      <li> Microstation </li>
                     </ul>
                   </div>
 
@@ -82,7 +74,7 @@
 
 
                     <div class="Live-Box">
-                            <div class="Price"> <h2 id="price"> $1250 </h2> </div>
+                            <div class="Price"> <h2 id="price"> $850 </h2> </div>
                             <div class="BoxBot">
 
 
