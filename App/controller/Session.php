@@ -56,10 +56,7 @@ elseif ($_POST['type']=="setIdCourses") {
 
   $max=sizeof($_SESSION['idCourses']);
   for($i=0; $i<$max; $i++) {
-
-  while (list ($key, $val) = each ($_SESSION['idCourses'][$i])) {
-  unset($_SESSION['idCourses'][$key->$val]);
-
+  unset($_SESSION['idCourses'][$i]);
   } // inner array while loop
   } // outer array for loop
 
