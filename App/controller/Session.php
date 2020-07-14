@@ -54,34 +54,21 @@ elseif ($_POST['type']=="setIdCourses") {
 
 
 
-  $max=sizeof($_SESSION['idCourses']);
-  for($i=0; $i<$max; $i++) {
-  unset($_SESSION['idCourses'][$i]);
-  } // inner array while loop
-  } // outer array for loop
 
 
+for ($i = 0; $i < count($_SESSION['idCourses']); $i++)
+{
 
+      unset($_SESSION['idCourses'][$i]);
 
-
-
-
-
+}
 
 
 
   $idCourses = json_decode(stripslashes($_POST['idCourses']));
   $_SESSION["idCourses"]=$idCourses;
 
-/*
-$data = json_decode(stripslashes($_POST['data']));
 
-  // here i would like use foreach:
-
-  foreach($data as $d){
-     echo $d;
-  }
-*/
 }
 
 elseif ($_POST['type']=="getIdCourses") {
