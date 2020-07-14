@@ -74,7 +74,7 @@ for ($i = 0; $i < count($_SESSION['idCourses']); $i++)
 elseif ($_POST['type']=="getIdCourses") {
   session_start();
   echo json_encode( $_SESSION["idCourses"]);
-
+session_destroy();
 
 /*
 $data = json_decode(stripslashes($_POST['data']));
