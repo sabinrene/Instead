@@ -52,7 +52,7 @@
           <h4>
             <span><i class="fa fa-circle"></i></span>
             <span><i class="fa fa-circle"></i></span>
-                  Online Education and Training 
+                  Online Education and Training
             <span><i class="fa fa-circle"></i></span>
             <span><i class="fa fa-circle"></i></span>
           </h4>
@@ -95,8 +95,8 @@
         and will be thoroughly acquainted with the operation of multiple units
         in the energy branches. </p>
 
-          <p> The students will be trained on the advanced cutting-edge software
-            used in energy industry.</p>
+          <p> The Students & Professionals will be trained on the advanced cutting-edge software
+            used in the energy industry.</p>
 
       </div>
     </div>
