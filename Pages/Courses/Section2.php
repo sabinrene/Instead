@@ -38,7 +38,7 @@
 
         <div class="BoxOne">
           <div>
-            <h4> [<span class="Live">Live</span>] SP3D Course </h4>
+            <h4> [<span class="Live">Live</span>] Smart Plant 3D Piping </h4>
             <h5> Start Date: 15 July 2020 </h5>
             <p> SmartPlant Enterprise solution for the mining, port, power, pulp and paper industries,
             SmartPlant 3D Materials Handling Edition, to automate the design and modeling of
@@ -55,7 +55,7 @@
         </div>
 
         <div class="BoxTwo">
-          <img src="../../Public/images/OnPipePics/Pic1.jpg">
+          <img src="../../Public/images/Sections/SP3d.jpeg">
         </div>
 
      </div>
@@ -71,7 +71,7 @@
 
         <div class="BoxOne">
           <div>
-            <h4> [<span class="Live">Live</span>] Caesar II Course </h4>
+            <h4> [<span class="Live">Live</span>] P&IDs Course </h4>
             <h5> Start Date: 30 July 2020 </h5>
             <p> CAESAR II (Computer Aided Engineering Stress Analyzing Report) is a PC-based pipe
             stress analysis Engineering Software. This Software package is an engineering tool
@@ -88,7 +88,7 @@
         </div>
 
         <div class="BoxTwo">
-          <img src="../../Public/images/OnPipePics/Pic2.jpg">
+        <img src="../../Public/images/Sections/PID.png">
         </div>
 
      </div>

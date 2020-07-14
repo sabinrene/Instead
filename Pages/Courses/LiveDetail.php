@@ -2,10 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Live Course Detail </title>
+    <title> Smart Plant 3D </title>
 
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
-    <link rel="stylesheet" href="../../Public/CSS/Course/LiveDetail.css">
+    <link rel="stylesheet" href="../../Public/CSS/Course/LiveDetail2.css">
     <link rel="stylesheet" href="../../Public/CSS/Header.css">
     <link rel="stylesheet" href="../../Public/CSS/Footer.css">
     <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
@@ -25,7 +25,7 @@
 
 
     <div class="Banner">
-        <div class="Banner-Txt"> <a href="../../index.php">Live Course Detail</a></div>
+        <div class="Banner-Txt"> <a href="../../index.php">Smart Plant 3D</a></div>
     </div>
 
 
@@ -40,6 +40,68 @@
 
                 <div id="description" class="Description">
 
+                  <div class="BoxBot-Desc">
+                      <h2> SP3D - Piping Course </h2>
+
+                      <p> Smart Plant 3D (SP3D) is a modeling software used in
+                        the engineering sector for pipe designing. This SP3D
+                        training builds the skills required for executing detailed
+                        designing projects in power plants, petrochemical setups,
+                        oil and gas industry, and food and beverage manufacturing
+                        units etc. </p>
+
+                  <div class="PartOne">
+                    <h3> Common Introduction: </h3>
+                    <ul>
+                      <li> SmartPlant 3D Introduction </li>
+                      <li> Templates/Session Files </li>
+                      <li> Filters (Database query) </li>
+                      <li> Views </li>
+                      <li> Common Toolbar </li>
+                      <li> Selecting Objects </li>
+                      <li> Space management </li>
+                      <li> Interference Detection </li>
+                    </ul>
+                  </div>
+
+                  <div class="PartTwo">
+                    <h3> Piping: </h3>
+                    <ul>
+                      <li> Piping Hierarchy </li>
+                      <li> Templates/Session Files </li>
+                      <li> Filters (Database query) </li>
+                      <li> Views </li>
+                      <li> Common Toolbar </li>
+                      <li> Selecting Objects </li>
+                      <li> Space management </li>
+                      <li> Interference Detection </li>
+                    </ul>
+                  </div>
+
+                  </div>
+
+
+                    <div class="Live-Box">
+                            <div class="Price"> <h2 id="price"> </h2> </div>
+                            <div class="BoxBot">
+
+
+                                <div class="BoxBot-Txt">
+                                    <p> <span> Online Classes: </span> 40 hours </p>
+                                    <p> <span> Online Training: </span> 20 hours </p>
+                                    <p> <span> Tools: </span> Smart Plant 3D </p>
+                                    <p> <span> Capacity: </span> 10 Students </p>
+
+
+                                    <a href="#">
+                                    <button class="PBtn"> Enroll </button>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                    </div> <!-- END Live-Box -->
+
 
                 </div>
             </div>
@@ -47,25 +109,6 @@
 
             <div class="Live-SecR">
 
-                <div class="Live-Box">
-                        <div class="Price"> <h2 id="price"> </h2> </div>
-
-                        <div class="BoxBot">
-
-                            <div class="BoxBot-Txt">
-                                <p> <span> Lectures: </span> 20+ hours </p>
-                                <p> <span> Tools: </span> Smart Plant 3D </p>
-                                <p> <span> Capacity: </span> 10 Students </p>
-
-
-                                <a href="#">
-                                <button class="PBtn"> Enroll </button>
-                                </a>
-
-                            </div>
-
-                        </div>
-                </div>
 
             </div>
 
