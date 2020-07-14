@@ -81,7 +81,7 @@
           </div>
 
 
-          <a href="LiveDetail.php">
+          <a href="LiveDetail2.php">
           <button class="PBtn"> Enroll </button>
           </a>
 
