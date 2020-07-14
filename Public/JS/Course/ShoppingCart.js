@@ -150,7 +150,7 @@ $.ajax("../../App/controller/read.php",{
 
     var totalPrice = 0;
 
-    const idCourses = [];
+  //  const idCourses = [];
 
 
     for (var i = 0; i < data.length; i++) {
@@ -158,7 +158,7 @@ $.ajax("../../App/controller/read.php",{
 
 
     totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
-    idCourses[i] = data[i]['idCourse'];
+  //  idCourses[i] = data[i]['idCourse'];
 
   //  alert(idCourses[i]);
 
@@ -167,7 +167,7 @@ $.ajax("../../App/controller/read.php",{
    }
 
 
-sendIdCoursesToSession(idCourses);
+//sendIdCoursesToSession(idCourses);
 
 
 
@@ -183,8 +183,7 @@ sendIdCoursesToSession(idCourses);
 
 
 
-
-
+/*
 function sendIdCoursesToSession(idCourses){
 
 
@@ -210,7 +209,7 @@ $.ajax("../../App/controller/Session.php",{
 
 
 }
-
+*/
 
 
 

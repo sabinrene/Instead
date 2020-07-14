@@ -32,14 +32,24 @@ function readCoursetoBuy() {
       type: "readCourseById"
     },
     success: function(data){
-      alert(data);
     data = JSON.parse(data);
+
+
+
+    const idCourses = [];
+    idCourses[0] = data['idCourse'];
+sendIdCoursesToSession(idCourses);
+
+
+
+
     totalPrice =  updateCoursesCheckout(data);
     }
    }
   )
   $('#totalPrice').empty();
   $('#totalPrice').append('$'+ totalPrice);//("style", "background-color: red;"
+
 
 
 
@@ -74,6 +84,39 @@ function readCoursetoBuy() {
   //    alert(document.getElementById("formulary").getAttribute('data-epayco-button'));
 
  }
+
+
+
+
+ function sendIdCoursesToSession(idCourses){
+
+
+   dataString = idCourses ; // array?
+ var jsonString = JSON.stringify(dataString);
+
+
+ $.ajax("../../App/controller/Session.php",{
+   type: 'post',
+   async: false,
+   data: {
+     type: "setIdCourses",
+     idCourses: jsonString
+   },
+   success: function(data){
+     //  window.open("../../Pages/Courses/CourseTemplate.php","_self");
+  }
+ }
+ )
+
+
+
+
+
+ }
+
+
+
+
  /*---------------------------- Payment --------------------------------*/
 /*
  document.getElementById("formulary").onclick = function(e){
@@ -94,6 +137,7 @@ function readCoursestoBuy () {
     },
     success: function(data) {
       data = jQuery.parseJSON(data);
+      const idCourses = [];
 
 
       for (var i = 0; i < data.length; i++) {
@@ -106,11 +150,13 @@ function readCoursestoBuy () {
           totalPrice = totalPrice +  parseFloat(   readCourse(data[i]['idCourse'])["price"]   )   ;
         }
 
+        idCourses[i] = data[i]['idCourse'];
 
 
         }
 
 
+        sendIdCoursesToSession(idCourses);
 
 
 
