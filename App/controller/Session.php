@@ -54,14 +54,14 @@ elseif ($_POST['type']=="setIdCourses") {
 
 
 
-
+/*
 
 for ($i = 0; $i < count($_SESSION['idCourses']); $i++)
 {
 
       unset($_SESSION['idCourses'][$i]);
 
-}
+}*/
 
 
 
