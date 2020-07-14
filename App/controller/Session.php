@@ -50,8 +50,7 @@ elseif ($_POST['type']=="getliveOrOnline") {
 
 elseif ($_POST['type']=="setIdCourses") {
   session_start();
-    $_SESSION['idCourses'] = array();
-
+    $_SESSION['idCourses'] = [];
 
   $idCourses = json_decode(stripslashes($_POST['idCourses']));
   $_SESSION["idCourses"]=$idCourses;
