@@ -34,8 +34,6 @@ function readCoursetoBuy() {
     success: function(data){
     data = JSON.parse(data);
 
-
-
     const idCourses = [];
     idCourses[0] = data['idCourse'];
 sendIdCoursesToSession(idCourses);
@@ -89,9 +87,9 @@ sendIdCoursesToSession(idCourses);
 
 
  function sendIdCoursesToSession(idCourses){
+alert(idCourses);
 
-
-   dataString = idCourses ; // array?
+   dataString = idCourses; // array?
  var jsonString = JSON.stringify(dataString);
 
 
@@ -107,8 +105,6 @@ sendIdCoursesToSession(idCourses);
   }
  }
  )
-
-
 
 
 
@@ -152,12 +148,10 @@ function readCoursestoBuy () {
 
         idCourses[i] = data[i]['idCourse'];
 
-
         }
 
 
         sendIdCoursesToSession(idCourses);
-
 
 
      if (totalPrice==0) {
