@@ -87,7 +87,6 @@ sendIdCoursesToSession(idCourses);
 
 
  function sendIdCoursesToSession(idCourses){
-alert(idCourses);
 
    dataString = idCourses; // array?
  var jsonString = JSON.stringify(dataString);

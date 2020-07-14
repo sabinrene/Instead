@@ -71,6 +71,10 @@
       </div>
     </div>
   </div>
+
+  <div class="">
+      <a href="http://www.insteadacademy.com/Pages/Courses/CourseMain.php">Ver curso</a>
+  </div>
   <footer>
     <div class="row">
       <div class="container">
@@ -111,7 +115,7 @@
 
 
 
-            $.ajax("App/controller/Session.php",{
+        /*    $.ajax("App/controller/Session.php",{
               type: 'post',
               async: false,
               data: {
@@ -121,6 +125,7 @@
               data =  jQuery.parseJSON(data);
 
               for (var i = 0; i < data.length; i++) {
+                alert(data[i]);
 
               //  alert(data[i]);
 
@@ -152,11 +157,24 @@
 
              }
             }
-            )
+          )*/
 
 
 
-
+          $.ajax("App/controller/Update.php",{
+            type: 'post',
+            async: false,
+            data: {
+              type: "updateUserCourse",
+              value: "buyCourse"
+            //  idCourse: data[i]
+            },
+            success: function(data){
+            //  alert(data);
+              // data = jQuery.parseJSON(data);
+           }
+          }
+         )
 
 
 
