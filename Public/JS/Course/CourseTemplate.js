@@ -208,8 +208,11 @@ function verifyPayment(){
 document.getElementById('buyCourse').onclick = function(e){
   var verifyUser = verifySession();
   if (verifyUser[2]==true) {
-    
-  addToCard();
+    destroySessionShoppingCard();
+    addToCard();
+    seeShoppingCard();
+
+
     $.ajax("../../App/controller/Session.php", {
       type: 'post',
       async: false,
@@ -226,6 +229,33 @@ document.getElementById('buyCourse').onclick = function(e){
 }else {
   alert("Please login");
  }
+}
+function seeShoppingCard(){
+  $.ajax("../../App/controller/Session.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "seeShoppingCard"
+    },
+    success: function (data){
+      alert(data);
+    }
+  }
+ )
+}
+
+function destroySessionShoppingCard(){
+  $.ajax("../../App/controller/Session.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "destroySessionShoppingCard"
+    },
+    success: function (data){
+      alert(data);
+    }
+  }
+ )
 }
 
 

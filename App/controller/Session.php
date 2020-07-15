@@ -82,8 +82,22 @@ $data = json_decode(stripslashes($_POST['data']));
      echo $d;
   }
 */
+}//destroySessionShoppingCard
+elseif ($_POST['type']=="destroySessionShoppingCard") {
+  session_start();
+  for ($i = 0; $i < count($_SESSION['idCourses']); $i++)
+  {
+        unset($_SESSION['idCourses'][$i]);
+  }
+  echo json_encode( $_SESSION["idCourses"]);
+
 }
 
+elseif ($_POST['type']=="seeShoppingCard") {
+  session_start();
+  echo json_encode( $_SESSION["idCourses"]);
+
+}
 //
 
 
