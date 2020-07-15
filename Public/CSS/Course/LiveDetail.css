@@ -349,7 +349,7 @@ body {
             width: 60%;
             margin-left: -60px;
             height: auto;
-            background: pink;
+            /* background: pink; */
         }
 
           .Live-SecR {
@@ -371,7 +371,7 @@ body {
        }
 
          .Live-SecR {
-             width: 420px;
+             width: 400px;
              height: 100%;
          }
            .CourseTemp-Right-Container {
