@@ -134,8 +134,30 @@ document.getElementById('logOut').onclick = function(e){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /*---------------------------- Query course --------------------------------*/
-  $.ajax("../../App/controller/read.php", {
+/*  $.ajax("../../App/controller/read.php", {
     type: 'post',
     async: false,
     data: {
@@ -159,7 +181,7 @@ document.getElementById('logOut').onclick = function(e){
     ' <h1>  $' + data["price"] + ' </h1>'
   );
 
-}
+}*/
 
 
 
