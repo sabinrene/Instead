@@ -21,6 +21,15 @@ $.ajax("../../App/controller/Session.php", {
   }
 }
 )
+
+
+
+
+
+
+
+
+
 /*---------------------------- Buy course --------------------------------*/
 
 function readCoursetoBuy() {
@@ -202,7 +211,33 @@ function readCoursestoBuy () {
 
 
 }
+function seeShoppingCard(){
+  $.ajax("../../App/controller/Session.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "seeShoppingCard"
+    },
+    success: function (data){
+      alert(data);
+    }
+  }
+ )
+}
 
+function destroySessionShoppingCard(){
+  $.ajax("../../App/controller/Session.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "destroySessionShoppingCard"
+    },
+    success: function (data){
+      alert(data);
+    }
+  }
+ )
+}
 
 /*----------------- read Course By Id Course ------------------------*/
 function readCourse(idCourse){

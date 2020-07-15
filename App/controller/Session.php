@@ -49,40 +49,19 @@ elseif ($_POST['type']=="getliveOrOnline") {
 /*----------------------- save idCourses for payments in shopping Cart -----------------------------*/
 
 elseif ($_POST['type']=="setIdCourses") {
-
   session_start();
-
-
-
-for ($i = 0; $i < count($_SESSION['idCourses']); $i++)
-{
-
-      unset($_SESSION['idCourses'][$i]);
-
-}
-
-
-
   $idCourses = json_decode(stripslashes($_POST['idCourses']));
   $_SESSION["idCourses"]=$idCourses;
 
-
 }
-
+/*----------------------- getIdCourses -----------------------------*/
 elseif ($_POST['type']=="getIdCourses") {
   session_start();
   echo json_encode( $_SESSION["idCourses"]);
 
-/*
-$data = json_decode(stripslashes($_POST['data']));
+}
+/*----------------------- destroySessionShoppingCard -----------------------------*/
 
-  // here i would like use foreach:
-
-  foreach($data as $d){
-     echo $d;
-  }
-*/
-}//destroySessionShoppingCard
 elseif ($_POST['type']=="destroySessionShoppingCard") {
   session_start();
   for ($i = 0; $i < count($_SESSION['idCourses']); $i++)
@@ -92,6 +71,7 @@ elseif ($_POST['type']=="destroySessionShoppingCard") {
   echo json_encode( $_SESSION["idCourses"]);
 
 }
+/*----------------------- seeShoppingCard -----------------------------*/
 
 elseif ($_POST['type']=="seeShoppingCard") {
   session_start();
