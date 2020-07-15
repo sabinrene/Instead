@@ -106,6 +106,51 @@
       //Url Rest Metodo get, se pasa la llave y la ref_payco como paremetro
       var urlapp = "https://secure.epayco.co/validation/v1/reference/" + ref_payco;
 
+
+function getIdCourses(){
+
+
+
+  
+  $.ajax("App/controller/Session.php",{
+    type: 'post',
+    async: false,
+    data: {
+      type: "getIdCourses"
+    },
+    success: function(data){
+    data =  jQuery.parseJSON(data);
+
+    for (var i = 0; i < data.length; i++) {
+
+
+
+      $.ajax("App/controller/Update.php",{
+        type: 'post',
+        async: false,
+        data: {
+          type: "updateUserCourse",
+          value: "buyCourse",
+          idCourse: data[i]
+        },
+        success: function(data){
+        //  alert(data);
+          // data = jQuery.parseJSON(data);
+       }
+      }
+     )
+
+
+
+
+
+    }
+   }
+  }
+ )
+}
+
+
       $.get(urlapp, function(response) {
 
 
@@ -114,36 +159,9 @@
           if (response.data.x_cod_response == 1) {
 
 
-            
 
-            $.ajax("App/controller/Session.php",{
-              type: 'post',
-              async: false,
-              data: {
-                type: "getIdCourses"
-              },
-              success: function(data){
-              data =  jQuery.parseJSON(data);
+            getIdCourses();
 
-              for (var i = 0; i < data.length; i++) {
-                $.ajax("App/controller/Update.php",{
-                  type: 'post',
-                  async: false,
-                  data: {
-                    type: "updateUserCourse",
-                    value: "buyCourse",
-                    idCourse: data[i]
-                  },
-                  success: function(data){
-                  //  alert(data);
-                    // data = jQuery.parseJSON(data);
-                 }
-                }
-               )
-              }
-             }
-           }
-            )
 
 
             console.log('transacción aceptada');

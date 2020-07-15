@@ -109,7 +109,6 @@ sendIdCoursesToSession(idCourses);
      idCourses: jsonString
    },
    success: function(data){
-     //  window.open("../../Pages/Courses/CourseTemplate.php","_self");
   }
  }
  )
