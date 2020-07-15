@@ -210,6 +210,7 @@ document.getElementById('buyCourse').onclick = function(e){
   if (verifyUser[2]==true) {
     destroySessionShoppingCard();
     addToCard();
+    seeShoppingCard();
 
 
     $.ajax("../../App/controller/Session.php", {
@@ -228,6 +229,19 @@ document.getElementById('buyCourse').onclick = function(e){
 }else {
   alert("Please login");
  }
+}
+function seeShoppingCard(){
+  $.ajax("../../App/controller/Session.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "seeShoppingCard"
+    },
+    success: function (data){
+      alert(data);
+    }
+  }
+ )
 }
 
 function destroySessionShoppingCard(){

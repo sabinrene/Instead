@@ -92,6 +92,12 @@ elseif ($_POST['type']=="destroySessionShoppingCard") {
   echo json_encode( $_SESSION["idCourses"]);
 
 }
+
+elseif ($_POST['type']=="seeShoppingCard") {
+  session_start();
+  echo json_encode( $_SESSION["idCourses"]);
+
+}
 //
 
 
