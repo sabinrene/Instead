@@ -113,22 +113,17 @@
 
           if (response.data.x_cod_response == 1) {
 
-
-
-        /*    $.ajax("App/controller/Session.php",{
+            $.ajax("App/controller/Session.php",{
               type: 'post',
               async: false,
               data: {
                 type: "getIdCourses"
               },
               success: function(data){
+                alert(data);
               data =  jQuery.parseJSON(data);
 
               for (var i = 0; i < data.length; i++) {
-                alert(data[i]);
-
-              //  alert(data[i]);
-
                 $.ajax("App/controller/Update.php",{
                   type: 'post',
                   async: false,
@@ -143,41 +138,11 @@
                  }
                 }
                )
-
-
-
-
-
-
-
-
-
-
               }
-
              }
-            }
-          )*/
-
-
-
-          $.ajax("App/controller/Update.php",{
-            type: 'post',
-            async: false,
-            data: {
-              type: "updateUserCourse",
-              value: "buyCourse"
-            //  idCourse: data[i]
-            },
-            success: function(data){
-            //  alert(data);
-              // data = jQuery.parseJSON(data);
            }
-          }
-         )
-
-
-
+            )
+           
 
             console.log('transacción aceptada');
 

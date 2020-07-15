@@ -115,15 +115,13 @@ require_once('../model/UserCourse.php');
 
     /*------------------------------- UserCourse  --------------------------------*/
     elseif ($_POST['type']=="updateUserCourse") {
-
-
+      echo "entramos";
       session_start();
       $updateUserCourse = new Update();
       $updateUserCourse->queryBuy();
-      $updateUserCourse->setData($_SESSION['idUser'],$_SESSION['idCourse'],"buyCourse");
+      $updateUserCourse->setData($_SESSION['idUser'],$_POST['idCourse'],"buyCourse");
       $updateUserCourse->updateBuyCourse();
     }
-
 
 
 

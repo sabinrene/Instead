@@ -94,10 +94,10 @@
 
 
 
-          <br><br>
+<br><br>
 
 
-        <label for="courseDescription">Course Description</label>
+<label for="courseDescription">Course Description</label>
 
 
 
