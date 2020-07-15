@@ -82,9 +82,7 @@
 
 
                     <div class="Live-Box">
-                    <!--  <div class="Price"> <h2 id="price"> $1250 </h2> </div>-->
-
-                            <div class="Price"> <h2 > $1250 </h2> </div>
+                            <div class="Price"> <h2 id="price2"> $1250 </h2> </div>
                             <div class="BoxBot">
 
 
