@@ -116,7 +116,7 @@
 
             		<div class="CourseTemp-Right-Container">
 
-            			<div >
+            			<div>
             				<a href="#"><img id="image" class="Course-Pic" src="" alt=""></a>
             			</div>
 
