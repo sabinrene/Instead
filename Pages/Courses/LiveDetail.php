@@ -5,7 +5,7 @@
     <title> Smart Plant 3D </title>
 
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
-    <link rel="stylesheet" href="../../Public/CSS/Course/LiveDetail2.css">
+    <link rel="stylesheet" href="../../Public/CSS/Course/LiveDetail.css">
     <link rel="stylesheet" href="../../Public/CSS/Header.css">
     <link rel="stylesheet" href="../../Public/CSS/Footer.css">
     <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
@@ -108,12 +108,56 @@
             </div>
 
 
+
+
+            <!-- Live Section Right -->
             <div class="Live-SecR">
 
 
-            </div>
+            		<div class="CourseTemp-Right-Container">
 
-        </div>
+            			<div >
+            				<a href="#"><img id="image" class="Course-Pic" src="" alt=""></a>
+            			</div>
+
+            			<div id="price" class="Course-Price"> 5000 </div>
+
+            			<div class="Course-Btns">
+            					<div id="addToCard" class="Btn02 colorBlack">
+            					Add to Cart
+            				  </div>
+            				<div id="buyCourse" class="Btn02">
+            					Buy Now
+            				</div>
+            			</div>
+
+            			<div class="Course-includes">
+            				<p>This course includes: </p>
+            					<ul>
+            						<li> On-demand video lectures </li>
+            						<li> Articles to deepen knowledge </li>
+            						<li> Mobile friendly Access </li>
+            					</ul>
+            			</div>
+
+            			<div class="ribbon-wrapper">
+                    <a href="CourseMain.php">
+                				<div class="glow">&nbsp;</div>
+                  				<div class="ribbon-front">
+                  					Course
+                  				</div>
+              					<div class="ribbon-edge-topleft"></div>
+              					<div class="ribbon-edge-topright"></div>
+              					<div class="ribbon-edge-bottomleft"></div>
+              					<div class="ribbon-edge-bottomright"></div>
+            			   </a>
+                </div>
+
+            		</div>
+
+
+            </div> <!-- END Live Section Right -->
+        </div> <!-- END Live Two Columns -->
 
 
     </div>

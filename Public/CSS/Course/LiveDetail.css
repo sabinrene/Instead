@@ -48,24 +48,25 @@ body {
 
 .Live-SecWrap {
     position: relative;
-    width: 1200px;
+    width: 95%;
+    max-width: 1200px;
     margin: 0 auto;
-
-    margin-top: 30px;
-    margin-bottom: 200px;
+    margin-top: -60px;
 }
 
 
 .Live-TwoCols {
     position: relative;
     margin-top: 60px;
-    height: 700px;
+    height: 800px;
 }
 
 .Live-SecL {
     position: relative;
     float: left;
     width: 60%;
+
+    margin: 50px 0px;
 }
 
     .CourseTitle {
@@ -79,24 +80,32 @@ body {
 .Live-SecR {
     position: relative;
     float: left;
-    width: 30%;
+    width: 40%;
+    right: -150px;
+    height: 100%;
+
+    background: url(../../images/Sections/Bg2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
 .Live-Box {
     position: relative;
     margin: 0 auto;
-    width: 70%;
+    width: 220px;
     height: 240px;
-    background-color: grey;
 }
 
     .Price {
         position: relative;
         margin: 0 auto;
         width: 100%;
-        height: 60px;
-        background-color:black;
+        font-size: 1.5em;
+        height: 50px;
+        background-color: black;
     }
     .Price h2 {
         color: white;
@@ -111,6 +120,29 @@ body {
         height: 100%;
         background-color: #ededed;
     }
+
+
+    .BoxBot-Desc {
+      position: relative;
+      height: auto;
+      margin-bottom: 50px;
+    }
+        .BoxBot-Desc .PartOne {
+          float: left;
+          margin-right: 100px;
+        }
+        .BoxBot-Desc p {
+          margin: 10px 0px 20px 0px;
+        }
+
+        .BoxBot-Desc ul {
+          margin-left: 30px;
+        }
+
+
+
+
+
         .BoxBot-Txt {
             position: relative;
             background-color: #ededed;
@@ -143,3 +175,238 @@ body {
         margin: 4px 2px;
         cursor: pointer;
     }
+
+
+
+
+
+        /* Right CARD */
+        .CourseTemp-Right-Container {
+          position: sticky;
+          margin-top: 70px;
+          top: 40px;
+          overflow-x: visible;
+
+          background-color: blue;
+          float: right;
+          right: 60px;
+
+          background: white;
+          text-align: center;
+          width: 370px;
+          height: auto;
+          border-radius: 10px;
+
+          box-shadow: 7px 10px 29px -10px rgba(0,0,0,0.75);
+          -webkit-box-shadow: 7px 10px 29px -10px rgba(0,0,0,0.75);
+          -moz-box-shadow: 7px 10px 29px -10px rgba(0,0,0,0.75);
+        }
+
+
+        .Live-SecR {
+          position: relative;
+          background: lightblue;
+          width: 450px;
+        }
+          .Live-SecR ul {
+            list-style-type: none;
+          }
+
+        .CourseTemp-Right {
+          position: absolute;
+          right: 10px;
+          width: 400px;
+          max-height: 230%; /* Fixes where RightBox goes down to */
+          z-index: 10;
+        }
+
+
+            .Course-Pic {
+              position: relative;
+              margin: 0 auto;
+              width: 98%;
+              top: 4px;
+              height: 225px;
+              background-position: center; /* Center the image */
+              background-repeat: no-repeat; /* Do not repeat the image */
+              background-size: cover; /* Resize the background image to cover the entire container */
+            }
+            .Course-Price {
+              position: relative;
+              height: 60px;
+              margin-top: 20px;
+              Width: 100%;
+              margin-bottom: 15px;
+            }
+              .Course-Price h1 {
+                color: rgb(80, 87, 99);
+                text-align: center;
+                font-weight: bold;
+                font-size: 2.4em;
+              }
+
+            .Course-Btns{
+              height: auto;
+              margin-bottom: 20px;
+            }
+                .Btn02 {
+                  width: 120px;
+                  background: red;
+                  text-decoration: none;
+                  padding: 10px;
+                  margin: 0 auto;
+                  margin-bottom: 10px;
+                  border-radius: 4px;
+                  color: white;
+                  font-weight: bold;
+                }
+
+                .Btn02:hover {
+                  background: red;
+                  border-radius: 6px;
+                  font-weight: bolder;
+                  color: lightgrey;
+                }
+
+                .colorBlack{
+                  background: black !important;
+                }
+                .colorBlack:hover{
+                  background: grey !important;
+                }
+
+
+              /* Includes */
+              .Course-includes {
+                margin: 30px 0;
+              }
+
+              .Course-includes p {
+                position: relative;
+                color: black;
+                font-size: 0.9em;
+                margin-bottom: 10px;
+              }
+              .Course-includes li {
+                  color: rgb(80, 87, 99);
+                  text-align: center;
+              }
+
+              /* Share Me */
+              .ShareMe {
+                position: relative;
+                background: darkred;
+                height: 60px;
+                line-height: 60px;
+              }
+
+
+              /* Ribbon */
+              .ribbon-wrapper {
+                position: relative;
+                z-index:998;
+                height: 100px;
+                background: whitesmoke;
+              }
+              .ribbon-wrapper a {
+                text-decoration: none;
+              }
+
+             .ribbon-front {
+               background-color: red;
+               	height: 50px;
+               width: 390px;
+               height: 65px;
+               position: relative;
+               left:-10px;
+               z-index: 2;
+               font:20px/50px bold Verdana, Geneva, sans-serif;
+               color:#f8f8f8;
+               text-align:center;
+               text-shadow: 0px 1px 2px #cc6666;
+             }
+
+             .ribbon-front,
+             .ribbon-back-left,
+             .ribbon-back-right {
+                position: relative;
+                line-height: 65px;
+                font-weight: bold;
+
+               -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+               -khtml-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+               -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+               -o-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+              }
+              .ribbon-front a {
+                text-decoration: none;
+                color: white;
+              }
+
+             .ribbon-edge-topleft,
+             .ribbon-edge-topright,
+             .ribbon-edge-bottomleft,
+             .ribbon-edge-bottomright {
+               position: absolute;
+               z-index: 1;
+               border-style:solid;
+               height:0px;
+               width:0px;
+              }
+
+             .ribbon-edge-bottomleft,
+             .ribbon-edge-bottomright {
+             top: 50px;
+            }
+
+             .ribbon-edge-topleft,
+             .ribbon-edge-bottomleft {
+               left: -10px;
+               border-color: transparent #9B1724 transparent transparent;
+            }
+
+             .ribbon-edge-topleft {
+               top: -5px;
+               border-width: 5px 10px 0 0;
+            }
+             .ribbon-edge-bottomleft {
+               border-width: 0 10px 0px 0;
+              }
+
+             .ribbon-edge-topright,
+             .ribbon-edge-bottomright {
+               left: 370px;
+               top: 64px;
+               border-color: transparent transparent transparent #9B1724;
+              }
+
+             .ribbon-edge-topright {
+               top: 0px;
+               border-width: 0px 0 0 10px;
+             }
+             .ribbon-edge-bottomright {
+               border-width: 0 0 5px 10px;
+              }
+
+
+              /* Glow Animation */
+                @-webkit-keyframes flow {
+                 0% { left:-20px;opacity: 0;}
+                 50% {left:100px;opacity: 0.3;}
+                   100%{ left:180px;opacity: 0;}
+                }
+                @keyframes flow {
+                 0% { left:-20px;opacity: 0;}
+                 50% {left:100px;opacity: 0.3;}
+                   100%{ left:180px;opacity: 0;}
+                }
+
+                .glow{ background: rgb(255,255,255); width:40px; height:100%; z-index:999; position:absolute;-webkit-animation: flow 1.5s linear infinite;-moz-animation: flow 1.5s linear infinite;-webkit-transform: skew(20deg);
+                    -moz-transform: skew(20deg);
+                      -o-transform: skew(20deg);background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 1%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(1%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* IE10+ */
+                background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */ border-left:1px solid #fff;}

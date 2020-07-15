@@ -20,7 +20,7 @@
 
 <body>
 
-  
+
   <div class="bg-modal" id="bg-modal"></div>
   <?php include ("../../Pages/Header.php"); ?>
 	<?php include ("../../Pages/Trainee/TraineeMenu.php"); ?>
@@ -210,7 +210,7 @@
 		<div class="CourseTemp-Right-Container">
 
 			<div >
-				<a href="LecturesVid.php"><img id="image" class="Course-Pic" src="" alt=""></a>
+				<a href="#"><img id="image" class="Course-Pic" src="" alt=""></a>
 			</div>
 
 
