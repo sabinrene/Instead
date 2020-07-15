@@ -59,14 +59,14 @@ let letterCount = "";
 
 $('#tittleOnlineOrLive').append(
   liveOrOnline+ " Courses "
-)
+)/*
   $('#SecWrap').append(
     '<h1> Live & Online Training </h1>'+
     '<p> Over 100+ Students Online and 5+ Specialized Courses </p>'
-  )
+  )*/
   var date ="";
   for (var i = 0; i < data.length; i++) {
-    if (liveOrOnline=="online") {
+    if (liveOrOnline=="live") {
       date =data[i]["startTime"];
     }
     else {
