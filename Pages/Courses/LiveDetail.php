@@ -124,10 +124,10 @@
 
             			<div class="Course-Btns">
             					<div id="addToCard" class="Btn02 colorBlack">
-            					Add to Cart
+            					       Add to Cart
             				  </div>
             				<div id="buyCourse" class="Btn02">
-            					Buy Now
+            					       Buy Now
             				</div>
             			</div>
 
