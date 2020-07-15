@@ -113,6 +113,9 @@
 
           if (response.data.x_cod_response == 1) {
 
+
+            
+
             $.ajax("App/controller/Session.php",{
               type: 'post',
               async: false,
@@ -120,7 +123,6 @@
                 type: "getIdCourses"
               },
               success: function(data){
-                alert(data);
               data =  jQuery.parseJSON(data);
 
               for (var i = 0; i < data.length; i++) {
@@ -142,7 +144,7 @@
              }
            }
             )
-           
+
 
             console.log('transacción aceptada');
 
