@@ -6,7 +6,7 @@
 
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
 
-    <link rel="stylesheet" href="../../Public/CSS/Course/Section.css">
+    <link rel="stylesheet" href="../../Public/CSS/Course/Section2.css">
     <link rel="stylesheet" href="../../Public/CSS/Header.css">
     <link rel="stylesheet" href="../../Public/CSS/Footer.css">
     <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
