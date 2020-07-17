@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Live Course Preview </title>
+    <title> Live Course </title>
 
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
     <link rel="stylesheet" href="../../Public/CSS/Course/LiveDetail.css">
@@ -196,7 +196,7 @@
                 <a href="CourseMain.php">
             				<div class="glow">&nbsp;</div>
               				<div class="ribbon-front">
-              					Course
+              					Live   Course
               				</div>
           					<div class="ribbon-edge-topleft"></div>
           					<div class="ribbon-edge-topright"></div>

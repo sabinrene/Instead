@@ -198,6 +198,16 @@
   margin: 120px auto;;
   border-bottom: 1px solid grey;
   background-color: #f5f5f5;
+
+  -webkit-box-shadow: 4px 4px 19px -4px rgba(71,71,71,1);
+  -moz-box-shadow: 4px 4px 19px -4px rgba(71,71,71,1);
+  box-shadow: 4px 4px 19px -4px rgba(71,71,71,1);
+}
+.Welcome:hover {
+
+    -webkit-box-shadow: 4px 4px 19px -4px rgba(0,0,0,1);
+  -moz-box-shadow: 4px 4px 19px -4px rgba(0,0,0,1);
+  box-shadow: 4px 4px 19px -4px rgba(0,0,0,1);
 }
 
   .W-L {
@@ -675,7 +685,7 @@ a.Btn:hover{
         float: left;
         width: 50%;
         height: 100%;
-        background: #B0C3E0;
+        background: #eaf2e4;
         /* #eff3f9 */
         border-radius: 5px;
         border-top-right-radius: 0px;
