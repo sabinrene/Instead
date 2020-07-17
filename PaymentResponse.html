@@ -119,23 +119,7 @@ $.ajax("App/controller/Session.php",{
     data =  jQuery.parseJSON(data);
 
     for (var i = 0; i < data.length; i++) {
-      var   updaterOrBuy = "";
-        $.ajax("App/controller/read.php",{
-          type: 'post',
-          async: false,
-          data: {
-            type: "verifyBuyCourseByPost",
-            idCourse: data[i]
-          },
-          success: function (data) {
-            alert(data);
-            data = jQuery.parseJSON(data);
-
-            updaterOrBuy = data['userCourses'];
-
-         }
-        }
-       )
+      alert(verifyAddToCartUserCourse(data[i]));
 
 
 
@@ -156,6 +140,29 @@ $.ajax("App/controller/Session.php",{
    }
   }
  )
+}
+
+
+function verifyAddToCartUserCourse (idCourse){
+  alert(idCourse);
+  var   updaterOrBuy = "";
+    $.ajax("App/controller/read.php",{
+      type: 'post',
+      async: false,
+      data: {
+        type: "verifyBuyCourseByPost",
+        idCourse: idCourse
+      },
+      success: function (data) {
+        alert(data);
+        data = jQuery.parseJSON(data);
+
+        updaterOrBuy = data['userCourses'];
+
+     }
+    }
+   )
+   return  updaterOrBuy;
 }
 
 
