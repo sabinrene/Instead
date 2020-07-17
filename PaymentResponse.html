@@ -166,14 +166,14 @@ function verifyAddToCartUserCourse (idCourse){
 }
 
 
-function updateUserCourse (){
+function updateUserCourse (idCourse){
   $.ajax("App/controller/Update.php",{
     type: 'post',
     async: false,
     data: {
       type: "updateUserCourse",
       value: "buyCourse",
-      idCourse: data[i]
+      idCourse: idCourse
     },
     success: function(data){
     //  alert(data);
