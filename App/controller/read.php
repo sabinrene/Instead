@@ -105,13 +105,6 @@
          $readCourse->getCourseById();
        }
 
-        else if ($_POST['type'] == 'readBuyCoursesByIdUser'){
-         session_start();
-         $readBuyCoursesByIdUser = new Read();
-         $readBuyCoursesByIdUser->queryBuy();
-         $readBuyCoursesByIdUser->setIdUserToUserCourse($_SESSION["idUser"]);
-         $readBuyCoursesByIdUser->getUserCourseByIdUser();
-       }
 
 /*-----------------------------------  PDF  ----------------------------------*/
        else if ($_POST['type'] == 'readPDFByLectureId'){
@@ -147,13 +140,22 @@
          $getCoursesByIdUser->setIdUserToUserCourse($_SESSION['idUser']);
          $getCoursesByIdUser->getUserCourseByIdUser();
        }
+       /*--------------------------------  readBuyCoursesByIdUser  ---------------------------------*/
+        else if ($_POST['type'] == 'readBuyCoursesByIdUser'){
+         session_start();
+         $readBuyCoursesByIdUser = new Read();
+         $readBuyCoursesByIdUser->queryBuy();
+         $readBuyCoursesByIdUser->setIdUserToUserCourse($_SESSION["idUser"]);
+         $readBuyCoursesByIdUser->getUserCourseByIdUser();
+       }
 
+      
 
 
 
 class Read{
   /*----------------------------------------------------------------------------*/
-  /*------------------------------------ BUY -----------------------------------*/
+  /*-------------------------------- USER COURSE -------------------------------*/
   /*----------------------------------------------------------------------------*/
         private $buy;
 

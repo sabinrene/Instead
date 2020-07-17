@@ -18,6 +18,7 @@
   <![endif]-->
 </head>
 
+
 <body>
   <header id="main-header" style="margin-top:20px">
     <div class="row">
@@ -108,11 +109,7 @@
 
 
 function getIdCourses(){
-
-
-
-  
-  $.ajax("App/controller/Session.php",{
+$.ajax("App/controller/Session.php",{
     type: 'post',
     async: false,
     data: {
@@ -123,32 +120,45 @@ function getIdCourses(){
 
     for (var i = 0; i < data.length; i++) {
 
-
-
-      $.ajax("App/controller/Update.php",{
-        type: 'post',
-        async: false,
-        data: {
-          type: "updateUserCourse",
-          value: "buyCourse",
-          idCourse: data[i]
-        },
-        success: function(data){
-        //  alert(data);
-          // data = jQuery.parseJSON(data);
-       }
-      }
-     )
-
-
-
-
-
+      verifyAddToCartCourse(data[i]);//si es positivo se hace un if con updateUsercourse, si es negativo se hace el elseif con
+    //  updateUserCourse(data[i]);
     }
    }
   }
  )
 }
+function verifyAddToCartUserCourse(idCourse){
+  $.ajax("App/controller/read.php",{
+    type: 'post',
+    async: false,
+    data: {
+      type: "verifyBuyCourse",
+      idCourse: idCourse
+    },
+    success: function(data){
+      alert(data);
+      // data = jQuery.parseJSON(data);
+   }
+  }
+ )
+}
+function updateUserCourse (){
+  $.ajax("App/controller/Update.php",{
+    type: 'post',
+    async: false,
+    data: {
+      type: "updateUserCourse",
+      value: "buyCourse",
+      idCourse: data[i]
+    },
+    success: function(data){
+    //  alert(data);
+      // data = jQuery.parseJSON(data);
+   }
+  }
+ )
+}
+
 
 
       $.get(urlapp, function(response) {
