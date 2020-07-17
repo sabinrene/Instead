@@ -119,7 +119,6 @@ $.ajax("App/controller/Session.php",{
     data =  jQuery.parseJSON(data);
 
     for (var i = 0; i < data.length; i++) {
-      alert(verifyAddToCartUserCourse(data[i]));
 
 
 
@@ -127,13 +126,18 @@ $.ajax("App/controller/Session.php",{
 
 
 
-/*
+
       if (verifyAddToCartUserCourse(data[i])=="addToCard") {
         alert("addToCard");
       }
-      else if (verifyAddToCartUserCourse(data[i])=="buyCourse") {
+      else if (verifyAddToCartUserCourse(data[i])=="") {
         alert("buyCourse");
-      }*/
+      }
+
+
+
+
+
       ;//si es positivo se hace un if con updateUsercourse, si es negativo se hace el elseif con
     //  updateUserCourse(data[i]);
     }
@@ -144,7 +148,6 @@ $.ajax("App/controller/Session.php",{
 
 
 function verifyAddToCartUserCourse (idCourse){
-  alert(idCourse);
   var   updaterOrBuy = "";
     $.ajax("App/controller/read.php",{
       type: 'post',
@@ -154,11 +157,8 @@ function verifyAddToCartUserCourse (idCourse){
         idCourse: idCourse
       },
       success: function (data) {
-        alert(data);
         data = jQuery.parseJSON(data);
-
         updaterOrBuy = data['userCourses'];
-
      }
     }
    )
