@@ -155,9 +155,10 @@ $.ajax("../../App/controller/read.php",{
 
     for (var i = 0; i < data.length; i++) {
 
+if (data[i]['userCourses']!='buyCourse') {
+  totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
+}
 
-
-    totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
   //  idCourses[i] = data[i]['idCourse'];
 
   //  alert(idCourses[i]);
@@ -229,6 +230,12 @@ function updateCardCourses(idCourse){
 var course =readCourse(idCourse);
 
 if (    isNumber( parseFloat(  course["price"]  )  )    ) {
+
+
+
+
+
+
   $('#CartL').append(
     '<div class="CartL-Box">'+
          '<div class="L-BoxIn">'+
@@ -252,6 +259,11 @@ if (    isNumber( parseFloat(  course["price"]  )  )    ) {
  )
 
  return course["price"];
+
+
+
+
+
 }
   else {
     return 0;
