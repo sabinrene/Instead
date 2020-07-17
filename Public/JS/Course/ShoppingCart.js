@@ -156,7 +156,7 @@ $.ajax("../../App/controller/read.php",{
 
     for (var i = 0; i < data.length; i++) {
 
-if (data[i]['idCourse']!='buyCourse') {
+if (data[i]['userCourses']!='buyCourse') {
   totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
 }
 
