@@ -153,6 +153,7 @@
          session_start();
          $verifyBuyCourse = new Read();
          $verifyBuyCourse->queryBuy();
+         echo "esdfjasdljf";exit;
          $verifyBuyCourse->setData($_SESSION['idUser'],$_POST['idCourse'],$_POST['type']);
          $verifyBuyCourse->getUserCourse();
        }
