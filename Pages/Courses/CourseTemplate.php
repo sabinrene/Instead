@@ -247,6 +247,64 @@
 			</a></div>
 
 		</div>
+
+
+
+
+
+
+
+
+
+    <div class="Row2 clearfix">
+
+      <div class="Schedule">
+
+        <h3> Course Schedule </h3>
+
+          <table>
+            <tr>
+              <th>  </th>
+              <th>  </th>
+              <th>  </th>
+            </tr>
+            <tr>
+              <th> Mo </th>
+              <td> 10am - 1pm </td>
+              <td>  </td>
+            </tr>
+
+            <tr>
+              <th> Tu </th>
+              <td class="OddRow"> 2pm - 4pm </td>
+              <td>  </td>
+            </tr>
+
+            <tr>
+              <th> Wd </th>
+              <td> 12pm - 3pm </td>
+              <td>  </td>
+            </tr>
+
+            <tr>
+              <th> Th </th>
+              <td class="OddRow"> 2pm - 4pm </td>
+              <td>  </td>
+            </tr>
+
+            <tr>
+              <th> F </th>
+              <td> 12pm - 3pm </td>
+              <td>  </td>
+            </tr>
+          </table>
+
+      </div>
+
+    </div> <!-- END Row2 -->
+
+
+
 	</div>
 	<!-- End RIGHT -->
 

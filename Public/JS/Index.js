@@ -374,26 +374,22 @@ function onlineCoursesButton (){
       document.getElementById('BannerImg').classList.add("slideInRight");
 
 
-
       if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Ban01.jpg') {
         document.getElementById("BannerImg").src = 'Public/images/00-Home/Ban03.jpg';
-
       }
       else if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Ban02.jpg') {
         document.getElementById("BannerImg").src = 'Public/images/00-Home/Ban01.jpg';
-
       }
       else if (document.getElementById('BannerImg').getAttribute('src') == 'Public/images/00-Home/Ban03.jpg') {
         document.getElementById("BannerImg").src = 'Public/images/00-Home/Ban02.jpg';
-
       }
 
       document.getElementById("BannerImg").addEventListener( "animationend",  function() {
         document.getElementById('BannerImg').classList.remove("slideInRight");
+   }
+  );
 
-   } );
-
-    }
+  }
 
 
 
