@@ -145,10 +145,10 @@ var   updaterOrBuy = "";
       idCourse: idCourse
     },
     success: function (data) {
-      alert(data);
-
       data = jQuery.parseJSON(data);
+
       updaterOrBuy = data['userCourses'];
+      alert(updaterOrBuy);
       return updaterOrBuy;
    }
   }
