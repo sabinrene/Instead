@@ -462,6 +462,7 @@ ul {
 
       .Row2 {
         position: relative;
+        background: blue;
         margin-top: 20px;
       }
         .About {
