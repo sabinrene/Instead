@@ -146,7 +146,6 @@ $.ajax("../../App/controller/read.php",{
     type: "getCoursesByIdUser"
   },
   success: function(data) {
-    alert(data);
     data = jQuery.parseJSON(data);
 
     var totalPrice = 0;
