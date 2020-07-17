@@ -156,9 +156,10 @@ $.ajax("../../App/controller/read.php",{
 
     for (var i = 0; i < data.length; i++) {
 
+if (data[i]['idCourse']=='addToCard') {
+  totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
+}
 
-
-    totalPrice = totalPrice +  parseFloat(   updateCardCourses(data[i]['idCourse'])   )   ;
   //  idCourses[i] = data[i]['idCourse'];
 
   //  alert(idCourses[i]);
