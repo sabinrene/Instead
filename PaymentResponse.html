@@ -119,7 +119,6 @@ $.ajax("App/controller/Session.php",{
     data =  jQuery.parseJSON(data);
 
     for (var i = 0; i < data.length; i++) {
-      alert(data[i]);
       var   updaterOrBuy = "";
         $.ajax("App/controller/read.php",{
           type: 'post',
