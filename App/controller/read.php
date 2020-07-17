@@ -148,8 +148,15 @@
          $readBuyCoursesByIdUser->setIdUserToUserCourse($_SESSION["idUser"]);
          $readBuyCoursesByIdUser->getUserCourseByIdUser();
        }
+       /*-------------------------------  buy course  -------------------------------*/
+       else if ($_POST['type'] == 'verifyBuyCourseByPost'){
+         session_start();
+         $verifyBuyCourse = new Read();
+         $verifyBuyCourse->queryBuy();
+         $verifyBuyCourse->setData($_SESSION['idUser'],$_POST['idCourse'],$_POST['type']);
+         $verifyBuyCourse->getUserCourse();
+       }
 
-      
 
 
 
