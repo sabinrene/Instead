@@ -44,7 +44,7 @@
   <div class="Banner " id="Banner">
     <?php include ('Pages/Modals.php');?>
     <input id="page" class="hide" type="text" name="" value="index">
-      <img id="BannerImg" class="BannerImg BannerImg-Layer" src="Public/images/00-Home/Banners/Ban01.jpg" alt="">
+      <img id="BannerImg" class="BannerImg BannerImg-Layer" src="Public/images/00-Home/Ban01.jpg" alt="">
 
 
       <div class="BannerMsg">
