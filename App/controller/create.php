@@ -103,7 +103,13 @@ elseif ($_POST['type']=="addToCard") {
   $buyCourse->saveBuyCourse();
 }
 
-
+elseif ($_POST['type']=="createUserCourse") {
+  session_start();
+  $buyCourse = new Create();
+  $buyCourse->queryBuy();
+  $buyCourse->setData($_SESSION['idUser'],$_SESSION['idCourse'],$_POST['type']);
+  $buyCourse->saveBuyCourse();
+}
 
 
 
