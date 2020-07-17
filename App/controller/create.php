@@ -107,7 +107,7 @@ elseif ($_POST['type']=="createUserCourse") {
   session_start();
   $buyCourse = new Create();
   $buyCourse->queryBuy();
-  $buyCourse->setData($_SESSION['idUser'],$_SESSION['idCourse'],$_POST['type']);
+  $buyCourse->setData($_SESSION['idUser'],$_POST['idCourse'],'buyCourse');
   $buyCourse->saveBuyCourse();
 }
 
