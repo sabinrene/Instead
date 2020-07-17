@@ -130,7 +130,8 @@ $.ajax("App/controller/Session.php",{
       if (verifyAddToCartUserCourse(data[i])=="addToCard") {
          updateUserCourse(data[i]);
       }
-      else if (verifyAddToCartUserCourse(data[i])=="") {
+      else if (verifyAddToCartUserCourse(data[i])=="undefined") {
+        alert("entramos");
         // createUserCourse (data[i]);
       }
 
