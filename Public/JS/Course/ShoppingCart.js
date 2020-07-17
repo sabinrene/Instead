@@ -146,6 +146,7 @@ $.ajax("../../App/controller/read.php",{
     type: "getCoursesByIdUser"
   },
   success: function(data) {
+    alert(data);
     data = jQuery.parseJSON(data);
 
     var totalPrice = 0;
@@ -229,6 +230,12 @@ function updateCardCourses(idCourse){
 var course =readCourse(idCourse);
 
 if (    isNumber( parseFloat(  course["price"]  )  )    ) {
+
+
+
+
+
+
   $('#CartL').append(
     '<div class="CartL-Box">'+
          '<div class="L-BoxIn">'+
@@ -252,6 +259,11 @@ if (    isNumber( parseFloat(  course["price"]  )  )    ) {
  )
 
  return course["price"];
+
+
+
+
+
 }
   else {
     return 0;
