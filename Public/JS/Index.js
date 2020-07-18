@@ -397,13 +397,27 @@ function onlineCoursesButton (){
 
 /*  Trainee sign up  */
     document.getElementById('btn-signup').onclick = function(e){
+
+
     document.getElementById("AdressAnduserType").value = "App/controller/create.php&Trainee";
     document.getElementById('modal-signup').style.display = 'block';
     document.getElementById('bg-modal').style.display = 'block';
+
+
+    document.getElementById('modal-login').style.display = 'none';
+    document.getElementById('bg-modal').style.display = 'none';
+
   }
     document.getElementById('btn-login').onclick = function(e){
+      document.getElementById('modal-signup').style.display = 'none';
+      document.getElementById('bg-modal').style.display = 'none';
+
+
     document.getElementById('modal-login').style.display = 'block';
     document.getElementById('bg-modal').style.display = 'block';
+
+
+
   }
   /*  Trainee sign up  */
     document.getElementById('close-signup').onclick = function(e){
