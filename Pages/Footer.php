@@ -19,7 +19,7 @@
 
     <div>
     <i class="fa fa-map-marker"></i>
-    <p><span>Colombia</span> Bogota</p>
+    <p><span>Colombia</span> Bogotá</p>
     </div>
 
     <div>
