@@ -165,7 +165,7 @@
         		<div class="CourseTemp-Right-Container">
 
         			<div>
-        				<a href="#"><img id="image" class="Course-Pic" src="" alt="">
+        				<a href="#"><img id="image" class="" src="" alt="">
                   <!-- Esto lo puse YO ahora -->
                   <img src="../../Public/images/Course-Sample-Pics/06-Autocad.jpg" class="Course-Pic">
                   <!-- ESTO arriba Aelna -->
