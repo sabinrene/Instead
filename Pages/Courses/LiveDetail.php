@@ -196,7 +196,7 @@
                 <a href="CourseMain.php">
             				<div class="glow">&nbsp;</div>
               				<div class="ribbon-front">
-              					Course
+              					Live Course
               				</div>
           					<div class="ribbon-edge-topleft"></div>
           					<div class="ribbon-edge-topright"></div>
