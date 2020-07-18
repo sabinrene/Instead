@@ -315,11 +315,7 @@
 
 
 
-
-
-<?php include 'Pages/Footer.php' ?>
-
-
+  <?php include 'Pages/Footer.php' ?>
 
   <script src="Public/JS/CRUD.js"></script>
   <script src="Public/JS/Index.js"></script>

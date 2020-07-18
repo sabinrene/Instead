@@ -255,7 +255,7 @@
 
 
 
-
+<!--
     <div class="Row2 clearfix">
 
       <div class="Schedule">
@@ -301,7 +301,8 @@
 
       </div>
 
-    </div> <!-- END Row2 -->
+    </div>   -->
+    <!-- END Row2 -->
 
 
 
