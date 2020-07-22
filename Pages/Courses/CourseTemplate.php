@@ -235,7 +235,7 @@
 					</ul>
 			</div>
 
-			<div class="ribbon-wrapper"><a href="CourseMain.php">
+			<div class="ribbon-wrapper"><a href="">
 				<div class="glow">&nbsp;</div>
 				<div class="ribbon-front">
 					Course
