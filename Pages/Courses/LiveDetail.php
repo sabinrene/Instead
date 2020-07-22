@@ -195,9 +195,11 @@
         			<div class="ribbon-wrapper">
                 <a href="CourseMain.php">
             				<div class="glow">&nbsp;</div>
-              				<div class="ribbon-front">
+              				<a href=" https://us02web.zoom.us/j/87931157219?pwd=THRoQnkxaVcrcmc3Q0F6K3VFQmNKZz09">
+                        <div class="ribbon-front">
               					Live Course
               				</div>
+                    </a>
           					<div class="ribbon-edge-topleft"></div>
           					<div class="ribbon-edge-topright"></div>
           					<div class="ribbon-edge-bottomleft"></div>
