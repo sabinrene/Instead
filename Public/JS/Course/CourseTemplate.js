@@ -498,10 +498,10 @@ function readLecture(idSection) {
 
 document.getElementById('openLiveOnlineCourse').onclick = function(e){
   if (verifyBuyCourse()['userCourses']=='buyCourse') {
-    alert('el curso se compró');
+    readCourseByIdSession();
   }
   else {
-    alert("el curso no se compro");
+    alert("Please buy the course first");
   }
 }
 
@@ -522,7 +522,7 @@ function verifyBuyCourse () {
 return userCourse;
 }
 
-function readCourseById () {
+function readCourseByIdSession () {
   var data2= "";
   $.ajax("../../App/controller/read.php", {
     type: 'post',
@@ -531,6 +531,7 @@ function readCourseById () {
       type: "readCourseById"
     },
     success: function(data){
+      alert(data);
       data2 = JSON.parse(data);
 
    }
