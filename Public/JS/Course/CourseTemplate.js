@@ -494,9 +494,11 @@ function readLecture(idSection) {
 
 
 
+//
 
-
-
+document.getElementById('openLiveOnlineCourse').onclick = function(e){
+  alert("entramos");
+}
 
 
 
