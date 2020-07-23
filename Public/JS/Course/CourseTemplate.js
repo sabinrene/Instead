@@ -497,9 +497,21 @@ function readLecture(idSection) {
 //
 
 document.getElementById('openLiveOnlineCourse').onclick = function(e){
-  alert("entramos");
-}
+  $.ajax("../../App/controller/read.php",{
+    type: 'post',
+    async: false,
+    data: {
+      type: "verifyBuyCourse",
+    },
+    success: function(data){
+       data = jQuery.parseJSON(data);
+      if (data["userCourses"]=="buyCourse") {
+        alert("el curso ya se compro");
+    }
+   }
+ } )
 
+}
 
 
 
