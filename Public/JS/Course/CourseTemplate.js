@@ -499,7 +499,7 @@ function readLecture(idSection) {
 document.getElementById('openLiveOnlineCourse').onclick = function(e){
   if (verifyBuyCourse()['userCourses']=='buyCourse') {
     if (readCourseByIdSession()["liveOnline"]=="live") {
-      window.open("https://www.google.com");
+      window.open("https://us02web.zoom.us/s/85002163246?pwd=K0N2R1hoR0hQTmUvQitjck90dmxCdz09");
     }
     else if (readCourseByIdSession()["liveOnline"]=="online") {
       window.open("../../Pages/Courses/CourseMain.php","_self");
