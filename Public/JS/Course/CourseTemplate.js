@@ -497,7 +497,16 @@ function readLecture(idSection) {
 //
 
 document.getElementById('openLiveOnlineCourse').onclick = function(e){
+  if (verifyBuyCourse()) {
+    alert('el curso se compró');
+  }
+  else {
+    alert("el curso no se compro");
+  }
+}
 
+function verifyBuyCourse () {
+  var courseBought = false;
   $.ajax("../../App/controller/read.php",{
     type: 'post',
     async: false,
@@ -508,14 +517,30 @@ document.getElementById('openLiveOnlineCourse').onclick = function(e){
       alert(data);
        data = jQuery.parseJSON(data);
       if (data["userCourses"]=="buyCourse") {
-        alert("el curso ya se compro");
+        courseBought = true;
     }
    }
- } )
-
+ }
+)
+return courseBought;
 }
 
+function readCourseById () {
+  var data2= "";
+  $.ajax("../../App/controller/read.php", {
+    type: 'post',
+    async: false,
+    data: {
+      type: "readCourseById"
+    },
+    success: function(data){
+      data2 = JSON.parse(data);
 
+   }
+  }
+ )
+ return data;
+}
 
 
 
