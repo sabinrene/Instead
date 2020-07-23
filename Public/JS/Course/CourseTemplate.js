@@ -471,7 +471,7 @@ function readLecture(idSection) {
 
   if (data["liveOnline"]=="live") {
     $('#textOpenLiveOnlineCourse').append(
-      'Live course'
+      'Live Course'
     );
   }
   else if (data["liveOnline"]=="online") {
