@@ -497,6 +497,7 @@ function readLecture(idSection) {
 //
 
 document.getElementById('openLiveOnlineCourse').onclick = function(e){
+  alert("entramos");
   $.ajax("../../App/controller/read.php",{
     type: 'post',
     async: false,
