@@ -237,8 +237,9 @@
 
 			<div class="ribbon-wrapper"><a id="openLiveOnlineCourse" >
 				<div class="glow">&nbsp;</div>
-				<div class="ribbon-front">
-					Course
+				<div id="textOpenLiveOnlineCourse"    class="ribbon-front">
+
+
 				</div>
 					<div class="ribbon-edge-topleft"></div>
 					<div class="ribbon-edge-topright"></div>

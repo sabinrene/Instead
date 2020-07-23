@@ -469,6 +469,20 @@ function readLecture(idSection) {
     ' <h1>  $' + data["price"] + ' </h1>'
   );
 
+  if (data["liveOnline"]=="live") {
+    $('#textOpenLiveOnlineCourse').append(
+      'Live course'
+    );
+  }
+  else if (data["liveOnline"]=="online") {
+    $('#textOpenLiveOnlineCourse').append(
+      'Course'
+    );
+  }
+
+
+
+
 
     document.getElementById("courseSubtitle").innerHTML =  data["courseSubtitle"];
     document.getElementById("image").src = "../../Public/images/02-Course/Img-Course/"+ data["imageCourse"];
