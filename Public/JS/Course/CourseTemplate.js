@@ -497,7 +497,7 @@ function readLecture(idSection) {
 //
 
 document.getElementById('openLiveOnlineCourse').onclick = function(e){
-  alert("entramos");
+
   $.ajax("../../App/controller/read.php",{
     type: 'post',
     async: false,
@@ -505,6 +505,7 @@ document.getElementById('openLiveOnlineCourse').onclick = function(e){
       type: "verifyBuyCourse",
     },
     success: function(data){
+      alert(data);
        data = jQuery.parseJSON(data);
       if (data["userCourses"]=="buyCourse") {
         alert("el curso ya se compro");
