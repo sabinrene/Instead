@@ -498,7 +498,14 @@ function readLecture(idSection) {
 
 document.getElementById('openLiveOnlineCourse').onclick = function(e){
   if (verifyBuyCourse()['userCourses']=='buyCourse') {
-    readCourseByIdSession();
+    if (readCourseByIdSession()["liveOnline"]=="live") {
+      alert("live");
+
+    }
+    else if (readCourseByIdSession()["liveOnline"]=="online") {
+      alert("online");
+    }
+
   }
   else {
     alert("Please buy the course first");
@@ -531,13 +538,12 @@ function readCourseByIdSession () {
       type: "readCourseById"
     },
     success: function(data){
-      alert(data);
       data2 = JSON.parse(data);
 
    }
   }
  )
- return data;
+ return data2;
 }
 
 
