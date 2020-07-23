@@ -235,7 +235,7 @@
 					</ul>
 			</div>
 
-			<div id="openLiveOnlineCourse" class="ribbon-wrapper"><a >
+			<div class="ribbon-wrapper"><a id="openLiveOnlineCourse" >
 				<div class="glow">&nbsp;</div>
 				<div class="ribbon-front">
 					Course
