@@ -182,6 +182,32 @@
 
 
 
+/* Collab */
+.Collab {
+  position: relative;
+  background: lightblue;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+  .Collab01 {
+    text-align: center;
+
+  }
+
+  .CollabPics {
+    position: relative;
+
+    transform: translate(50%,0%);
+    background: grey;
+    height: 120px;
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+
 
 
 

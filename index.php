@@ -73,7 +73,32 @@
   <div class="UnderSpace"> </div>
 
 
+<div class="Collab">
+    <div class="Collab01 clearfix">
+        <h4> We collaborate with leading Universities and Companies </h4>
 
+          <div class="CollabPics">
+              Pic
+          </div>
+
+          <div class="CollabPics">
+              Pic
+          </div>
+
+          <div class="CollabPics">
+              Pic
+          </div>
+
+          <div class="CollabPics">
+              Pic
+          </div>
+
+          <div class="CollabPics">
+              Pic
+          </div>
+
+    </div>
+</div>
 
 
 
@@ -128,7 +153,7 @@
                 <img class="Mode-Pic" src="Public/images/00-Home/01-Live.png">
                 </a>
 
-                <h2> Online Training </h2>
+                <h2> Live Training </h2>
                 <p class="Mode-Sub"> Develop the Skills you need to succeed </p>
 
                 <p> Specialized Training tailored for Industry Professionals looking
