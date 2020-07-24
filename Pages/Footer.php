@@ -9,10 +9,10 @@
     ·
     <a href="#">Contact</a>
     ·
-    <a href="#">About Us</a>
+    <a href="Pages/AboutUs.php">About Us</a>
     </p>
 
-    <p class="footer-company-name">Instead &copy; 2020<a href="index.php">.</a></p>
+    <p class="footer-company-name">Instead &copy; 2020 <a href="index.php">.</a></p>
     </div>
 
     <div class="footer-center">
