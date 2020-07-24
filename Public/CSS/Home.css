@@ -185,26 +185,30 @@
 /* Collab */
 .Collab {
   position: relative;
-  background: lightblue;
   width: 1000px;
   height: auto;
   margin: 0 auto;
 }
   .Collab01 {
+    position: relative;
     text-align: center;
-
   }
+    .Collab01 h3 {
+      margin-bottom: 15px;
+    }
 
+  .CoWrap {
+    width: 720px;
+    margin: 0 auto;
+  }
   .CollabPics {
     position: relative;
-
-    transform: translate(50%,0%);
-    background: grey;
-    height: 120px;
-    width: 150px;
     float: left;
     margin-top: 20px;
-    margin-right: 10px;
+  }
+  .CollabPics img {
+    height: 100px;
+    margin-left: 45px;
   }
 
 

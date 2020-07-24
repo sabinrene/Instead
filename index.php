@@ -74,28 +74,49 @@
 
 
 <div class="Collab">
-    <div class="Collab01 clearfix">
-        <h4> We collaborate with leading Universities and Companies </h4>
+    <div class="Collab01 clearfix CoWrap">
+        <h3> We collaborate with leading Universities and Companies </h3>
 
-          <div class="CollabPics">
-              Pic
+        <div class="CollabPics" >
+          <img src="Public/images/00-Home/Collab/Co01.png">
+        </div>
+
+        <div class="CollabPics" >
+          <img src="Public/images/00-Home/Collab/Co02.jpg">
+        </div>
+
+        <div class="CollabPics" >
+          <img src="Public/images/00-Home/Collab/Co03.svg">
+        </div>
+
+        <div class="CollabPics" >
+          <img src="Public/images/00-Home/Collab/Co04.png">
+        </div>
+
+        <div class="CollabPics" >
+          <img src="Public/images/00-Home/Collab/Co05.png">
+        </div>
+
+
+        <!--  <div class="CollabPics">
+            d
           </div>
 
           <div class="CollabPics">
-              Pic
+              <img class="CollabPics" src="Public/images/00-Home/Collab/Co02.png">
           </div>
 
           <div class="CollabPics">
-              Pic
+            <img src="Public/images/00-Home/Collab/Co03.png">
           </div>
 
           <div class="CollabPics">
-              Pic
+            <img src="Public/images/00-Home/Collab/Co04.png">
           </div>
 
           <div class="CollabPics">
-              Pic
-          </div>
+            <img src="Public/images/00-Home/Collab/Co05.png">
+          </div>-->
 
     </div>
 </div>
