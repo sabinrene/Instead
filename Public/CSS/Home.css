@@ -768,34 +768,6 @@ a.Btn:hover{
 
 
 
-.Explore {
-  position: relative;
-  margin-top: 150px;
-  text-align: center;
-
-  color: black;
-  height: 70px;
-  border-bottom: 2px solid grey;
-}
-.Exp-Title {
-  position: absolute;
-  padding: 20px 80px;
-  left: 50%;
-  transform: translate(-50%,0%);
-  z-index: 2;
-
-    width: 340px;
-    height: 80px;
-    text-align: center;
-    background: #2a2b2d;
-}
-.Exp-Title h2 {
-  color: white;
-}
-
-
-
-
 
 
 
@@ -991,10 +963,39 @@ a.Btn:hover{
 
 
 
+    .Explore {
+      position: relative;
+      margin-top: 150px;
+      text-align: center;
+
+      color: black;
+      height: 70px;
+      border-bottom: 2px solid grey;
+    }
+    .Exp-Title {
+      position: absolute;
+      padding: 20px 80px;
+      left: 50%;
+      border-top: 1px solid gray;
+      border-left: 1px solid gray;
+      border-right: 1px solid gray;
+      transform: translate(-50%,0%);
+      z-index: 2;
+
+        width: 340px;
+        height: 80px;
+        text-align: center;
+        background: #f6f6f6;
+    }
+    .Exp-Title h2 {
+      color: #353535;
+    }
+
+
 .Ins2 {
     position: relative;
     height: 800px;
-    background-color: #2a2b2d;
+    background-color: #f6f6f6;
     border-bottom: 2px solid grey;
 }
 .Ins2-wrap {
@@ -1015,145 +1016,6 @@ a.Btn:hover{
   font-weight: 600;
 }
 
-    /*    .horizontal-scroll-wrapper::-webkit-scrollbar {
-            width: 1px;
-            height: 1px;
-        }
-        .horizontal-scroll-wrapper::-webkit-scrollbar-button {
-            width: 1px;
-            height: 1px;
-        }
-
-        .horizontal-scroll-wrapper {
-            position: relative;
-            display: block;
-            width: 300px;
-            max-height: 900px;
-            margin: 0;
-            overflow-y: auto;
-            overflow-x: hidden;
-            -webkit-transform: rotate(-90deg) translateY(-350px);
-                    transform: rotate(-90deg) translateY(-350px);
-            -webkit-transform-origin: right top;
-                    transform-origin: right top;
-        }
-        .horizontal-scroll-wrapper > div {
-            display: block;
-            padding: 5px;
-            -webkit-transform: rotate(90deg);
-                    transform: rotate(90deg);
-            -webkit-transform-origin: right top;
-                    transform-origin: right top;
-        }
-        .squares {
-            padding: 300px 0 0 0;
-        }
-        .squares > div {
-            width: 300px;
-            height: 300px;
-            margin-top: -10px;
-            margin-bottom: 10px;
-        }
-
-*/
-
-
-    /*    .Tabs-scroll-wrapper::-webkit-scrollbar {
-            width: 1px;
-            height: 1px;
-        }
-        .Tabs-scroll-wrapper::-webkit-scrollbar-button {
-            width: 1px;
-            height: 1px;
-        }
-
-        .Tabs-scroll-wrapper {
-            position: relative;
-            display: block;
-            width: 300px;
-            max-height: 900px;
-            margin: 0;
-            overflow-y: auto;
-            overflow-x: hidden;
-            -webkit-transform: rotate(-90deg) translateY(-350px);
-                    transform: rotate(-90deg) translateY(-350px);
-            -webkit-transform-origin: right top;
-                    transform-origin: right top;
-        }
-        .Tabs-scroll-wrapper > div {
-            display: block;
-            padding: 5px;
-            -webkit-transform: rotate(90deg);
-                    transform: rotate(90deg);
-            -webkit-transform-origin: right top;
-                    transform-origin: right top;
-        }
-        .rects {
-            padding: 300px 0 0 0;
-        }
-        .rects > div {
-            width: 300px;
-            height: 300px;
-            margin-top: -10px;
-            margin-bottom: 10px;
-        }
-*/
-
-
-
-
-
-/*
-        .Tabs-scroll-wrapper-All {
-          background-color: red;
-            position: relative;
-            left: -400px;
-            display: block;
-            width: 500px;
-            max-height: 500px;
-            margin: 0;
-            overflow-y: auto;
-            overflow-x: hidden;
-            -webkit-transform: rotate(-90deg) translateY(-350px);
-                    transform: rotate(-90deg) translateY(-350px);
-            -webkit-transform-origin: right top;
-                    transform-origin: right top;
-        }
-
-        .Tabs-scroll-wrapper-All > div {
-            display: block;
-            padding: 5px;
-            -webkit-transform: rotate(90deg);
-                    transform: rotate(90deg);
-            -webkit-transform-origin: right top;
-                    transform-origin: right top;
-        }
-
-
-        .Tabs-scroll-wrapper-All::-webkit-scrollbar {
-            width: 1px;
-            height: 1px;
-        }
-        .Tabs-scroll-wrapper-All::-webkit-scrollbar-button {
-            width: 1px;
-            height: 1px;
-        }
-
-        .squares-All {
-            padding: 700px 0 0 0;
-        }
-        .squares-All > div {
-            width: 500px;
-            height: 300px;
-            margin-top: -10px;
-            margin-bottom: 10px;
-        }
-
-
-
-
-
-*/
 
 
 
@@ -1162,158 +1024,102 @@ a.Btn:hover{
 
 
 
-
-/* ---------------------------------------------------------------- */
-/*                          Mobile Styles                           */
-/* ---------------------------------------------------------------- */
-                    /*     0px - 479px    */
-@media only screen and (max-width: 479px) {
-
-
-
-
-/* END Mobile Version */
+/*---------------------*/
+/*      Clients        */
+/*---------------------*/
+.Clients {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 80px 0px 50px 0px;
+}
+.Clients-00 {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.Clients-01 {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+.Clients-01-Cols {
+    position: relative;
+    float: left;
+    width: 33.3%;             /* Box Width */
+    padding: 40px;
+}
+.Clients-Pic {
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.Clients-Txt p {
+    margin: 20px 0;
 }
 
-/* ---------------------------------------------------------------- */
-/*                          Tablet Styles                           */
-/* ---------------------------------------------------------------- */
-                    /*     480px - 960px    */
-
-@media only screen and (min-width: 480px) and (max-width: 960px) {
-
-
-/* END Tablet Version */
-}
-
-
-
-/* ------------------------------------------------------------*/
-/*                          Small Desktop                      */
-/* ----------------------------------------------------------- */
-                    /*     960px - 1249px    */
-
-@media only screen and (min-width: 961px) and (max-width: 1249px) {
-
-
-/* END Small Desktops */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* --------------------
-
-  Index Tabs Code
-
-
-<!-- Ins1 Tabs -->
-<div class="Ins1">
-
-	<div class="Ins1-wrap">
-
-	<!-- Left -->
-	<div class="Ins1-Left">
-		<div class="Ins1-Left-Mid">
-			<h4> World's Best Technical Courses </h4>
-
-
-			<p> Job relevant Courses to sharpen your skills from the comfort of your
-        home or office, 24/7 online access to Engineering, Technology, and
-        Design Courses. Access everything from your browser and complete your
-        training with detailed step-by-step instructions at your own pace hi
-        . </p>
-
-		</div>
-	</div>
-	<!-- END Left -->
-
-
-
-
-	<!-- Right -->
-	<div class="Ins1-Right">
-
-		<div class="InsTabs-wrap">
-
-			<div class="Tabs-Instead">
-
-
-					<!-- Tab 1 -->
-				<div class="Tab-Instead">
-					<input type="radio" name="css-tabs" id="Tab-Instead-1" checked class="Tab-Instead-switch">
-					<label for="Tab-Instead-1" class="Tab-Instead-label">One</label>
-
-					<div id="Tab-Instead-content" class="Tab-Instead-content">
-
-					<div id="course-Tech" class="Tabs-scroll-wrapper squares">
-
-
-
-
-
-          </div>
-
-					</div>	<!-- Tabs-Content -->
-
-				</div> <!-- END Tab-1 -->
-
-
-				<!-- Tab 2 -->
-				<div class="Tab-Instead">
-					<input type="radio" name="css-tabs" id="Tab-Instead-2" class="Tab-Instead-switch">
-					<label for="Tab-Instead-2" class="Tab-Instead-label">Two</label>
-
-					<div class="Tab-Instead-content">
-
-					<div id="course-Engr" class="Tabs-scroll-wrapper squares">
-             		</div>
-
-					</div>	<!-- Tabs-Content -->
-
-				</div> <!-- END Tab-2 -->
-
-
-
-				<!-- Tab 3 -->
-				<div class="Tab-Instead">
-					<input type="radio" name="css-tabs" id="Tab-Instead-3" class="Tab-Instead-switch">
-					<label for="Tab-Instead-3" class="Tab-Instead-label">Three</label>
-
-					<div class="Tab-Instead-content">
-            		<div id="course-Design" class="Tabs-scroll-wrapper squares">
-             		</div>
-					</div>	<!-- Tabs-Content -->
-
-				</div> <!-- END Tab-3 -->
- 		 </div> <!-- END Tabs-Instead -->
-   </div> <!--END Ins1 TabWrapper-->
-
-	</div> <!-- END Right -->
-
-	</div> <!-- END Ins1-Wrap -->
-</div>
-<!-- END Ins1 -->
-
-
---------------------------*/
+   /* Responsive */
+@media only screen
+and (max-width: 1500px) {
+
+     .Clients-00 {
+         width: 80%;
+         height: auto;
+         margin-bottom: 50px;
+     }
+     .Clients-00 h2 {
+         margin-bottom: 10px;
+     }
+     .Clients-01 {
+         position: relative;
+         width: 65%;
+     }
+     .Clients-01-Cols {
+         position: relative;
+         float: left;
+         width: 100%;
+         margin-top: 10px;
+         padding: 0px 100px;
+         height: auto;
+         margin-bottom: 40px;
+     }
+     .Clients-Pic {
+         height: 150px;
+      }
+
+ }
+
+
+
+@media only screen
+and (max-width: 1000px) {
+
+   .Clients-00 {
+       width: 90%;
+       height: auto;
+       margin-bottom: 50px;
+       background: lightblue;
+   }
+   .Clients-00 h2 {
+       margin-bottom: 10px;
+   }
+   .Clients-01 {
+       position: relative;
+       width: 100%;
+       margin: 0 auto;
+   }
+   .Clients-01-Cols {
+       position: relative;
+       float: left;
+       width: 100%;
+       margin-top: 10px;
+       padding: 0px 100px;
+       height: auto;
+   }
+   .Clients-Pic {
+       height: 150px;
+    }
+
+}/* END Mobile Version */

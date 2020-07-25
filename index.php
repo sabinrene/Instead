@@ -359,6 +359,62 @@
 
 
 
+<!------- Clients --------->
+    <div class="Clients clearfix">
+
+            <div class="Clients-00">
+
+                <h2> From the Instead Community </h2>
+                <p> Many others are already learning on Instead Academy </p>
+
+            </div>
+
+            <div class="Clients-01">
+
+                <div class="Clients-01-Cols">
+
+                    <div> <img src="Public/images/00-Home/Testimonials/Michelle.png" class="Clients-Pic"> </div>
+                    <div class="Clients-Txt">
+                        <h4> Michelle K. </h4>
+                        <p> “Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae” </p>
+                    </div>
+
+                </div>
+
+
+                <div class="Clients-01-Cols">
+
+                    <div> <img src="Public/images/00-Home/Testimonials/Kara.png" class="Clients-Pic"> </div>
+                    <div class="Clients-Txt">
+                        <h4> Kara C. </h4>
+                        <p> “Sitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.” </p>
+                    </div>
+
+                </div>
+
+
+                <div class="Clients-01-Cols">
+
+                    <div> <img src="Public/images/00-Home/Testimonials/Bruce.png" class="Clients-Pic"> </div>
+                    <div class="Clients-Txt">
+                        <h4> Bruce H. </h4>
+                        <p> “Enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum.” </p>
+                    </div>
+
+                </div>
+
+            <!-- End Class-01 -->
+            </div>
+
+
+    </div>
+
+<!------- End Clients --------->
+<div class="Clear"> </div>
+
+
+
+
 
 
   <?php include 'Pages/Footer.php' ?>
