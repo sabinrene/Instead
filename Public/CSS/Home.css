@@ -192,14 +192,13 @@
   .Collab01 {
     position: relative;
     text-align: center;
-    background-color: red;
   }
     .Collab01 h3 {
       margin-bottom: 15px;
     }
 
   .CoWrap {
-    width: 720px;
+    width: 740px;
     margin: 0 auto;
   }
   .CollabPics {
