@@ -101,6 +101,12 @@
 <label for="vehicle2"> I have a car</label><br>
 <input type="checkbox" id="" name="vehicle3" value="Boat">
 <label for="vehicle3"> I have a boat</label><br>
+<input type="checkbox" id="" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br>
 
 
 <br><br>
