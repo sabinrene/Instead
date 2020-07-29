@@ -15,5 +15,9 @@
       <div class="div ">
           <a class="btn" id="trainerWebpage" href="Pages/Trainer/RegisterTrainer.php">Teach on Instead</a>
       </div>
+
+      <div class="div ">
+          <a class="btn" id="trainerWebpage" href="Pages/AboutUs.php">About Us</a>
+      </div>
   </div>
 </div>
