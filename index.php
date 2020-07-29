@@ -49,13 +49,13 @@
 
       <div class="BannerMsg">
         <div class="banner-icons">
-          <h4>
+          <h3>
             <span><i class="fa fa-circle"></i></span>
             <span><i class="fa fa-circle"></i></span>
-                  Online Education and Training
+               Online Education and Training
             <span><i class="fa fa-circle"></i></span>
             <span><i class="fa fa-circle"></i></span>
-          </h4>
+          </h3>
         </div>
 
     		<h1> International School </h1>
@@ -161,10 +161,8 @@
 
 
 
+  <!-- Online & Web
 
-
-
-  <!-- Online & Web -->
   <div class="Mode">
 
       <div class="Mode-L clearfix">
@@ -206,9 +204,60 @@
 
   </div>
 
+ -->
+
+
+<!-- Online Cards II -->
+<div class="Mode2">
+
+  <div class="Mode-in2 clearfix">
+
+        <!-- Card 2 -->
+        <div class="Card2">
+          <div class="Card2-Pic">
+            <img src="Public/images/00-Home/01-One.png" alt="">
+          </div>
+
+          <div class="Card2-Title">
+            <h3> Live Training </h3>
+            <p> Specialized Training tailored for Industry Professionals </p>
+            <p> deepen their knowledge on topics such as: </p>
+
+          </div>
+
+          <div class="Card2-Btn">
+            Explore
+          </div>
+
+        </div>
+        <!-- END Card 2 -->
 
 
 
+            <!-- Card 2 -->
+            <div class="Card2">
+              <div class="Card2-Pic">
+                <img src="Public/images/00-Home/01-One.png" alt="">
+              </div>
+
+              <div class="Card2-Title">
+                <h3> Online Training </h3>
+                <p> Specialized Training tailored for Industry Professionals </p>
+                <p> deepen their knowledge on topics such as: </p>
+
+              </div>
+
+              <div class="Card2-Btn">
+                Explore
+              </div>
+
+            </div>
+            <!-- END Card 2 -->
+
+
+  </div>
+
+</div>
 
 
 
