@@ -220,9 +220,13 @@
 
           <div class="Card2-Title">
             <h3> Live Training </h3>
-            <p> Specialized Training tailored for Industry Professionals </p>
-            <p> deepen their knowledge on topics such as: </p>
-
+            <p> Specialized Training tailored for Industry Professionals looking
+              to deepen their knowledge on topics such as: </p>
+              <ul>
+                <li> Thermal & Fluid Sciences </li>
+                <li> Crude Exploration Technologies </li>
+                <li> Petroleum Production Technologies </li>
+              </ul>
           </div>
 
           <div class="Card2-Btn">
