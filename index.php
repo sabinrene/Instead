@@ -221,12 +221,13 @@
           <div class="Card2-Title">
             <h3> Live Training </h3>
             <p> Specialized Training tailored for Industry Professionals looking
-              to deepen their knowledge on topics such as: </p>
-              <ul>
-                <li> Thermal & Fluid Sciences </li>
-                <li> Crude Exploration Technologies </li>
-                <li> Petroleum Production Technologies </li>
-              </ul>
+              to deepen their knowledge on topics such as: <br/><br/> </p>
+              <p> Thermal & Fluid Sciences </p>
+              <p> Crude Exploration Technologies </p>
+              <p> Petroleum Production Technologies </p>
+              <br/>
+
+
           </div>
 
           <div class="Card2-Btn">
@@ -241,13 +242,17 @@
             <!-- Card 2 -->
             <div class="Card2">
               <div class="Card2-Pic">
-                <img src="Public/images/00-Home/01-One.png" alt="">
+                <img src="Public/images/00-Home/02-Two.png" alt="">
               </div>
 
               <div class="Card2-Title">
                 <h3> Online Training </h3>
-                <p> Specialized Training tailored for Industry Professionals </p>
-                <p> deepen their knowledge on topics such as: </p>
+                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean masa: <br/><br/></p>
+                <p> AutoCAD Modeling </p>
+                <p> Engineering Simulation </p>
+                <p> Multiphase Fluid Mechanics </p>
+                <br/>
 
               </div>
 

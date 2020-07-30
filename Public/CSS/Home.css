@@ -812,9 +812,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   transform: translate(-115%,-50%);
 
   width: 550px;
-  height: 500px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: 600px;
+  padding: 30px 50px;
   background: white;
   margin-left: 80px;
 
@@ -830,10 +829,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     height: 100px;
     width: 150px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
     .Card2 h3 {
-      margin-bottom: 15px;
+      margin-bottom: 40px;
     }
     .Card2 p {
       font-size: 0.95em;
@@ -843,11 +842,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
   .Card2-Btn {
+    position: relative;
+    top: 40px;
     border: 1px solid #5080d1;
     border-radius: 8px;
     padding: 10px;
     margin: 0 auto;
-    margin-top: 20px;
     color: #5080d1;
     font-weight: bold;
     width: 120px;
