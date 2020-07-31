@@ -93,13 +93,10 @@ sendIdCoursesToSession(idCourses);
  }
 
 
-
-
  function sendIdCoursesToSession(idCourses){
 
    dataString = idCourses; // array?
  var jsonString = JSON.stringify(dataString);
-
 
  $.ajax("../../App/controller/Session.php",{
    type: 'post',
@@ -109,13 +106,10 @@ sendIdCoursesToSession(idCourses);
      idCourses: jsonString
    },
    success: function(data){
+   }
   }
- }
  )
-
-
-
- }
+}
 
 
 
@@ -146,8 +140,6 @@ function readCoursestoBuy () {
       for (var i = 0; i < data.length; i++) {
 
 
-
-
         updateCoursesCheckout(readCourse(data[i]['idCourse']));
         if (isNumber(      parseFloat(   readCourse(data[i]['idCourse'])["price"]   )      )) {
           totalPrice = totalPrice +  parseFloat(   readCourse(data[i]['idCourse'])["price"]   )   ;
@@ -167,13 +159,8 @@ function readCoursestoBuy () {
      }
 
 
-
-
-
      $('#totalPrice').empty();
      $('#totalPrice').append('$'+ totalPrice);
-
-
 
 
 
@@ -229,11 +216,9 @@ function readCoursestoBuy () {
 */
 
 
-
-
-
-
 }
+
+
 function seeShoppingCard(){
   $.ajax("../../App/controller/Session.php", {
     type: 'post',
@@ -243,7 +228,7 @@ function seeShoppingCard(){
     },
     success: function (data){
       alert(data);
-    }
+   }
   }
  )
 }
@@ -258,9 +243,9 @@ function destroySessionShoppingCard(){
     success: function (data){
       alert(data);
     }
-  }
- )
-}
+   }
+  )
+ }
 
 /*----------------- read Course By Id Course ------------------------*/
 function readCourse(idCourse){
@@ -301,7 +286,6 @@ function isNumber(n){
                 '</div>'+
 
                 '<div class="CartL-Price"> $'+ data["price"] + ' </div>'+
-
           '</div>'
       )
     }
