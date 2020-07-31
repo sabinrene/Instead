@@ -73,8 +73,8 @@ sendIdCoursesToSession(idCourses);
             "data-epayco-amount='"+totalPrice+"'"+
             "data-epayco-tax='"+(totalPrice*0.19)+"'"+
             "data-epayco-tax-base='"+(totalPrice-totalPrice*0.19)+"'"+
-            "data-epayco-name='Cyclone'"+
-            "data-epayco-description='Cyclone'"+
+            "data-epayco-name='"+data['courseTitle']+"'"+
+            "data-epayco-description='"+data['courseDescription']+"'"+
             "data-epayco-currency='COP'"+
             "data-epayco-country='CO'"+
             "data-epayco-test='true'"+
@@ -145,6 +145,8 @@ function readCoursestoBuy () {
           totalPrice = totalPrice +  parseFloat(   readCourse(data[i]['idCourse'])["price"]   )   ;
         }
 
+
+
         idCourses[i] = data[i]['idCourse'];
 
         }
@@ -176,8 +178,8 @@ function readCoursestoBuy () {
               "data-epayco-amount='"+totalPrice+"'"+
               "data-epayco-tax='"+(totalPrice*0.19)+"'"+
               "data-epayco-tax-base='"+(totalPrice-totalPrice*0.19)+"'"+
-              "data-epayco-name='Cyclone'"+
-              "data-epayco-description='Cyclone'"+
+              "data-epayco-name='Courses Instead Academic'"+
+              "data-epayco-description='Courses'"+
               "data-epayco-currency='COP'"+
               "data-epayco-country='CO'"+
               "data-epayco-test='false'"+
