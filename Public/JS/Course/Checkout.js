@@ -193,7 +193,7 @@ function readCoursestoBuy () {
               "data-epayco-description='Cyclone'"+
               "data-epayco-currency='COP'"+
               "data-epayco-country='CO'"+
-              "data-epayco-test='true'"+
+              "data-epayco-test='false'"+
               "data-epayco-external='true'"+
               "data-epayco-response='http://www.insteadacademy.com/PaymentResponse.html'"+
               "data-epayco-confirmation='http://www.insteadacademy.com/App/controller/PaymentConfirmation.php'"+
@@ -202,7 +202,31 @@ function readCoursestoBuy () {
       "</form>"
     );
 
+/*
 
+<!-- =====================================================================
+  ///////////   Este es su botón de Botón de pago ePayco   ///////////
+ ===================================================================== -->
+<form>
+    <script src='https://checkout.epayco.co/checkout.js'
+        data-epayco-key='19dc45f2f08337bb051590e5cbbc8185'
+        class='epayco-button'
+        data-epayco-amount='119'
+        data-epayco-tax='19'
+        data-epayco-tax-base='100'
+        data-epayco-name='ciclone '
+        data-epayco-description='ciclone '
+        data-epayco-currency='USD'
+        data-epayco-country='CO'
+        data-epayco-test='false'
+        data-epayco-external='true'
+        data-epayco-response='www.gmail.com'
+        data-epayco-confirmation='www.google.com'
+        data-epayco-button='https://369969691f476073508a-60bf0867add971908d4f26a64519c2aa.ssl.cf5.rackcdn.com/btns/btn1.png'>
+    </script>
+</form> <!-- ================================================================== -->
+
+*/
 
 
 

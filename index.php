@@ -24,10 +24,7 @@
 
 
 <body>
-<!-- Javascript -->
-  <div id="liveCoursesButton" class=""></div>
-  <div id="onlineCoursesButton" class=""></div>
-<!-- JS -->
+
 
 
   <div class="bg-modal" id="bg-modal"></div>
@@ -35,7 +32,6 @@
   <?php include ("Pages/Trainee/TraineeMenu.php"); ?>
 
   <input class="hide" type="text" id="logIn2" value="">
-
 
 
 
@@ -206,6 +202,10 @@
 
  -->
 
+ <!-- Javascript -->
+   <div class=""></div>
+   <div  class=""></div>
+ <!-- JS -->
 
 <!-- Online Cards II -->
 <div class="Mode2">
@@ -230,7 +230,7 @@
 
           </div>
 
-          <div class="Card2-Btn">
+          <div id="liveCoursesButton"  class="Card2-Btn">
             Explore
           </div>
 
@@ -259,7 +259,7 @@
 
               </div>
 
-              <div class="Card2-Btn">
+              <div id="onlineCoursesButton" class="Card2-Btn">
                 Explore
               </div>
 
