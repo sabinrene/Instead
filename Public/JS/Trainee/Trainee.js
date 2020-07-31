@@ -11,13 +11,19 @@
         window.open("../../index.php","_self");
       }
       else {
-        UpdateCourses();
+      //  UpdateCourses();
       }
     }
   }
 )
 /*------------------------------ buy course  ----------------------------------*/
 
+
+
+
+
+
+/*
 function UpdateCourses(){
 var buyCourses =  readBuyCoursesByIdUser();
 // ACA VA LA VERIFICACION buyCourses[i]["USERCOURSE"] === BUYCOURSE, VA DENTRO DEL FOR.
@@ -51,8 +57,11 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
 
 }
 }
+*/
+
+
 /*------------------------------- Read Course --------------------------------*/
-    $.ajax("../../App/controller/read.php", {
+  /*  $.ajax("../../App/controller/read.php", {
       type: 'post',
       async: false,
       data: {
@@ -65,8 +74,27 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
       //  window.open("../../Pages/Trainer/Trainer.php","_self");
       }
     }
-  )
+  ) */
 /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   function addCoursesForBuy(data){
     for (var i = 0; i < data.length; i++) {
       if (data[i]["module"]== "Option 1") {
@@ -82,13 +110,13 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
   }
 */
 
-  function addCoursesForBuy(data){
+/*  function addCoursesForBuy(data){
     for (var i = 0; i < data.length; i++) {
         addCourses(data, '#courseDesign',i);
 
 
     }
-  }
+  }  */
   /*----------------------------- Update courses -------------------------------*/
 
 function addCourses(data,moduleCourses,i){

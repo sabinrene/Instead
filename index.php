@@ -44,7 +44,7 @@
   <div class="Banner " id="Banner">
     <?php include ('Pages/Modals.php');?>
     <input id="page" class="hide" type="text" name="" value="index">
-      <img id="BannerImg" class="BannerImg BannerImg-Layer" src="Public/images/00-Home/Ban01.jpg" alt="">
+      <img id="BannerImg" class="BannerImg BannerImg-Layer" src="Public/images/00-Home/Banners/Ban01-Bg.png" alt="">
 
 
       <div class="BannerMsg">
@@ -247,11 +247,14 @@
 
               <div class="Card2-Title">
                 <h3> Online Training </h3>
-                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean masa: <br/><br/></p>
-                <p> AutoCAD Modeling </p>
-                <p> Engineering Simulation </p>
-                <p> Multiphase Fluid Mechanics </p>
+                <p> Join our Online Engineering Academy and explore Advanced Courses
+                  on Structural, Mechanical, and Civil Engineering, and
+                  cutting-edge topics like: <br/><br/>
+
+                <p> Internet-of-Things </p>
+                <p> Artificial Intelligence </p>
+                <p> Machine Learning </p>
+                <p>  </p>
                 <br/>
 
               </div>

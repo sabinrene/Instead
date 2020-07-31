@@ -8,8 +8,6 @@
 
 
 
-
-
 /*------------------*/
 /*   Intro Banner   */
 /*------------------*/
@@ -31,19 +29,16 @@
 
 .BannerImg{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 110%;
-    top: 0;
-    left: 0;
-
   /*  background-image: url("../../Public/images/00-Home/Ban03.jpg"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100vw contain;
     opacity: 0.60;
     z-index: 0;
   }
+  .BannerImg img {
+    width: 10%;
+  }
+
     .BannerImg-Layer {
         z-index: 1;
         background: #373737;
@@ -187,7 +182,7 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
-  background: pink;
+  margin-top: 25px;
 }
   .Collab01 {
     position: relative;
@@ -199,9 +194,8 @@
 
     /* !!!!!!!!!!!!!!!!! CENTER ME !!!!!!!!!!!!!! */
   .CoWrap {
-    width: 80%;
+    width: 900px;
     margin: 0 auto;
-    background: red;
   }
   .CollabPics {
     position: relative;
@@ -209,7 +203,7 @@
     margin-top: 20px;
   }
   .CollabPics img {
-    height: 100px;
+    height: 120px;
     margin-left: 45px;
   }
 
@@ -399,7 +393,7 @@
 
 }
 .ThreeCols {
-position: relative;
+  position: relative;
 
 }
 
@@ -821,6 +815,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   -webkit-box-shadow: 1px 1px 86px -11px rgba(53,53,53,1);
   -moz-box-shadow: 1px 1px 86px -11px rgba(53,53,53,1);
 }
+.Card2:hover {
+  -webkit-box-shadow: 4px 4px 19px -4px rgba(0,0,0,1);
+  -moz-box-shadow: 4px 4px 19px -4px rgba(0,0,0,1);
+  box-shadow: 4px 4px 19px -4px rgba(0,0,0,1);
+}
+
+
 .Card2:first-child {
   margin-left: 0px;
 }
