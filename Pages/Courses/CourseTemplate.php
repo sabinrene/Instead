@@ -13,7 +13,11 @@
 
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
 <link rel="stylesheet" href="../../Public/CSS/Header.css">
-<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous"></script>
+
+<!-- Font Awesome + Favicon -->
+<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+<link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
+
 </head>
 
 

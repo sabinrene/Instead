@@ -17,6 +17,10 @@
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
 
 
+    <!-- Font Awesome + Favicon -->
+    <script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+    <link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdn.jsdelivr.net/webshim/1.12.4/extras/modernizr-custom.js"></script>

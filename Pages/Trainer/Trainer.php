@@ -50,7 +50,7 @@
     <div class="Courses-search">
     <!--  <input class="icon-search"  type="text" placeholder="Search your courses" />
       <a class="btn-search" href="#"></a> -->
-      <a id="newCourse" class="btn-new-course" href="#">New course</a>
+      <a id="newCourse" class="btn-new-course" href="#">New Course</a>
     </div>
 
     <div class="PanelArea">

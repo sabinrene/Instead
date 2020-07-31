@@ -12,7 +12,9 @@
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Header.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
 
-<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous"></script>
+<!-- Font Awesome + Favicon -->
+<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+<link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
 
 </head>
 
@@ -30,9 +32,9 @@
 
   <div class="header-left">
     <div class="categories">
-    
+
     </div>
-    
+
     <div class="search">
 
     </div>
@@ -42,13 +44,13 @@
 
   <div class="header-right">
     <div class="div business">
-  
+
     </div>
 
     <div class="div line">
 
     </div>
-    
+
     <div class="div cart">
 
     </div>
@@ -73,8 +75,8 @@
 
 
 <!-- CourseTemp-->
-<div class="CTop"> 
-    <div class="Top-Title"> Template </div>   
+<div class="CTop">
+    <div class="Top-Title"> Template </div>
 </div>
 
 <div class="Template-Body clearfix">
