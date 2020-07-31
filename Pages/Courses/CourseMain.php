@@ -3,7 +3,7 @@
 
 <head>
 
-<title>Course Title</title>
+<title>Instead Main</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,10 @@
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
 
-<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous"></script>
+
+<!-- Font Awesome + Favicon -->
+<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+<link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
 
 <!-- Montserrat Font -->
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>

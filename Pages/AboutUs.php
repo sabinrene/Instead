@@ -15,7 +15,10 @@
 <link rel="stylesheet" href="../Public/CSS/Trainee/TraineeMenu.css">
 <link rel="stylesheet" type="text/css" href="../Public/CSS/Modals.css">
 
-<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous"></script>
+
+<!-- Font Awesome + Favicon -->
+<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+<link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
 
 </head>
 
@@ -92,7 +95,7 @@
                                     <div class="Cont-Card Pic2">
                                         <h3> Solidworks </h3>
                                     </div>
-                                    
+
                                     <div class="Cont-Card Pic1">
                                           <h3> Smart Plant 3D - Piping </h3>
                                     </div>

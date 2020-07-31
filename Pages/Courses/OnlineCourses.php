@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Instead Academy</title>
+  <title>Instead Academy - Online Education</title>
   <link rel="icon" type="image/svg+xml" href="Public/images/Instead-favicon.png" sizes="any">
 
   <script src="Public/JS/jquery-3.5.0.min.js"></script>
@@ -12,7 +12,11 @@
   <link rel="stylesheet" href="../../Public/CSS/Home.css">
   <link rel="stylesheet" href="../../Public/CSS/Footer.css">
 
+
+  <!-- Font Awesome + Favicon -->
   <script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+  <link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
+  
 
 </head>
 

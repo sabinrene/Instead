@@ -3,7 +3,7 @@
 
 <head>
 
-<title>Udemy Course Template</title>
+<title>Instead Cinema</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,11 @@
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Course/LecturesVid.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Header.css">
 
-<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous"></script>
+
+<!-- Font Awesome + Favicon -->
+<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+<link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
+
 </head>
 
 
@@ -21,7 +25,7 @@
 
 <div class="Lectures">
 
-    <div class="VideoLeft"> 
+    <div class="VideoLeft">
         <iframe width="420" height="315"
         src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1" class="VidLec">
         </iframe>
@@ -33,11 +37,11 @@
         <div class="rM-TableCont">Table of Contents</div>
 
             <div class="rM-Content">
-                
+
                 <!-- Accordion 1 -->
                 <button class="accordion"> 01. Course Overview </button>
                 <div class="panel">
-                    <div class="panel-item">Lecture No.1 is the longest lecture you've ever seen 
+                    <div class="panel-item">Lecture No.1 is the longest lecture you've ever seen
                         in the family of lectures spanning across the globe <span>15m 22s</span></div>
                 </div>
 

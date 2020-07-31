@@ -12,7 +12,10 @@
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Header.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
 
-<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous"></script>
+
+<!-- Font Awesome + Favicon -->
+<script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+<link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
 
 </head>
 
@@ -30,9 +33,9 @@
 
   <div class="header-left">
     <div class="categories">
-    
+
     </div>
-    
+
     <div class="search">
 
     </div>
@@ -42,13 +45,13 @@
 
   <div class="header-right">
     <div class="div business">
-  
+
     </div>
 
     <div class="div line">
 
     </div>
-    
+
     <div class="div cart">
 
     </div>
@@ -73,8 +76,8 @@
 
 
 <!-- CourseTemp-->
-<div class="CTop"> 
-    <div class="Top-Title"> Wishlist </div>   
+<div class="CTop">
+    <div class="Top-Title"> Wishlist </div>
 
     <div class="BotMenu">
         <ul>
@@ -104,98 +107,98 @@
 
 
       <!-- CourseArea -->
-      <div class="CourseArea"> 
+      <div class="CourseArea">
 
         <!-- InstabCARD-->
         <div id="InsTabs-Card" class="InsTabs-Card">
           <img class="InsTab-CardA" src="../../Public/images/Course/05-Operations.jpg">
-                
+
                 <div class="InsTab-CardA-Titles">
                   <h4> Title: This is the longest title you can ever think of </h4>
                   <h5> Subtitle: What if we do in this mad world what ppl say  </h5>
                   <h6> By: Teachers Name </h6>
-                  <h4 class="PriceTag">$11.99</h4> 
+                  <h4 class="PriceTag">$11.99</h4>
                 </div>
 
         </div>
         <!-- END InstabCARD-->
-      
-      
+
+
         <!-- InstabCARD-->
         <div id="InsTabs-Card" class="InsTabs-Card">
           <img class="InsTab-CardA" src="../../Public/images/Course/05-Operations.jpg">
-                
+
                 <div class="InsTab-CardA-Titles">
                   <h4> Title: This is the longest title you can ever think of </h4>
                   <h5> Subtitle: What if we do in this mad world what ppl say  </h5>
                   <h6> By: Teachers Name </h6>
-                  <h4 class="PriceTag">$11.99</h4> 
+                  <h4 class="PriceTag">$11.99</h4>
                 </div>
 
         </div>
         <!-- END InstabCARD-->
-      
-      
+
+
         <!-- InstabCARD-->
         <div id="InsTabs-Card" class="InsTabs-Card">
           <img class="InsTab-CardA" src="../../Public/images/Course/05-Operations.jpg">
-                
+
                 <div class="InsTab-CardA-Titles">
                   <h4> Title: This is the longest title you can ever think of </h4>
                   <h5> Subtitle: What if we do in this mad world what ppl say  </h5>
                   <h6> By: Teachers Name </h6>
-                  <h4 class="PriceTag">$11.99</h4> 
+                  <h4 class="PriceTag">$11.99</h4>
                 </div>
 
         </div>
         <!-- END InstabCARD-->
-      
-      
+
+
         <!-- InstabCARD-->
         <div id="InsTabs-Card" class="InsTabs-Card">
           <img class="InsTab-CardA" src="../../Public/images/Course/05-Operations.jpg">
-                
+
                 <div class="InsTab-CardA-Titles">
                   <h4> Title: This is the longest title you can ever think of </h4>
                   <h5> Subtitle: What if we do in this mad world what ppl say  </h5>
                   <h6> By: Teachers Name </h6>
-                  <h4 class="PriceTag">$11.99</h4> 
+                  <h4 class="PriceTag">$11.99</h4>
                 </div>
 
         </div>
         <!-- END InstabCARD-->
-      
-      
+
+
         <!-- InstabCARD-->
         <div id="InsTabs-Card" class="InsTabs-Card">
           <img class="InsTab-CardA" src="../../Public/images/Course/05-Operations.jpg">
-                
+
                 <div class="InsTab-CardA-Titles">
                   <h4> Title: This is the longest title you can ever think of </h4>
                   <h5> Subtitle: What if we do in this mad world what ppl say  </h5>
                   <h6> By: Teachers Name </h6>
-                  <h4 class="PriceTag">$11.99</h4> 
+                  <h4 class="PriceTag">$11.99</h4>
                 </div>
 
         </div>
         <!-- END InstabCARD-->
-      
-      
+
+
         <!-- InstabCARD-->
         <div id="InsTabs-Card" class="InsTabs-Card">
           <img class="InsTab-CardA" src="../../Public/images/Course/05-Operations.jpg">
-                
+
                 <div class="InsTab-CardA-Titles">
                   <h4> Title: This is the longest title you can ever think of </h4>
                   <h5> Subtitle: What if we do in this mad world what ppl say  </h5>
                   <h6> By: Teachers Name </h6>
-                  <h4 class="PriceTag">$11.99</h4> 
+                  <h4 class="PriceTag">$11.99</h4>
                 </div>
 
         </div>
         <!-- END InstabCARD-->
-      
-      
+
+
 
 
 
