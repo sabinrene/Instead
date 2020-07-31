@@ -165,7 +165,7 @@ function setIdCourse(idCourse){
       idCourse: idCourse
     },
     success: function(data){
-        window.open("../../Pages/Courses/CourseMain.php","_self");
+        window.open("../../Pages/Courses/CourseTemplate.php","_self");
    }
   }
  )
