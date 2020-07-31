@@ -65,26 +65,26 @@
 
 <div id="modalCourse" class="modal">
   <div class="head-modal">
-    <h4>Create course</h4>
+    <h4>Create Course</h4>
     <img  id="close-signup" src="../../Public/images/close.png" alt="">
   </div>
   <div class="body">
     <br><br>
-      <input class="courseNeme" type="text" id="courseTitle" placeholder="Course Name" >
+      <input class="courseName" type="text" id="courseTitle" placeholder="Course Name" >
       <br>
 
-      <select id="options">
-      <option value="" disabled selected>Select a Module</option>
-      <option value="Option 1">Technology</option>
-      <option value="Option 2">Engineering</option>
-      <option value="Option 3">Design</option>
+      <select id="options" class="Options">
+        <option value="" disabled selected>Select a Module</option>
+        <option value="Option 1">Technology</option>
+        <option value="Option 2">Engineering</option>
+        <option value="Option 3">Design</option>
       </select>
 
-      <select id="choices">
-      <option value="" disabled selected>Please select a Topic</option>
+      <select id="choices" class="Choices">
+        <option value="" disabled selected>Please select a Topic</option>
       </select>
 
-      <input class="btn btn-signup"  id="saveCourse" type="submit" class="save" value="Create course" />
+      <input class="CreateBtn" id="saveCourse" type="submit" value="Create" />
   </div>
 </div>
 

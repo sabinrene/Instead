@@ -360,17 +360,29 @@ select:hover {
 .courseName{
   background: url(../../../images/icon/firstName.png) no-repeat scroll 7px 13px;
   background-size: 18px 18px;
-
 }
 
 input[type=submit]{
   margin: 10% 7% !important;
-  width: 80%;
+  width: 150px;
 }
 
 *:focus {
     outline: none;
-    border: 1px solid blue;
+    border: 1px solid #135fa4;
+}
+.Options, .Choices {
+  position: relative;
+  top: 15px;
+  width: 280px;
+  margin: 0 auto;
+}
+.Choices {
+  top: 20px;
+  margin-bottom: 30px;
+}
+.CreateBtn {
+  text-align: right;
 }
 
 .userType {
