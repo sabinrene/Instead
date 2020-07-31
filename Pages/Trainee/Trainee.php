@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="../../Public/CSS/Trainee/Trainee.css">
     <link rel="stylesheet" href="../../Public/CSS/Instead.css">
     <link rel="stylesheet" href="../../Public/CSS/Trainee/TraineeMenu.css">
+    <link rel="stylesheet" href="../../Public/CSS/Footer.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
-    <link rel="stylesheet" href="../../Public/CSS/Footer.css">
 
   </head>
 

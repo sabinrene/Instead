@@ -2,14 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title> Instructor's Dashboard </title>
+
     <link rel="stylesheet" href="../../Public/CSS/Trainer/Trainer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
-    <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
     <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
   </head>
   <body>
+
+    <!--
     <div class="slide">
       <a class="links" href="#">
         <div class="text-links">Instead </div>
@@ -26,6 +30,7 @@
 
 
     </div>
+  -->
 
 <?php include ("../../Pages/Trainee/TraineeMenu.php"); ?>
 
@@ -43,11 +48,11 @@
       <a id="newCourse" class="btn-new-course" href="#">New course</a>
     </div>
 
+    <div class="PanelArea">
+      <div id="coursePanel" class="bgCourse">
 
-    <div id="coursePanel" class="bgCourse">
-
+      </div>
     </div>
-
 
 
 
@@ -60,7 +65,7 @@
   </div>
   <div class="body">
     <br><br>
-      <input class="courseNeme" type="text" id="courseTitle" placeholder="Course Name"  >
+      <input class="courseNeme" type="text" id="courseTitle" placeholder="Course Name" >
       <br>
 
       <select id="options">
