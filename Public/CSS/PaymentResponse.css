@@ -1,4 +1,10 @@
 .seeCourses{
 
   text-align: center;
+  background-color: red;
+
+}
+.seeCourses a{
+  text-decoration: none;
+
 }
