@@ -12,7 +12,7 @@ document.getElementById('timeCourse').style.display = 'none';
 if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
   document.getElementById('timeCurriculumFinish').style.display = 'none';
-}
+} 
 document.getElementById('timeCurriculumStart').style.display = 'none';
 document.getElementById('timeCurriculumFinish').style.display = 'none';
 

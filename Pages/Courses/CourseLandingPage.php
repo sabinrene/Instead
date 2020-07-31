@@ -95,19 +95,20 @@
 <br><br>
 
 
-<input type="checkbox" id="" name="vehicle1" value="Bike">
-<label for="vehicle1"> I have a bike</label><br>
-<input type="checkbox" id="" name="vehicle2" value="Car">
-<label for="vehicle2"> I have a car</label><br>
-<input type="checkbox" id="" name="vehicle3" value="Boat">
-<label for="vehicle3"> I have a boat</label><br>
-<input type="checkbox" id="" name="vehicle1" value="Bike">
-<label for="vehicle1"> I have a bike</label><br>
-<input type="checkbox" id="" name="vehicle2" value="Car">
-<label for="vehicle2"> I have a car</label><br>
-<input type="checkbox" id="" name="vehicle3" value="Boat">
-<label for="vehicle3"> I have a boat</label><br>
 
+<label for="vehicle1"><input type="checkbox" id="" name="vehicle1" value="Bike">  Monday</label><br>
+<input type="checkbox" id="" name="vehicle2" value="Car">
+<label for="vehicle2"> Tuesday</label><br>
+<input type="checkbox" id="" name="vehicle3" value="Boat">
+<label for="vehicle3"> Wednesday</label><br>
+<input type="checkbox" id="" name="vehicle1" value="Bike">
+<label for="vehicle1"> Thursday</label><br>
+<input type="checkbox" id="" name="vehicle2" value="Car">
+<label for="vehicle2"> Friday</label><br>
+<input type="checkbox" id="" name="vehicle3" value="Boat">
+<label for="vehicle3"> Saturday</label><br>
+<input type="checkbox" id="" name="vehicle3" value="Boat">
+<label for="vehicle3"> Sunday</label><br>
 
 <br><br>
 
