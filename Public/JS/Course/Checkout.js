@@ -34,6 +34,8 @@ $.ajax("../../App/controller/Session.php", {
 
 function readCoursetoBuy() {
   var totalPrice = 0;
+  var titleCourse = "";
+  var titileDescription = " ";
   $.ajax("../../App/controller/read.php", {
     type: 'post',
     async: false,
@@ -46,6 +48,9 @@ function readCoursetoBuy() {
     const idCourses = [];
     idCourses[0] = data['idCourse'];
 sendIdCoursesToSession(idCourses);
+
+titleCourse = data['courseTitle'];
+titileDescription = data['courseDescription'];
 
 
 
@@ -73,9 +78,9 @@ sendIdCoursesToSession(idCourses);
             "data-epayco-amount='"+totalPrice+"'"+
             "data-epayco-tax='"+(totalPrice*0.19)+"'"+
             "data-epayco-tax-base='"+(totalPrice-totalPrice*0.19)+"'"+
-            "data-epayco-name='"+data['courseTitle']+"'"+
-            "data-epayco-description='"+data['courseDescription']+"'"+
-            "data-epayco-currency='COP'"+
+            "data-epayco-name='"+titleCourse+"'"+
+            "data-epayco-description='"+titileDescription+"'"+
+            "data-epayco-currency='usd'"+
             "data-epayco-country='CO'"+
             "data-epayco-test='true'"+
             "data-epayco-external='true'"+//App/controller/PaymentConfirmation.php
@@ -180,7 +185,7 @@ function readCoursestoBuy () {
               "data-epayco-tax-base='"+(totalPrice-totalPrice*0.19)+"'"+
               "data-epayco-name='Courses Instead Academic'"+
               "data-epayco-description='Courses'"+
-              "data-epayco-currency='COP'"+
+              "data-epayco-currency='usd'"+
               "data-epayco-country='CO'"+
               "data-epayco-test='false'"+
               "data-epayco-external='true'"+
