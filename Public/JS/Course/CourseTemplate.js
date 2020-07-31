@@ -473,6 +473,12 @@ function readLecture(idSection) {
     $('#textOpenLiveOnlineCourse').append(
       'Live Course'
     );
+
+        document.getElementById('timeCourse').style.display = 'block';
+    //
+
+
+
   }
   else if (data["liveOnline"]=="online") {
     $('#textOpenLiveOnlineCourse').append(
@@ -481,6 +487,7 @@ function readLecture(idSection) {
   }
 
 
+  document.getElementById('timeCourse').style.display = 'none';
 
 
 
