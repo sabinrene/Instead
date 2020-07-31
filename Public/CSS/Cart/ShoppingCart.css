@@ -189,13 +189,7 @@
 
 
 
-
-
-
-
     .studentsLiked{
       position: relative;
-      margin-top: 40px;
-      left: 40%;
-      margin-left: 35px;
+      text-align: center;      
     }
