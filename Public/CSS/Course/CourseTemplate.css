@@ -507,7 +507,10 @@ ul {
             display: block;
             height: auto;
             width: 200px;
-            background-color: red; 
+            background-color: lightgrey;
+          }
+          .days{
+            border-bottom: 1px solid black;
           }
 
 

@@ -94,9 +94,16 @@
 
 
           <div id="timeCourse" class="timeCourse">
+            <h5>Schedule</h5>
 
-           <div class="">
-             monday
+           <div class="days">
+             Monday      2pm   4pm
+           </div>
+           <div class="days">
+             Wednesday   2pm   4pm
+           </div>
+           <div class="days">
+             Friday      2pm   4pm
            </div>
 
           </div>
