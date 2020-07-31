@@ -33,9 +33,17 @@ for (var i = 0; i < buyCourses.length; i++) {
 
 
 if (buyCourses[i]["userCourses"]=='buyCourse') {
+var topic = "";
 
-
-
+if (course["topic"]=="Option 1") {
+  topic = "Technology"
+}
+if (course["topic"]=="Option 2") {
+  topic = "Engineering"
+}
+if (course["topic"]=="Option 3") {
+  topic = "3D Modeling"
+}
 
 
   course = readCourseByIdCourse(buyCourses[i]["idCourse"]);
@@ -43,10 +51,10 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
   $('#traineeCourses').append(//Public/images/02-Course/Img-Course/5ed2fc62908a79.45197522.jpg
     '<div id="selectMyCourses'   + i+     '" class="CardA">'+
         '<div class="CardA-PicFrame">'+
-          '<img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/11-Spring.jpg">'+
+          '<img class="CardA-Pic" src="../../Public/images/02-Course/Img-Course/'   + course["idCourse"]+     '">'+
         '</div>'+
         '<div class="CardA-Cat">'+
-            '<p> Engineering </p>'+
+            '<p> '+topic+' </p>'+
         '</div>'+
         '<div class="CardA-Bot">'+
           '<p> '   + course["courseTitle"]+     '</p>'+
