@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Cart/CheckOut.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Header.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
+<link rel="stylesheet" type="text/css" href="../../Public/CSS/Instead.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
 
 <!-- Font Awesome + Favicon -->
@@ -33,11 +34,10 @@
 
 <div class="CheckOut-wrap clearfix">
 
-
-  <h2>Order Details</h2>
-
     <!-- CartL -->
     <div class="Check-L" id="Check-L">
+
+        <h2>Order Details</h2>
 
               <!-- CartL-Box --> <!--
               <div class="CartL-Box">
@@ -71,8 +71,9 @@
           <h2> Summary </h2>
           <p> Total Price:    <span id="totalPrice"> </span> </p>
           <hr>
-          <p class="smallprint"> By completing your purchase you agree
-            to these <a href="#">terms and conditions</a></p>
+          <p class="smallprint"> Proceed to Complete the Purchase
+            and Payment Information.
+             </p>
 
 
 

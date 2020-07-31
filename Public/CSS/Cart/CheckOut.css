@@ -5,10 +5,6 @@
   display: table;
 }
 
-  body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-  }
 
   h1 {
     color: #ffffff;
@@ -29,11 +25,9 @@
 
 .CheckOut-wrap {
   position: relative;
-  top: 70px;
   height: 750px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  margin-bottom: 50px;
 }
 .CheckOut-wrap p {
   color: black;
@@ -45,6 +39,10 @@
       float: left;
       width: 60%;
       height: 100%;
+      padding: 20px;
+    }
+    .Check-L h2 {
+      margin-bottom: 40px;
     }
 
 
@@ -58,11 +56,12 @@
         font-size: 0.95em;
       }
         .CartL-Box {
+          position: relative;
           border: 1px solid grey;
           position: relative;
-          height: 60px;
-          margin-top: 28px;
-          margin-bottom: 7px;
+          margin: 0 auto;
+          height: 120px;
+          width: 600px;
         }
 
         .L-BoxIn {
@@ -89,12 +88,14 @@
           position: relative;
           float: left;
           padding-left: 15px;
-          width: 480px;
+          width: 400px;
           height: 100%;
           overflow: hidden;
         }
         .CartL-Titles h3 {
-          margin-bottom: -12px;
+          position: relative;
+          top: 50%;
+          transform: translate(0,-50%);
         }
         .CartL-Titles p {
           color: #686f7a;
@@ -126,22 +127,24 @@
 
 
 
-
-
     .Check-R {
       position: relative;
       float: left;
       width: 40%;
       height: 100%;
+
+      background: black;
     }
       .Chk-Box {
         position: relative;
-        padding: 0px 20px;
-        width: 300px;
+        top: 50%;
         left: 50%;
+        transform: translate(-50%,-50%);
+        background: white;
+        padding: 25px;
+        width: 300px;
         height: 275px;
-        border: 2px solid gray;
-        left: 10px;
+        border: 4px solid lightgray;
       }
       .Chk-Box span {
         float: right;
