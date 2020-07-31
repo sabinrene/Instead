@@ -95,7 +95,9 @@
 
           <div id="timeCourse" class="timeCourse">
 
-
+           <div class="">
+             monday
+           </div>
 
           </div>
 
