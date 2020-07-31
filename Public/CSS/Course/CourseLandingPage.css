@@ -8,7 +8,7 @@
   clear: both;
   display: table;
 }
-.Center { 
+.Center {
   position: relative;
   text-align: center;
 }
@@ -347,7 +347,9 @@ body {
 
 
 
-
+.Schedule{
+  display: inline-block;
+}
 
 
 
