@@ -474,7 +474,7 @@ function readLecture(idSection) {
       'Live Course'
     );
 
-      //  document.getElementById('timeCourse').style.display = 'block';
+        document.getElementById('timeCourse').style.display = 'block';
     //
 
 
@@ -484,10 +484,10 @@ function readLecture(idSection) {
     $('#textOpenLiveOnlineCourse').append(
       'Course'
     );
+    document.getElementById('timeCourse').style.display = 'none';
+
   }
 
-
-  //document.getElementById('timeCourse').style.display = 'none';
 
 
 
