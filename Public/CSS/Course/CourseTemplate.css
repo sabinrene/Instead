@@ -323,6 +323,7 @@ ul {
           border-radius: 4px;
           color: white;
           font-weight: bold;
+          cursor: pointer;
         }
 
         .Btn02:hover {
@@ -376,6 +377,7 @@ ul {
         background: whitesmoke;
       }
       .ribbon-wrapper a {
+        cursor: pointer;
         text-decoration: none;
       }
 

@@ -233,15 +233,15 @@
 			<div class="Course-includes">
 				<p>This course includes: </p>
 					<ul>
-						<li> On-demand video lectures </li>
-						<li> Articles to deepen knowledge </li>
+						<li> On-demand Video Lectures </li>
+						<li> Articles to Deepen Knowledge </li>
 						<li> Mobile friendly Access </li>
 					</ul>
 			</div>
 
 			<div class="ribbon-wrapper"><a id="openLiveOnlineCourse" >
 				<div class="glow">&nbsp;</div>
-				<div id="textOpenLiveOnlineCourse"    class="ribbon-front">
+				<div id="textOpenLiveOnlineCourse" class="ribbon-front">
 
 
 				</div>
