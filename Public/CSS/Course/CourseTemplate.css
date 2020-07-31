@@ -510,6 +510,7 @@ ul {
             height: auto;
             width: 200px;
             border-radius: 6px;
+            margin: 17px;
           }
           .days{
             border-bottom: 1px solid black;
