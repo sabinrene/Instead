@@ -2,6 +2,7 @@
 
   text-align: center;
   background-color: red;
+  position: relative;
 
 }
 .seeCourses a{
@@ -11,6 +12,8 @@
   display: block;
   width: 120px;
   background-color: yellow;
-  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 
 }
