@@ -12,9 +12,9 @@
   <link rel="stylesheet" href="Public/CSS/Footer.css">
   <link rel="stylesheet" type="text/css" href="Public/CSS/Trainee/TraineeMenu.css">
 
+  <!-- Font Awesome + Favicon -->
   <script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
-
-<link rel="icon" type="image/svg+xml" href="Public/images/Instead-favicon.png" sizes="any">
+ <link rel="icon" type="image/svg+xml" href="Public/images/Instead-favicon.png" sizes="any">
 
   <!-- Bootstrap -->
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"

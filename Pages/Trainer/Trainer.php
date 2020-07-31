@@ -6,7 +6,12 @@
 
     <link rel="stylesheet" href="../../Public/CSS/Trainer/Trainer.css">
     <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
+    <link rel="stylesheet" type="text/css" href="../../Public/CSS/Instead.css">
     <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
+
+    <!-- Font Awesome + Favicon -->
+    <script src="https://kit.fontawesome.com/d2e9898f47.js" crossorigin="anonymous">    </script>
+    <link rel="icon" type="image/svg+xml" href="../../Public/images/Instead-favicon.png" sizes="any">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <script src="../../Public/JS/jquery-3.5.0.min.js"></script>

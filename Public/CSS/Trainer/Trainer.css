@@ -272,7 +272,7 @@ input:focus {
 }
 .modal{
   position: absolute;
-  left: 35%;
+  left: 42%;
   top: 8%;
   width: 380px;
   height: auto;
@@ -280,7 +280,7 @@ input:focus {
   margin: 17px auto ;
   border-radius: 7px;
   box-shadow: 1px 1px 2px grey, -1px -1px 2px grey ;
-  z-index: 20;
+  z-index: 10;
   display: block;
 }
 .modal .head-modal {
@@ -296,17 +296,17 @@ input:focus {
   padding: 24px 0 ;
   display: flex;
 }
-.modal .head-modal h4{
+.modal .head-modal h4 {
+  position: relative;
   flex: 5;
   text-align: left;
-  font-size: 16px;
-  height: 15px;
+  left: 20px;
   margin: 0;
-  padding-left: 30px;
-
+  color: white;
 }
 .modal .head-modal img {
-  padding-right: 35px;
+  position: relative;
+  right: 35px;
   height: 18px;
   width: auto;
   text-align: center;
