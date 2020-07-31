@@ -11,7 +11,7 @@
         window.open("../../index.php","_self");
       }
       else {
-      //  UpdateCourses();
+        UpdateCourses();
       }
     }
   }
@@ -23,7 +23,7 @@
 
 
 
-/*
+
 function UpdateCourses(){
 var buyCourses =  readBuyCoursesByIdUser();
 // ACA VA LA VERIFICACION buyCourses[i]["USERCOURSE"] === BUYCOURSE, VA DENTRO DEL FOR.
@@ -41,10 +41,17 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
   course = readCourseByIdCourse(buyCourses[i]["idCourse"]);
 //  alert(course["imageCourse"]);
   $('#traineeCourses').append(//Public/images/02-Course/Img-Course/5ed2fc62908a79.45197522.jpg
-    '<div id="selectMyCourses'   + i+     '" class="TcCard">'+
-        '<img src="../../Public/images/02-Course/Img-Course/'+course["imageCourse"]+'" alt="" class="Tc-img">'+
-        '<div class="ProgressBar"> </div>'+
-        '<div class="Tc-Title"> <div class="Tc-TitleTxt">   '+course["courseTitle"]+'  </div> </div>'+
+    '<div class="CardA">'+
+        '<div class="CardA-PicFrame">'+
+          '<img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/11-Spring.jpg">'+
+        '</div>'+
+        '<div class="CardA-Cat">'+
+            '<p> Engineering </p>'+
+        '</div>'+
+        '<div class="CardA-Bot">'+
+          '<p> Mechanical Stress Analysis for Engineers & Scientists </p>'+
+          '<p class="CardRibbon"> Live Course </p>'+
+        '</div>'+
     '</div>'+
     '<script type="text/javascript">'+
       'document.getElementById("selectMyCourses'   + i+     '").onclick = function(e){setIdCourse('   + course["idCourse"]+     ')}'+
@@ -57,7 +64,7 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
 
 }
 }
-*/
+
 
 
 /*------------------------------- Read Course --------------------------------*/

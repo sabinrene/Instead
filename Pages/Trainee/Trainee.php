@@ -40,7 +40,7 @@
         <div class="Enrolled">
           <h2> <span class="DarkGrey">Enrolled</span> Courses </h2>
 
-          <div class="T-row clearfix">
+          <div id="traineeCourses" class="T-row clearfix">
 
             <!-- Card-A -->
             <div class="CardA">
