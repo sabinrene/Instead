@@ -41,8 +41,7 @@
           <h2> <span class="DarkGrey">Enrolled</span> Courses </h2>
 
           <div id="traineeCourses" class="T-row clearfix">
-
-            <!-- Card-A -->
+<!-- END Card-A
             <div class="CardA">
                 <div class="CardA-PicFrame">
                   <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/11-Spring.jpg">
@@ -55,10 +54,10 @@
                   <p class="CardRibbon"> Live Course </p>
                 </div>
             </div>
-            <!-- END Card-A -->
 
 
-            <!-- Card-A -->
+
+
             <div class="CardA">
                 <div class="CardA-PicFrame">
                   <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/07-Solidworks.jpg">
@@ -71,10 +70,10 @@
                   <p class="CardRibbon"> Live Training </p>
                 </div>
             </div>
-            <!-- END Card-A -->
 
 
-            <!-- Card-A -->
+
+
             <div class="CardA">
                 <div class="CardA-PicFrame">
                   <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/18-BlockChain.jpeg">
@@ -87,10 +86,10 @@
                   <p class="CardRibbon"> Online Course </p>
                 </div>
             </div>
-            <!-- END Card-A -->
 
 
-            <!-- Card-A -->
+
+
             <div class="CardA">
                 <div class="CardA-PicFrame">
                   <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/05-Operations.jpg">
@@ -103,7 +102,7 @@
                   <p class="CardRibbon"> Live Course </p>
                 </div>
             </div>
-            <!-- END Card-A -->
+             -->
 
 
 
