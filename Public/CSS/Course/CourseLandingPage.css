@@ -349,7 +349,9 @@ body {
 
 .Schedule{
   display: inline-block;
-  background-color: red;
+}
+.Schedule input{
+  width: 15px;
 }
 
 
