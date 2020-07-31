@@ -30,6 +30,8 @@ if ($x_signature == $signature) {
     $x_cod_response = $_REQUEST['x_cod_response'];
     switch ((int) $x_cod_response) {
         case 1:
+        echo "<script>console.log('Debug Objects: " . "hola como estas, lo logramos.". "' );</script>";
+
             # code transacción aceptada
             //echo "transacción aceptada";
             break;
