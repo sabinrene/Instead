@@ -51,7 +51,7 @@
 
 <div class="Cinema">
 
-<a href="LecturesVid.php"><span>Instead Cinema</span></a>
+<!--<a href="LecturesVid.php"><span>Instead Cinema</span></a>-->
 
 </div>
 

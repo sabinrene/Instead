@@ -503,6 +503,31 @@ ul {
 
 
 
+          .timeCourse{
+            display: block;
+            height: auto;
+            width: 200px;
+            background-color: red; 
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /* Glow Animation */
         @-webkit-keyframes flow {
          0% { left:-20px;opacity: 0;}

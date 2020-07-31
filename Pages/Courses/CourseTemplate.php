@@ -92,6 +92,14 @@
 					</div> <!-- END LearnCard -->
 
 
+
+          <div id="timeCourse" class="timeCourse">
+
+
+
+          </div>
+
+
 					<div class="Reqs">
 						<h2> Requirements </h2>
 							<ul>
