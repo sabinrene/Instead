@@ -41,7 +41,7 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
   course = readCourseByIdCourse(buyCourses[i]["idCourse"]);
 //  alert(course["imageCourse"]);
   $('#traineeCourses').append(//Public/images/02-Course/Img-Course/5ed2fc62908a79.45197522.jpg
-    '<div class="CardA">'+
+    '<div id="selectMyCourses'   + i+     '" class="CardA">'+
         '<div class="CardA-PicFrame">'+
           '<img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/11-Spring.jpg">'+
         '</div>'+
@@ -49,8 +49,8 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
             '<p> Engineering </p>'+
         '</div>'+
         '<div class="CardA-Bot">'+
-          '<p> Mechanical Stress Analysis for Engineers & Scientists </p>'+
-          '<p class="CardRibbon"> Live Course </p>'+
+          '<p> '   + course["courseTitle"]+     '</p>'+
+          '<p class="CardRibbon"> '   + course["liveOnline"].charAt(0).toUpperCase() + course["liveOnline"].slice(1)+     ' Course</p>'+
         '</div>'+
     '</div>'+
     '<script type="text/javascript">'+
@@ -125,7 +125,7 @@ if (buyCourses[i]["userCourses"]=='buyCourse') {
     }
   }  */
   /*----------------------------- Update courses -------------------------------*/
-
+/*
 function addCourses(data,moduleCourses,i){
   $(moduleCourses).append(
     '<div id="selectCourse'   + i+     '">'+
@@ -145,7 +145,7 @@ function addCourses(data,moduleCourses,i){
       'document.getElementById("selectCourse'   + i+     '").onclick = function(e){setIdCourse('   + data[i]["idCourse"]+     ')}'+
     '</script>'
    );
-}
+}*/
 /*----------------------------- set Id courses -------------------------------*/
 
 function setIdCourse(idCourse){
