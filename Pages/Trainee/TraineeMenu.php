@@ -37,7 +37,7 @@
       </div>
 
       <div id="MyCourses" class="MyCourses">
-        <h2>My courses</h2>
+        <h2>My Courses</h2>
       </div>
 
 

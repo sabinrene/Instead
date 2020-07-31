@@ -67,9 +67,6 @@ if (course["topic"]=="Option 3") {
 )
 }
 
-
-
-
 }
 }
 

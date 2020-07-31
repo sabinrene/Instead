@@ -196,7 +196,9 @@
           				0 6px 10px rgba(0,0,0,.15);
     }
 
-
+.CardA{
+  cursor: pointer;
+}
 
 
 .Explore {
