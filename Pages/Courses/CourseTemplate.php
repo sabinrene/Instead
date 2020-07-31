@@ -92,6 +92,23 @@
 					</div> <!-- END LearnCard -->
 
 
+
+          <div id="timeCourse" class="timeCourse">
+            <h3>Schedule</h3>
+
+           <div class="days">
+             Monday      2pm   4pm
+           </div>
+           <div class="days">
+             Wednesday   2pm   4pm
+           </div>
+           <div class="days">
+             Friday      2pm   4pm
+           </div>
+
+          </div>
+
+
 					<div class="Reqs">
 						<h2> Requirements </h2>
 							<ul>

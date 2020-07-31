@@ -503,6 +503,38 @@ ul {
 
 
 
+          .timeCourse{
+            position: relative;
+            text-align: center;
+            display: block;
+            height: auto;
+            width: 200px;
+            border-radius: 6px;
+          }
+          .days{
+            border-bottom: 1px solid black;
+            padding: 8px;
+            text-align: left;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       /* Glow Animation */
         @-webkit-keyframes flow {
          0% { left:-20px;opacity: 0;}
