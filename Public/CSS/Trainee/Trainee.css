@@ -98,22 +98,109 @@
 }
 
 
+
 .Trainee-Wrap {
     width: 1240px;
     margin: 0 auto;
 }
+
+
 .Enrolled {
   position: relative;
-  height: 300px;
+  height: auto;
 }
-
   .T-row {
     position: relative;
-    height: 500px;
-    background: blue;
+    height: auto;
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
   }
+  .CardA {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
+    -moz-box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
+    box-shadow: 0px 0px 19px 4px rgba(168,168,168,1);
+  }
+  .CardA:hover {
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);
+    box-shadow: 0px 0px 19px 0px rgba(94,94,94,1);
+  }
+  .CardA:hover .CardA-Cat p {
+    color: lightgrey;
+  }
+
+  .CardA h4 {
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  .CardA:first-child {
+    margin-left: 0px;
+  }
+    .CardA-PicFrame {
+      position: relative;
+      height: 140px;
+    }
+    .CardA-Pic {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+    .CardA-Cat {
+      background: black;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .CardA-Cat p {
+      color: white;
+      font-weight: bold;
+      font-size: 1.18em;
+    }
+    .CardA-Bot {
+      padding: 0px 12px;
+    }
+    .CardA-Bot p {
+      line-height: normal;
+      font-weight: 500;
+    }
+
+    .CardRibbon {
+      position: absolute;
+      left: 0px;
+      bottom: 20px;
+      display: block;
+
+      height: 30px;
+      width: 150px;
+      border: 2px solid black;
+
+      text-align: center;
+      color: white;
+
+      background: #2B2B2B;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      box-shadow: 0 0 30px rgba(0,0,0,.15) inset,
+          				0 6px 10px rgba(0,0,0,.15);
+    }
+
+
+
 
 .Explore {
   position: relative;
   height: 400px;
+  background: green;
 }

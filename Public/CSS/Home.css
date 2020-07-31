@@ -388,13 +388,10 @@
 
 /* ------------------ */
 /* Three Cols Section */
-
 .ThreeCols {
-
 }
 .ThreeCols {
-  position: relative;
-
+    position: relative;
 }
 
 .ThreeCols h2 {

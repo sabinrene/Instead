@@ -32,23 +32,85 @@
 
         <!-- Enrolled -->
         <div class="Enrolled">
-          <h2> <span class="DarkGrey">Current</span> Courses </h2>
+          <h2> <span class="DarkGrey">Enrolled</span> Courses </h2>
 
-          <div class="T-row">
+          <div class="T-row clearfix">
 
-            <div class="Card-A">
-
+            <!-- Card-A -->
+            <div class="CardA">
+                <div class="CardA-PicFrame">
+                  <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/11-Spring.jpg">
+                </div>
+                <div class="CardA-Cat">
+                    <p> Engineering </p>
+                </div>
+                <div class="CardA-Bot">
+                  <p> Mechanical Stress Analysis for Engineers & Scientists </p>
+                  <p class="CardRibbon"> Live Course </p>
+                </div>
             </div>
+            <!-- END Card-A -->
+
+
+            <!-- Card-A -->
+            <div class="CardA">
+                <div class="CardA-PicFrame">
+                  <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/07-Solidworks.jpg">
+                </div>
+                <div class="CardA-Cat">
+                    <p> 3D Modeling </p>
+                </div>
+                <div class="CardA-Bot">
+                  <p> Solidworks Complete Course: Advanced 3D Modeling Techniques </p>
+                  <p class="CardRibbon"> Live Training </p>
+                </div>
+            </div>
+            <!-- END Card-A -->
+
+
+            <!-- Card-A -->
+            <div class="CardA">
+                <div class="CardA-PicFrame">
+                  <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/18-BlockChain.jpeg">
+                </div>
+                <div class="CardA-Cat">
+                    <p> Technology </p>
+                </div>
+                <div class="CardA-Bot">
+                  <p> Blockchain Technology: The New Industrial Revolution </p>
+                  <p class="CardRibbon"> Online Course </p>
+                </div>
+            </div>
+            <!-- END Card-A -->
+
+
+            <!-- Card-A -->
+            <div class="CardA">
+                <div class="CardA-PicFrame">
+                  <img class="CardA-Pic" src="../../Public/images/Course-Sample-Pics/05-Operations.jpg">
+                </div>
+                <div class="CardA-Cat">
+                    <p> Engineering </p>
+                </div>
+                <div class="CardA-Bot">
+                  <p> Introduction to Thermal & Fluid Sciences in Industrial Plants </p>
+                  <p class="CardRibbon"> Live Course </p>
+                </div>
+            </div>
+            <!-- END Card-A -->
+
+
 
           </div> <!-- END Cards -->
 
         </div>
         <!-- END Enrolled -->
 
-        <!-- Explore -->
+        <!-- Explore
         <div class="Explore">
           <h2> <span class="DarkGrey">Explore</span> other Courses </h2>
         </div>
+        -->
 
 
 
