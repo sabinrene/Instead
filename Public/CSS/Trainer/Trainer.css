@@ -193,65 +193,64 @@ input:focus {
   outline:0;
 }
 /*---------------------------  Course panel  -----------------------------------*/
-.bgCourse{
-  margin: 20px 0px;
+.PanelWrap {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+.bgCourse{ /* BodySpace */
+  margin: 50px 0px;
   min-height: 70vh;
 }
-.course{
-  height: auto;
-  width: 100vw;
-  position: relative;
-}
-.panel-img{
-  position: absolute;
-  display: inline-block;
-  margin-left: 4.6em;
-  width: 130px;
-  height: 130px;
-}
-.panel-img img{
-  width: 130px;
-  height: 130px;
-  border-top: 1px solid grey;
-  border-left: 1px solid grey;
-  border-bottom: 1px solid grey;
-}
+
+
 .panel-body{
-  position: absolute;
-  display: inline-block;
-  right: 3em;
-  left: 12.7em;
+  position: relative;
+  float: left;
+  left: 50%;
+  transform: translate(-50%,0%);
   height: 130px;
-  width: auto;
   border-top: 1px solid grey;
   border-right: 1px solid grey;
   border-bottom: 1px solid grey;
 }
+.panel-img{
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 130px;
+  background: grey;
+}
+.panel-img img{
+  width: 130px;
+  height: 130px;
+}
+
 .link-panel-body{
   position: relative;
-  display: inline-block;
-  right: 3em;
-  left: 12.7em;
-  width: 75%;
-  background-color: rgba(255,255,255,0);
+  width: 101%;
   color: rgba(0,0,0,0);
-  text-align: center;
   padding: 53px;
   font-weight: 600;
   font-size: 17px;
+  height: 132px;
 }
 .link-panel-body:hover{
   color: rgba(0,121,151,1);
   background-color: rgba(255,255,255,0.8);
   cursor: pointer;
-
 }
 
 
 .courseNameList{
-  padding: 2.5em 1em;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   font-size: 1.3em;
   font-weight: 400;
+  width: 90%;
+  background: lightblue;
 }
 .nameIdCourse{
   display: none;
