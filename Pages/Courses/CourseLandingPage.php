@@ -103,13 +103,13 @@
   <div class="Schedule">
 
     <label for="Monday">
-      <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday
+      <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday &nbsp;&nbsp;
       <input id="" class="" type="time" /><input id="" class="" type="time" />
     </label>
   </div>
 
   <div class="Schedule"><label for="Tuesday">
-    <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday
+    <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday &nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
@@ -121,26 +121,26 @@
   </div>
 
   <div class="Schedule"><label for="Thursday">
-    <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday
+    <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday &nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
 
   <div class="Schedule"><label for="Friday">
-    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday
+    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
 
   <div class="Schedule"><label for="Saturday">
-    <input type="checkbox" id="Saturday" name="Saturday" value="Saturday">  Saturday
+    <input type="checkbox" id="Saturday" name="Saturday" value="Saturday">  Saturday &nbsp;&nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
 
   <div class="Schedule">
     <label for="Sunday">
-      <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">  Sunday
+      <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">  Sunday &nbsp;&nbsp;&nbsp;
       <input id="" class="" type="time" /><input id="" class="" type="time" />
     </label>
   </div>
