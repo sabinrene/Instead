@@ -99,18 +99,53 @@
 <br><br>
 
 <div class="ScheduleDays">
+
   <div class="Schedule">
+
     <label for="Monday">
       <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday
       <input id="" class="" type="time" /><input id="" class="" type="time" />
     </label>
   </div>
-  <div class="Schedule"><label for="Tuesday"><input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday</label></div>
-  <div class="Schedule"><label for="Wednesday"><input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">  Wednesday</label></div>
-  <div class="Schedule"><label for="Thursday"><input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday</label></div>
-  <div class="Schedule"><label for="Friday"><input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday</label></div>
-  <div class="Schedule"><label for="Saturday"><input type="checkbox" id="Saturday" name="Saturday" value="Saturday">  Saturday</label></div>
-  <div class="Schedule"><label for="Sunday"><input type="checkbox" id="Sunday" name="Sunday" value="Sunday">  Sunday</label></div>
+
+  <div class="Schedule"><label for="Tuesday">
+    <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday
+    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  </label>
+  </div>
+
+  <div class="Schedule"><label for="Wednesday">
+    <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">  Wednesday
+    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  </label>
+  </div>
+
+  <div class="Schedule"><label for="Thursday">
+    <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday
+    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  </label>
+  </div>
+
+  <div class="Schedule"><label for="Friday">
+    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday
+    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  </label>
+  </div>
+
+  <div class="Schedule"><label for="Saturday">
+    <input type="checkbox" id="Saturday" name="Saturday" value="Saturday">  Saturday
+    <input id="" class="" type="time" /><input id="" class="" type="time" />
+  </label>
+  </div>
+
+  <div class="Schedule">
+    <label for="Sunday">
+      <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">  Sunday
+      <input id="" class="" type="time" /><input id="" class="" type="time" />
+    </label>
+  </div>
+
+
 </div>
 
 
