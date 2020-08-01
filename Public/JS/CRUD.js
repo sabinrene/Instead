@@ -7,7 +7,6 @@ $(document).ready(function(){
 /*------------------------------ Save users ----------------------------------*/
 $("#save").click(function(){
 
-
   var address = $( "#AdressAnduserType" ).val().split("&")[0];
   var userType = $("#AdressAnduserType").val().split("&")[1];
 

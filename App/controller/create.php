@@ -15,6 +15,7 @@
     if ($_POST['type']=="saveUsers") {
       $registerForm = new Create();
       $registerForm-> queryUser();
+
       $registerForm->setValuesUsers($_POST['firstName'],$_POST['lastName'],
       $_POST['email'],$_POST['phoneNumber'],$_POST['education'],$_POST['password'],
       $_POST['userType']);
