@@ -102,6 +102,7 @@
 .Trainee-Wrap {
     width: 1240px;
     margin: 0 auto;
+    min-height: 40vh;
 }
 
 
