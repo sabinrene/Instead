@@ -103,7 +103,7 @@
     <label for="Monday">
       <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday
       <input id="" class="" type="time" />
-
+      <input id="" class="" type="time" />
 
 
     </label>
