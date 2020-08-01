@@ -358,7 +358,7 @@ body {
 .Schedule input {
   width: 13px;
   height: 13px;
-  padding: 0 15px;
+  padding: 0 ;
   margin:0;
   vertical-align: bottom;
   position: relative;
@@ -366,14 +366,8 @@ body {
   *overflow: hidden;
 }
 .Schedule input[type="time"] {
-  width: 130px;
-  height: 13px;
-  padding: 0 15px;
-  margin:0;
-  vertical-align: bottom;
-  position: relative;
-  top: -1px;
-  *overflow: hidden;
+  width: 130px !important;
+
 }
 
 
