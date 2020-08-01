@@ -92,19 +92,20 @@
 </div>
 
 
+
+<label for="">End Course</label>
+<input id="" class="" type="time" />
+
+
 <br><br>
 
 <div class="ScheduleDays">
   <div class="Schedule">
-    <label for="Monday"><input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday
+    <label for="Monday">
+      <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday
 
 
-  <select id="">
-  <option value="" disabled selected>Select start time</option>
-  <option value="Option 1">Technology</option>
-  <option value="Option 2">Engineering</option>
-  <option value="Option 3">Design</option>
-  </select>
+
     </label>
 </div>
   <div class="Schedule"><label for="Tuesday"><input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday</label></div>
