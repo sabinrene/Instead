@@ -93,8 +93,7 @@
 
 
 
-<label for="">End Course</label>
-<input id="" class="" type="time" />
+
 
 
 <br><br>
@@ -103,6 +102,7 @@
   <div class="Schedule">
     <label for="Monday">
       <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday
+      <input id="" class="" type="time" />
 
 
 
