@@ -121,13 +121,13 @@
   </div>
 
   <div class="Schedule"><label for="Thursday">
-    <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday &nbsp;&nbsp;
+    <input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday &nbsp;&nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
 
   <div class="Schedule"><label for="Friday">
-    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
@@ -140,7 +140,7 @@
 
   <div class="Schedule">
     <label for="Sunday">
-      <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">  Sunday &nbsp;&nbsp;&nbsp;
+      <input type="checkbox" id="Sunday" name="Sunday" value="Sunday">  Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <input id="" class="" type="time" /><input id="" class="" type="time" />
     </label>
   </div>
