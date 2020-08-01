@@ -103,13 +103,13 @@
   <div class="Schedule">
 
     <label for="Monday">
-      <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday &nbsp;&nbsp;
+      <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday &nbsp;&nbsp;&nbsp;&nbsp;
       <input id="" class="" type="time" /><input id="" class="" type="time" />
     </label>
   </div>
 
   <div class="Schedule"><label for="Tuesday">
-    <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday &nbsp;&nbsp;
+    <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday &nbsp;&nbsp;&nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
