@@ -363,7 +363,7 @@ body {
 }
 .Schedule input {
   width: 13px;
-  height: 13px;
+  height: 20px;
   padding: 0 ;
   margin:0;
   vertical-align: bottom;
@@ -373,7 +373,6 @@ body {
 }
 .Schedule input[type="time"] {
   width: 130px !important;
-  height: 500px !important;
 }
 
 
