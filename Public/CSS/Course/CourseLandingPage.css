@@ -345,7 +345,10 @@ body {
   display: inline-block;
 }
 
-
+.Shedule {
+  display: inline-block;
+  width: 120px;
+}
 
 .Schedule label {
   display: block;
