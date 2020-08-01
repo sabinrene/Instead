@@ -352,10 +352,13 @@ body {
 }
 .Schedule input{
   width: 15px;
+  padding: 5px;
+
   background-color: yellow;
 }
 .Schedule label{
-  width: 15px;
+  width: auto;
+  padding: 5px;
   background-color: pink;
 }
 
