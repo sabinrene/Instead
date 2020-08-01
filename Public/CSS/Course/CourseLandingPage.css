@@ -351,6 +351,7 @@ body {
   display: inline-block;
 }
 .Schedule input[type='checkbox']{
+  display: inline-block;
   width: 15px;
   padding: 5px;
   background-color: yellow;
