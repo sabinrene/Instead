@@ -367,7 +367,7 @@ body {
 }
 .Schedule input[type="time"] {
   width: 130px !important;
-
+  height: 20px;
 }
 
 
