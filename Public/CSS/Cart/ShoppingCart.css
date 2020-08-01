@@ -15,7 +15,6 @@
     background-image: url("../../images/BlueBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-*/
 }
 .Top-Title {
     position: relative;
@@ -29,6 +28,8 @@
     font-size: 2.5em;
     width: 10px;
     opacity: 0.95;
+    color: whitesmoke;
+    text-shadow: 3px 1px 2px rgba(5, 0, 0, 1);
   }
 
 
