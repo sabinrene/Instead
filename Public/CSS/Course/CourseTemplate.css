@@ -59,10 +59,9 @@ ul {
   }
 
   .CourseHeader h1 {
-    font-size: 2.2em;
     font-weight: bold;
     line-height: 1.2em;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: white;
   }
   .CourseHeader h2 {
@@ -101,14 +100,15 @@ ul {
   margin-bottom: 30px;
 }
   .ToLearn {
-    margin-bottom: 20px;
-    margin-left: -30px;
+    padding: 10px;
   }
   .ToLearn-Item {
     width: 45%;
     height: auto;
     float: left;
-    color: grey;
+    color: #292c2f;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
 
 
@@ -121,6 +121,8 @@ ul {
 .Reqs li {
   list-style-type: disc;
   color: black;
+  margin-left: 25px;
+  margin-bottom: -25px;
 }
 
 /* Description */
