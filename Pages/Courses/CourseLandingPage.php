@@ -102,12 +102,9 @@
   <div class="Schedule">
     <label for="Monday">
       <input type="checkbox" id="Monday" name="Monday" value="Monday">  Monday
-      <input id="" class="" type="time" />
-      <input id="" class="" type="time" />
-
-
+      <input id="" class="" type="time" /><input id="" class="" type="time" />
     </label>
-</div>
+  </div>
   <div class="Schedule"><label for="Tuesday"><input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday">  Tuesday</label></div>
   <div class="Schedule"><label for="Wednesday"><input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday">  Wednesday</label></div>
   <div class="Schedule"><label for="Thursday"><input type="checkbox" id="Thursday" name="Thursday" value="Thursday">  Thursday</label></div>
