@@ -345,14 +345,11 @@ body {
   display: inline-block;
 }
 
-.Shedule {
-  display: inline-block;
-  width: 120px;
+
+.ScheduleDays{
+  width: 200px;
 }
-
 .Schedule label {
-  width: 120px;
-
   display: block;
   padding-left: 15px;
   text-indent: -15px;

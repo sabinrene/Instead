@@ -94,14 +94,16 @@
 
 <br><br>
 
+<div class="ScheduleDays">
+  <div class="Schedule"><label for="Monday"><input type="checkbox" id="" name="Monday" value="Monday">  Monday</label></div>
+  <div class="Schedule"><label for="Tuesday"><input type="checkbox" id="" name="Tuesday" value="Tuesday">  Tuesday</label></div>
+  <div class="Schedule"><label for="Wednesday"><input type="checkbox" id="" name="Wednesday" value="Wednesday">  Wednesday</label></div>
+  <div class="Schedule"><label for="Thursday"><input type="checkbox" id="" name="Thursday" value="Thursday">  Thursday</label></div>
+  <div class="Schedule"><label for="Friday"><input type="checkbox" id="" name="Friday" value="Friday">  Friday</label></div>
+  <div class="Schedule"><label for="Saturday"><input type="checkbox" id="" name="Saturday" value="Saturday">  Saturday</label></div>
+  <div class="Schedule"><label for="Monday"><input type="checkbox" id="" name="Sunday" value="Sunday">  Sunday</label></div>
 
-<div class="Schedule"><label for="Monday"><input type="checkbox" id="" name="Monday" value="Monday">  Monday</label></div>
-<div class="Schedule"><label for="Tuesday"><input type="checkbox" id="" name="Tuesday" value="Tuesday">  Tuesday</label></div>
-<div class="Schedule"><label for="Wednesday"><input type="checkbox" id="" name="Wednesday" value="Wednesday">  Wednesday</label></div>
-<div class="Schedule"><label for="Thursday"><input type="checkbox" id="" name="Thursday" value="Thursday">  Thursday</label></div>
-<div class="Schedule"><label for="Friday"><input type="checkbox" id="" name="Friday" value="Friday">  Friday</label></div>
-<div class="Schedule"><label for="Saturday"><input type="checkbox" id="" name="Saturday" value="Saturday">  Saturday</label></div>
-<div class="Schedule"><label for="Monday"><input type="checkbox" id="" name="Sunday" value="Sunday">  Sunday</label></div>
+</div>
 
 
 
