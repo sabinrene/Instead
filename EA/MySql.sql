@@ -9,7 +9,8 @@ SET FOREIGN_KEY_CHECKS=0
 /* Drop Tables */
 
 
-
+DROP TABLE IF EXISTS `Schedule` CASCADE
+;
 DROP TABLE IF EXISTS `LearnRequirements`
 ;
 DROP TABLE IF EXISTS `PDF`
@@ -46,6 +47,7 @@ CREATE TABLE `Courses`
 	`idUsers` INT NULL,
 	`startTime` DATE  NULL,
 	`endTime` DATE  NULL,
+	`zoomLink` VARCHAR(900) NULL,
 	`liveOnline` VARCHAR(10) NULL,
 	CONSTRAINT `PK_Courses` PRIMARY KEY (`idCourse` ASC)
 )
@@ -84,6 +86,18 @@ CREATE TABLE `PDF`
 	`linkPDF` TEXT NULL,
 	CONSTRAINT `PK_PDF` PRIMARY KEY (`idPDF` ASC, `idLecture` ASC)
 )
+;
+
+CREATE TABLE `Schedule`
+(
+	`idCourse` INT NOT NULL,
+	`idSchedule` INT NOT NULL ,
+	`day` VARCHAR(15) NULL,
+	`startTime` TIME NULL,
+	`finishTime` TIME NULL,
+	CONSTRAINT `PK_Schedule` PRIMARY KEY (`idCourse` ASC, `idSchedule` ASC)
+)
+
 ;
 
 CREATE TABLE `Sections`
@@ -136,7 +150,9 @@ ALTER TABLE `Lectures`
 ALTER TABLE `PDF`
  ADD INDEX `IXFK_PDF_Lectures` (`idLecture` ASC)
 ;
-
+ALTER TABLE `Schedule`
+ ADD INDEX `IXFK_Schedule_Courses` (`idCourse` ASC)
+;
 ALTER TABLE `Sections`
  ADD INDEX `IXFK_Sections_Courses` (`idCourse` ASC)
 ;
@@ -169,6 +185,11 @@ ALTER TABLE `Lectures`
 ALTER TABLE `PDF`
  ADD CONSTRAINT `FK_PDF_Lectures`
 	FOREIGN KEY (`idLecture`) REFERENCES `Lectures` (`idLecture`) ON DELETE Restrict ON UPDATE Restrict
+;
+
+ALTER TABLE `Schedule`
+ ADD CONSTRAINT `FK_Schedule_Courses`
+	FOREIGN KEY (`idCourse`) REFERENCES `Courses` (`idCourse`) ON DELETE Restrict ON UPDATE Restrict
 ;
 
 ALTER TABLE `Sections`
