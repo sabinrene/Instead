@@ -350,10 +350,9 @@ body {
 .Schedule{
   display: inline-block;
 }
-.Schedule input{
+.Schedule input[type='checkbox']{
   width: 15px;
   padding: 5px;
-
   background-color: yellow;
 }
 .Schedule label{
