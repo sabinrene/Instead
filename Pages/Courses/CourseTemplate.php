@@ -12,6 +12,7 @@
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Modals.css">
 
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
+<link rel="stylesheet" type="text/css" href="../../Public/CSS/Instead.css">
 <link rel="stylesheet" href="../../Public/CSS/Header.css">
 
 <!-- Font Awesome + Favicon -->
@@ -150,11 +151,23 @@
 					</div>
 					<!-- End Description -->
 
-					<h2>Students also liked </h2>
 
-					<!-- LIKED -->
+
+
+        <!-- Course Content -->
+      	<h2> Course Content </h2>
+				<div id="content" class="Content">
+
+				</div>
+				<!-- End Content -->
+
+
+
+
+        	<!-- LIKED -->
 					<div id="liked" class="Liked">
 
+            <h2>Students also liked </h2>
 	<!--
 						<div class="Liked-Row">
 							<div class="Liked-Row-Pic"> <br/>W x H <br/> 150 x 80 px </div>
@@ -212,11 +225,6 @@
 					<!-- End LIked -->
 
 
-	<h2> Course Content </h2>
-					<div id="content" class="Content">
-
-					</div>
-					<!-- End Content -->
 			</div>
 			<!-- End LEFT -->
 

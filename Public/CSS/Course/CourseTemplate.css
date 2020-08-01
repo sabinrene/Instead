@@ -52,29 +52,29 @@ ul {
   position: relative;
   height: 320px;
   }
+  .CourseHeader-in {
+    position: relative;
+    top: 55%;
+    transform: translate(0,-50%);
+  }
+
   .CourseHeader h1 {
     font-size: 2.2em;
     font-weight: bold;
     line-height: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    color: white;
   }
   .CourseHeader h2 {
-    font-size: 1.6em;
     font-weight: bold;
     line-height: 1.6em;
-    margin-bottom: -15px;
+    margin-bottom: -8px;
     color: white;
   }
   .CourseHeader p {
     color: white;
     margin-bottom: -15px;
   }
-  .CourseHeader-in {
-    position: relative;
-    top: 50%;
-    transform: translate(0,-50%);
-  }
-
 
 .CourseTemp-Left {
   position: relative;
@@ -87,12 +87,15 @@ ul {
 
 
 .LearnCard {
+  position: relative;
+  left: -15px;
   background: rgb(249, 249, 249);
   border: 1px solid lightgrey;
-  width: 90%;
+  width: 100%;
   position: relative;
   height: auto;
-  padding: 0px 20px;
+  padding: 15px;
+
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -114,7 +117,7 @@ ul {
 
 /* Requirements */
 .Reqs {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .Reqs li {
   list-style-type: disc;
@@ -122,6 +125,9 @@ ul {
 }
 
 /* Description */
+.Desc {
+  margin-bottom: 30px;
+}
 .Desc li {
     list-style-type: disc;
     color: black;
@@ -138,6 +144,10 @@ ul {
 }
 
 
+
+
+
+/* Liked */
 .Liked {
   position: relative;
   margin: 50px 0px;
@@ -314,7 +324,7 @@ ul {
       margin-bottom: 20px;
     }
         .Btn02 {
-          width: 120px;
+          width: 140px;
           background: red;
           text-decoration: none;
           padding: 10px;
@@ -343,7 +353,7 @@ ul {
 
       /* Includes */
       .Course-includes {
-        margin: 30px 0;
+        margin: 40px 0;
       }
 
       .Course-includes p {
@@ -356,7 +366,6 @@ ul {
           font-size: 0.9em;
           color: rgb(80, 87, 99);
           text-align: center;
-          margin-left: -40px;
       }
 
       /* Share Me */
