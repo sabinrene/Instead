@@ -62,40 +62,41 @@ $.ajax( "../../App/controller/read.php", {
 function updateCourses(data,idUser){
   for (var i = 0; i < data.length; i++) {
     if (data[i]["idUsers"]== idUser) {
+
       $('#coursePanel').append(
-        '<div id="coursePanel" class="PanelWrap">'+
+       '<div id="coursePanel" class="">'+
 
-          '<div class="panel-body">'+
+         '<div class="panel-body">'+
 
-            '<div class="panel-img">'+
-              '<img src="../../Public/images/02-Course/Img-Course/' +  data[i]["imageCourse"]+'" alt="">'+
-            '</div>'+
+           '<div class="panel-img">'+
+             '<img src="../../Public/images/02-Course/Img-Course/' +  data[i]["imageCourse"]+'" alt="">'+
+           '</div>'+
 
-            '<div class="courseNameList">'+
-            '<strong>Course Name:</strong> ' + data[i]["courseTitle"]+
-            '<input id="idCourse" class="nameIdCourse" type="text" name="" value="' +  data[i]["idCourse"]+'">'+
-            '</div>'+
+           '<div class="courseNameList">'+
+           '<strong>Course Name:</strong> ' + data[i]["courseTitle"]+
+           '<input id="idCourse" class="nameIdCourse" type="text" name="" value="' +  data[i]["idCourse"]+'">'+
+           '</div>'+
 
-          '</div>'+
+         '</div>'+
 
-          '<a href="../../Pages/Courses/Courses.php">'+
-            '<div id="selectCourse'   + i+     '" class="link-panel-body">'+
-              'Edit Course'+
-            '</div>'+
-          '</a>'+
+         '<a href="../../Pages/Courses/Courses.php">'+
+           '<div id="selectCourse'   + i+     '" class="link-panel-body">'+
+             'Edit Course'+
+           '</div>'+
+         '</a>'+
 
 
 
-        '</div> <br>'+
+       '</div> <br>'+
 
-        '<script type="text/javascript">'+
-          'document.getElementById("selectCourse'   + i+     '").onclick = function(e){setIdCourse('   + data[i]["idCourse"]+     ')}'+
-        '</script>'
+       '<script type="text/javascript">'+
+         'document.getElementById("selectCourse'   + i+     '").onclick = function(e){setIdCourse('   + data[i]["idCourse"]+     ')}'+
+       '</script>'
 
-      );
-    }
+     );
+   }
 
-  }
+ }
 }
 /*----------------------------- set Id courses -------------------------------*/
 
