@@ -353,6 +353,7 @@ body {
   display: block;
   padding-left: 15px;
   text-indent: -15px;
+  padding: 10px;
 }
 .Schedule input {
   width: 13px;
