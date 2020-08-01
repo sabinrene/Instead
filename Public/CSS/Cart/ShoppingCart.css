@@ -5,57 +5,31 @@
   display: table;
 }
 
-  body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-  }
-
-  h1 {
-    color: #ffffff;
-    font-size: 54px;
-    font-weight: 300;
-    line-height: 58px;
-    margin: 0 0 58px;
-  }
-  p, li {
-    color: #adb7bd;
-    font-size: 16px;
-    line-height: 26px;
-  }
-  ul {
-    list-style-type: none;
-  }
-
-
         /* ------------- */
         /* Shopping Cart */
         /* ------------- */
 .CTop {
     position: relative;
     width: 100%;
-    height: 240px;
-    background-color: black;
-/*    background-image: url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%2329303b' fill-opacity='0.63' fill-rule='evenodd'/%3E%3C/svg%3E");
-
+    height: 320px;
+    background-image: url("../../images/BlueBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 */
 }
-
-
 .Top-Title {
     position: relative;
     top: 45%;
-    left: 5%;
+    left: 7.5%;
     width: 60%;
     transform: translate(0%, -50%);
-    color: whitesmoke;
-    text-shadow: 0px 2px 3px #555;
-    font-size: 3.5em;
-    text-shadow: 1px 1px 2px #def, 0 0 0 #000, 1px 1px 4px #def;
 }
-/* Don't show shadows when selecting text */
-.Top-Title::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
-.Top-Title::selection { background: #5af; color: #fff; text-shadow: none; }
-
+  .Top-Title h1 {
+    color: black;
+    font-size: 2.5em;
+    width: 10px;
+    opacity: 0.95;
+  }
 
 
 .Cart-Wrap {
@@ -108,24 +82,32 @@
       position: relative;
       float: left;
       padding-left: 4px;
-      width: 420px;
+      width: 450px;
       height: 100%;
       overflow: hidden;
+      vertical-align: middle;
     }
     .CartL-Titles h3 {
-      margin-bottom: -12px;
+      position: relative;
+      top: 35%;
+      left: 3%;
+      transform: translate(0%,-50%);
     }
     .CartL-Titles p {
+      position: relative;
+      top: 35%;
+      left: 2.5%;
+      transform: translate(0%,-50%);
       color: #686f7a;
-      line-height: 18px;
+      font-weight: 600;
+      font-size: 1.1em;
     }
 
     .CartL-rem {
-      position: relative;
-      float: left;
-      padding-left: 10px;
-      top: 50%;
-      transform: translate(0,-50%);
+      position: absolute;
+      right: 35px;
+      bottom: 30px;
+      font-weight: 500;
     }
     .CartL-rem a {
       color: #0f7b94;
@@ -133,9 +115,7 @@
     }
     .CartL-Price {
       position: relative;
-      float: right;
-      padding-right: 15px;
-      top: 50%;
+      top: 35%;
       transform: translate(0,-50%);
       color: #ec5252;
       font-weight: bold;
@@ -191,5 +171,81 @@
 
     .studentsLiked{
       position: relative;
-      text-align: center;      
+      text-align: center;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Students also liked */
+
+
+    .Liked {
+      position: relative;
+      margin: 50px 0px;
+      height: auto;
+    }
+    .Liked-Row {
+      position: relative;
+      width: 90%;
+      margin: 0 auto;
+      height: 110px;
+      font-weight: bold;
+      border-bottom: 1px solid lightgrey;
+    }
+    .Liked-Row-Pic {
+      position: relative;
+      top: 50%;
+      transform: translate(0%, -50%);
+      float: left;
+      width: 150px;
+      height: 80px;
+      text-align: center;
+      background-color: grey;
+    }
+
+    .Liked-Row-Title {
+      position: relative;
+      top: 50%;
+      transform: translate(0%, -50%);
+      float: left;
+      width: 52.5%;
+      padding-left: 10px;
+    }
+      .Liked-Row-Subtitle {
+        color: rgb(156, 151, 155);
+      }
+
+    .Liked-Row-Price {
+      position: relative;
+      top: 50%;
+      transform: translate(0%, -50%);
+      float: left;
+      width: 18%;
+      font-size: 1.4em;
+      text-align: center;
+    }
+    .Liked-Row-Like {
+      position: relative;
+      top: 50%;
+      transform: translate(0%, -50%);
+      float: left;
+      width: 5%;
+      text-align: center;
+    }
+
+      .Liked i {
+        color: red;
+      }
+      .Liked i:hover {
+        color: darkred;
+      }

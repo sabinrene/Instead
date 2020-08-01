@@ -1069,22 +1069,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
       /* border-bottom: 1px solid grey; */
     }
     .Exp-Title {
-      position: absolute;
-      padding: 20px 80px;
+      position: relative;
       left: 50%;
-
+      top: 50%;
+      transform: translate(-50%,0%);
       /*
       border-top: 1px solid gray;
       border-left: 1px solid gray;
       border-right: 1px solid gray;
       */
 
-      transform: translate(-50%,0%);
       z-index: 2;
 
-        font-size: 1.5em;
-        width: 600px;
-        height: 80px;
+        font-size: 1.4em;
+        width: 500px;
+        height: 70px;
+        padding: 10px;
         text-align: center;
         background: #cccccc;
     }

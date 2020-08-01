@@ -78,16 +78,16 @@
 
     background-image: url("../../images/03-Trainee/Earth-Bg.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: top;
 
-    text-align: center;
-    height: 340px;
+    height: 250px;
 }
   .Hi h1 {
     position: relative;
     text-transform: none;
-    top: 50%;
+    top: 45%;
+    right: 25%;
     transform: translate(0,-50%);
     color: whitesmoke;
   }

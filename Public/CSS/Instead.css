@@ -91,8 +91,6 @@ li {
 
 h1 {
     font-size: 2em;
-    text-align: center;
-    color: #333;
     margin-bottom: 30px;
     text-transform: uppercase;
     color: #35353b;
@@ -146,22 +144,7 @@ h5 {
 a.BtnA:hover {
     color: lightgrey;
 }
-
-
-
 /*---------- End Btns ---------- */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

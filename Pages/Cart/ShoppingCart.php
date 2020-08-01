@@ -3,16 +3,19 @@
 
 <head>
 
-<title>Shopping Cart</title>
+<title> Shopping Cart </title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="../../Public/JS/jquery-3.5.0.min.js"></script>
+
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Cart/ShoppingCart.css">
-<link rel="stylesheet" type="text/css" href="../../Public/CSS/Header.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Footer.css">
+
+<link rel="stylesheet" type="text/css" href="../../Public/CSS/Instead.css">
 <link rel="stylesheet" type="text/css" href="../../Public/CSS/Trainee/TraineeMenu.css">
-<link rel="stylesheet" type="text/css" href="../../Public/CSS/Course/CourseTemplate.css">
+
+
 
 
 <!-- Font Awesome + Favicon -->
@@ -34,7 +37,9 @@
 
 <!-- CourseTemp-->
 <div class="CTop">
-    <div class="Top-Title"> Shopping Cart </div>
+    <div class="Top-Title">
+      <h1> Shopping Cart <h1>
+    </div>
 </div>
 
 <div class="Cart-Wrap clearfix">

@@ -6,10 +6,12 @@
 
     <p class="footer-links">
     <a href="../index.php">Home</a>
+    <!-- PHASE 2
     ·
     <a href="#">Contact</a>
-    ·
-    <a href="Pages/AboutUs.php">About Us</a>
+
+  -->
+    · <a href="Pages/AboutUs.php">About Us</a>
     </p>
 
     <p class="footer-company-name">Instead &copy; 2020 <a href="index.php">.</a></p>
