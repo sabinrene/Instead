@@ -127,7 +127,7 @@
   </div>
 
   <div class="Schedule"><label for="Friday">
-    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="Friday" name="Friday" value="Friday">  Friday   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <input id="" class="" type="time" /><input id="" class="" type="time" />
   </label>
   </div>
