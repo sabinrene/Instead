@@ -347,7 +347,7 @@ body {
 
 
 .ScheduleDays{
-  width: 200px;
+  width: 500px;
 }
 .Schedule label {
   display: block;
@@ -356,8 +356,8 @@ body {
   padding: 10px;
 }
 .Schedule input {
-  width: 130px;
-  height: 23px;
+  width: 13px;
+  height: 13px;
   padding: 0 15px;
   margin:0;
   vertical-align: bottom;
@@ -365,7 +365,16 @@ body {
   top: -1px;
   *overflow: hidden;
 }
-
+.Schedule input[type="time"] {
+  width: 130px;
+  height: 13px;
+  padding: 0 15px;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
 
 
 
