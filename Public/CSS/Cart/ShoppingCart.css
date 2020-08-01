@@ -146,7 +146,7 @@
       color: black;
       font-size: 2.5em;
       font-weight: bold;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
 
@@ -156,7 +156,7 @@
       background-color:#ec5252;
       border:1px solid #d02718;
       color:#ffffff;
-      font-size:17px;
+      font-size: 0.9em;
       font-weight:bold;
       padding:19px 59px;
       text-decoration:none;
@@ -164,6 +164,8 @@
     }
     .ChkOutBtn:hover {
       background:linear-gradient(to bottom, #ec5252 25%, #c62d1f 100%);
+      color: whitesmoke;
+
     }
 
 
@@ -173,6 +175,7 @@
     .studentsLiked{
       position: relative;
       text-align: center;
+      top: 20px;
     }
 
     .Liked {
@@ -185,7 +188,8 @@
       width: 900px;
       margin: 0 auto;
       height: 120px;
-      font-weight: bold;
+      font-weight: 500;
+      font-size: 0.88em;
       border-bottom: 1px solid lightgrey;
     }
     .Liked-Row-Pic {
@@ -217,7 +221,7 @@
       transform: translate(0%, -50%);
       float: left;
       width: 18%;
-      font-size: 1.4em;
+      font-size: 1.2em;
       text-align: center;
     }
     .Liked-Row-Like {

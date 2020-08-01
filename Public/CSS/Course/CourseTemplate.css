@@ -336,7 +336,6 @@ ul {
         color: rgb(80, 87, 99);
         text-align: center;
         font-weight: bold;
-        font-size: 2.4em;
       }
 
     .Course-Btns{
@@ -379,11 +378,9 @@ ul {
       .Course-includes p {
         position: relative;
         color: black;
-        font-size: 0.9em;
         margin-bottom: -10px;
       }
       .Course-includes li {
-          font-size: 0.9em;
           color: rgb(80, 87, 99);
           text-align: center;
       }
