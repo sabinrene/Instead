@@ -9,10 +9,12 @@ webshims.polyfill('forms forms-ext');
 
 document.getElementById("online").onclick =function(e){
 document.getElementById('timeCourse').style.display = 'none';
-if (document.getElementById('timeCurriculumStart')) {
+document.getElementById('ScheduleDays').style.display = 'none';
+
+/*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
   document.getElementById('timeCurriculumFinish').style.display = 'none';
-}
+}*/
 //document.getElementById('timeCurriculumStart').style.display = 'none';
 //document.getElementById('timeCurriculumFinish').style.display = 'none';
 
@@ -23,10 +25,10 @@ document.getElementById("live").onclick =function(e){
 
 
 document.getElementById('timeCourse').style.display = 'block';
-
-if (document.getElementById('timeCurriculumStart')) {
+document.getElementById('ScheduleDays').style.display = 'block';
+/*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
-  document.getElementById('timeCurriculumFinish').style.display = 'none';}
+  document.getElementById('timeCurriculumFinish').style.display = 'none';}*/
 
 
 
@@ -270,7 +272,7 @@ document.getElementById("image").src = "../../Public/images/02-Course/Img-Course
 //document.getElementById("openTextEditDescription").onclick =function(e){openTextEditDescription()}
 
 
-function openTextEditDescription(){
+/*function openTextEditDescription(){
   //Before we copy, we are going to select the text.
     var text = document.getElementById("courseDescription");
     var selection = window.getSelection();
@@ -285,7 +287,7 @@ function openTextEditDescription(){
 
     navigator.clipboard.readText().then(
   clipText => document.getElementById("editor-text-box").innerText = clipText);
-}
+}*/
 
 
 function addTopic(selectValue){
