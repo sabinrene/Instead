@@ -103,47 +103,29 @@
     }
 
 
+
 /* Alpha */
     .RowAlpha {
       position: relative;
-      height: 750px;
+      height: 775px;
       text-align: center;
-
-      background: red;
       width: 980px;
       margin: 0 auto;
     }
       .Lead {
         position: relative;
         float: left;
-        height: 400px;
-        width: 400px;
-        margin-right: 80px;
+        width: 45%;
+        height: 850px;
+
       }
-
-      @media only screen and (max-width: 1500px) {
-          .RowAlpha {
-          }
-          .Lead {
-
-          }
-          }
-
-      .LeadPic {
-        position: relative;
-        width: 400px;
-        height: 100%;
-
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+      .Lead:first-child {
+        margin-right: 98px;
       }
-      #Jairo { background-image: url("../images/AboutUs/Jairo.png"); }
-      #Shani { background-image: url("../images/AboutUs/Shani.png"); }
 
       .LeadInfo {
         position: relative;
-        height: 280px;
+        height: 480px;
         padding-top: 20px;
       }
       .LeadInfo h2 {
@@ -163,6 +145,14 @@
         margin-bottom: 15px;
         height: 180px;
       }
+
+      .LeadPic {
+        position: relative;
+        margin-bottom: 10px;
+
+      }
+        #Jairo { background-image: url("../images/AboutUs/Jairo.png"); }
+        #Shani { background-image: url("../images/AboutUs/Shani.png"); }
 
 
       .SocialMedia {
@@ -188,6 +178,24 @@
         .SocialMedia a:hover {
           color: #e1273c;
         }
+
+
+    @media only screen and (max-width: 1050px) {
+        .RowAlpha {
+          background: pink;
+          width: 900px;
+          height: auto;
+        }
+        .Lead {
+          float: left;
+          height: 500px;
+          margin-bottom: 100px;
+        }
+        .LeadPic {
+          width: 400px;
+        }
+        }
+
 
 
 

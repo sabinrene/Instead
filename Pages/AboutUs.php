@@ -83,12 +83,12 @@
       <div class="Team clearfix">
             <h1> Our Team </h1>
 
-            <div class="RowAlpha">
+            <div class="RowAlpha clearfix">
 
                 <div class="Lead">
 
-                  <div class="LeadPic" id="Jairo"></div>
                   <div class="LeadInfo">
+                    <div class="LeadPic" id="Jairo"></div>
                     <h2> Jairo Fernandez </h2>
                     <h3> Director Colombia </h3>
                     <p> +30 years of broad international experience
@@ -110,8 +110,9 @@
 
 
                 <div class="Lead">
-                  <div class="LeadPic" id="Shani"></div>
                   <div class="LeadInfo">
+
+                    <div class="LeadPic" id="Shani"></div>
                     <h2> Shani Rajpal </h2>
                     <h3> Director India </h3>
                     <p> A result oriented professional offering distinguished and qualitative
