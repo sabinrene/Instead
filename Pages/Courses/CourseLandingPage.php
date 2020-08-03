@@ -76,7 +76,7 @@
 
         <br><br>
 
-<div id="linkZoom" class="divZoom">
+<div id="divLinkZoom" class="divZoom">
   <label for="linkZoom">Link zoom</label>
   <input type="text" id="linkZoom" name="linkZoom" placeholder="Insert zoom link">
 </div>
