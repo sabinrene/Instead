@@ -176,6 +176,9 @@ ul {
   border: 1px solid lightgrey;
   margin-bottom: 4px;
 }
+.accordion:first-child {
+  margin-top: 15px;
+}
 .Acc-Right {
   float: right;
 }
@@ -227,8 +230,12 @@ ul {
   margin: 0 auto;
   height: 110px;
   font-weight: 500;
-  font-size: 0.88em;
+  font-size: 0.80em;
   border-bottom: 1px solid lightgrey;
+}
+.Liked-Row:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 .Liked-Row-Pic {
   position: relative;

@@ -430,6 +430,7 @@
   width: 100%;
   opacity: 0.92;
   margin: 0 auto;
+  text-align: center;
 }
 .blackLay {
   position: absolute;
@@ -443,8 +444,8 @@
   position: relative;
   color: whitesmoke;
   width: 300px;
-  top: 58%;
-  transform: translate(0%,-88%);
+  top: 50%;
+  transform: translate(0%,-80%);
 }
   .BoxList li {
     font-size: 1.2em;
