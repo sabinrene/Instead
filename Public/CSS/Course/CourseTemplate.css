@@ -116,6 +116,7 @@ ul {
 
 /* Requirements */
 .Reqs {
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 .Reqs li {
@@ -127,7 +128,10 @@ ul {
 
 /* Description */
 .Desc {
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  color: black;
 }
 .Desc li {
     list-style-type: disc;
