@@ -99,7 +99,6 @@ $("#updateCourse").click(function(){//
 
 //var description =document.getElementById('editor-richText-box').contentWindow.document.body.innerHTML;
   var description = document.getElementById("textAreaDescription").value
-alert(description);
   var moduleOption = document.getElementById("options").options[document.getElementById("options").selectedIndex].value;
   var topicOption = document.getElementById("choices").options[document.getElementById("choices").selectedIndex].value;
 
@@ -110,6 +109,8 @@ alert(description);
   data.append('courseDescription', description);
   data.append('levelOption', "   ");
   data.append('moduleOption', moduleOption);
+  data.append('linkZoom', $("#linkZoom").val());
+
   data.append('price', $("#price").val());
   data.append('topicOption', topicOption);
   data.append('courseTaught',"" );

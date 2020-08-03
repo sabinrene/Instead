@@ -7,9 +7,10 @@ webshims.polyfill('forms forms-ext');
 
 
 
-document.getElementById("online").onclick =function(e){
+document.getElementById("online").onclick =function(e){//
 document.getElementById('timeCourse').style.display = 'none';
 document.getElementById('ScheduleDays').style.display = 'none';
+document.getElementById('linkZoom').style.display = 'none';
 
 /*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
@@ -21,11 +22,13 @@ document.getElementById('ScheduleDays').style.display = 'none';
 
 };
 
-document.getElementById("live").onclick =function(e){
+document.getElementById("live").onclick =function(e){//
 
 
 document.getElementById('timeCourse').style.display = 'block';
 document.getElementById('ScheduleDays').style.display = 'block';
+document.getElementById('linkZoom').style.display = 'block';
+
 /*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
   document.getElementById('timeCurriculumFinish').style.display = 'none';}*/
@@ -226,6 +229,7 @@ else {
 if (data["liveOnline"]=="live") {//
   document.getElementById('timeCourse').style.display = 'block';
   document.getElementById('ScheduleDays').style.display = 'block';
+  document.getElementById('linkZoom').style.display = 'block';
 
 
   /*if (document.getElementById('timeCurriculumStart')) {
@@ -237,10 +241,11 @@ if (data["liveOnline"]=="live") {//
   $('#live' ).prop('checked',true);
   $('#online').prop('checked',false);
 }
-else if (data["liveOnline"]=="online") {
+else if (data["liveOnline"]=="online") {//
   document.getElementById('timeCourse').style.display = 'none';
-  document.getElementById('Monday').style.display = 'none';
-  document.getElementsByClassName('Schedule');
+  document.getElementById('ScheduleDays').style.display = 'none';
+  document.getElementById('linkZoom').style.display = 'none';
+
 /*
 if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';

@@ -41,7 +41,25 @@
 
 
 <br><br><br>
+<label for="courseTitle">What you'll Learn</label>
 
+<div id="learnContainer">
+
+</div>
+
+<a class="addRequierements" id="addLearn"> + Objective </a>
+<br><br>
+
+
+
+
+
+
+<label for="courseTitle">Course Requirements</label>
+<div id="requierementsContainer">
+</div>
+<a class="addRequierements" id="addRequierements"> + Requirement </a>
+<br><br>
       <label for="">Type of course</label>
 
 
@@ -55,29 +73,19 @@
           <label class="liveOnline" for="online">Online Training</label><br>
         </div>
 
+
+        <br><br>
+
+<div id="linkZoom" class="divZoom">
+  <label for="linkZoom">Link zoom</label>
+  <input type="text" id="linkZoom" name="linkZoom" placeholder="Insert zoom link">
+</div>
+
 <br><br>
 
 
 
-        <label for="courseTitle">What you'll Learn</label>
 
-        <div id="learnContainer">
-
-        </div>
-
-        <a class="addRequierements" id="addLearn"> + Objective </a>
-        <br><br>
-
-
-
-
-
-
-      <label for="courseTitle">Course Requirements</label>
-      <div id="requierementsContainer">
-    </div>
-        <a class="addRequierements" id="addRequierements"> + Requirement </a>
-        <br><br>
 
 <div id="timeCourse" class="">
   <div  class="time">
@@ -206,6 +214,7 @@
                       <li class='item'>Full Online Access</li>
                       <li class="item"><b>Fast</b> upload </li>
                       <li class="item"><b>Online</b> Lectures </li>
+                      <li class="item"><b>MIN</b> 2 USD,   <b>MAX:</b>1200 </li>
                     </ul>
                   </div>
                     <input class="price pricetag" id="price" type="text"  placeholder="Price" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Price'">
