@@ -138,7 +138,7 @@
 
                 <div class="Neoph">
                   <div class="NeophPic" id="Jules"></div>
-                  <div class="LeadInfo">
+                  <div class="NeophInfo">
                     <h2> Julian Orozco </h2>
                     <h3> Industrial IoT Architect  </h3>
                     <p> Nuclear Engineer focused on IoT with 12 years of broad
@@ -157,7 +157,7 @@
 
                 <div class="Neoph">
                   <div class="NeophPic" id="Aelna"></div>
-                  <div class="LeadInfo">
+                  <div class="NeophInfo">
                     <h2> Alejandra Rozo </h2>
                     <h3> Software Developer </h3>
                     <p> Glavi amet ritnisl libero molestie ante ut
@@ -177,9 +177,9 @@
 
 
 
-                <div class="Neoph">
+                <div class="Neoph Neoph-in">
                   <div class="NeophPic" id="Vipul"></div>
-                  <div class="LeadInfo">
+                  <div class="NeophInfo">
                     <h2> Vipul Tyagi </h2>
                     <h3> Operations Head Solar </h3>
                     <p> With an experience of more than 7 years, Vipul has handled
@@ -199,9 +199,9 @@
                 </div>
 
 
-                <div class="Neoph-in">
+                <div class="Neoph Neoph-in">
                   <div class="NeophPic" id="Gaurav"></div>
-                  <div class="LeadInfo">
+                  <div class="NeophInfo">
                     <h2> Gaurav Tiwari </h2>
                     <h3> GM Projects </h3>
                     <p> Having been endorsed several start-ups and corporations
