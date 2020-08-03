@@ -375,7 +375,10 @@ body {
   width: 130px !important;
 }
 
-
+.textarea {
+  height: auto;
+  padding: 0;
+}
 
 
 
