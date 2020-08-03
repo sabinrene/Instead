@@ -137,6 +137,20 @@
   }
 
 
+  .MyAboutUs {
+    position: absolute;
+    right: 20em;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 30px;
+    cursor: pointer;
+    height: auto;
+  }
+
+  .MyAboutUs h2 {
+    font-size: 20px;
+  }
+
 
 
 
