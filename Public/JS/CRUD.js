@@ -95,6 +95,22 @@ var topicOption = document.getElementById("choices").options[document.getElement
 /*------------------------------- Update Course --------------------------------*/
 $("#updateCourse").click(function(){//
 
+  var weeksDays=[];
+    for (var i = 1; i < 8; i++){
+      if ($('#'+i).is(":checked")){
+      //if ($('#start'+i).val()!=='' && ('#finish'+i).val()!=='') {//$('#start'+i).val()!=undefined && ('#finish'+i).val()!=undefined
+        weeksDays[i] = {day:$('#'+i).val(),timeStart:$('#start'+i).val(),timeFinish:$('#finish'+i).val()  };
+         alert(weeksDays[i].day);
+      //}
+    /*  else {
+        alert("Please add all times in the schedule");
+      }*/
+     }
+    }
+
+
+
+
 
 
 //var description =document.getElementById('editor-richText-box').contentWindow.document.body.innerHTML;
@@ -110,7 +126,7 @@ $("#updateCourse").click(function(){//
   data.append('levelOption', "   ");
   data.append('moduleOption', moduleOption);
   data.append('linkZoom', $("#linkZoom").val());
-
+//  data.append('weeksDays', $("#linkZoom").val());
   data.append('price', $("#price").val());
   data.append('topicOption', topicOption);
   data.append('courseTaught',"" );
