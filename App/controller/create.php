@@ -9,6 +9,7 @@
       require_once('../model/RecWWYL.php');
       require_once('../model/PDF.php');
       require_once('../model/UserCourse.php');
+      require_once('../model/Schedule.php');
 
 
 /*--------------------------------- USERS ------------------------------------*/
@@ -23,33 +24,6 @@
       $registerForm-> save();
     }
 
-/*--------------------------------- COURSE -----------------------------------*/
-    elseif ($_POST['type2']=="saveCourse") {
-      session_start();
-      $createCourse = new Create();
-      $createCourse->queryCourse();
-      $createCourse->setValuesCourse(
-        $_POST['courseTitle'], $_POST['moduleOption'],
-        $_POST['topicOption'],$_POST['levelCourse'],$_POST['price']);
-      $createCourse->saveCourse();
-
-      $readLastIdCourse = new Read();
-      $readLastIdCourse->queryCourse();
-      $idCourse =  $readLastIdCourse->getLastIdCourse()->idCourse;
-
-      $requirement = new Create();
-      $requirement->queryRequirementsLearn();
-      $requirement->setIdCourseRequirementsLearn($idCourse);
-      $requirement->setRequirementOrLearn('requirement');
-      $requirement->saveRequirementsLearn();
-
-      $learn = new Create();
-      $learn->queryRequirementsLearn();
-      $learn->setIdCourseRequirementsLearn($idCourse);
-      $learn->setRequirementOrLearn('learn');
-      $learn->saveRequirementsLearn();
-
-    }
 /*---------------------------- LearnRequierement -----------------------------*/
     elseif ($_POST['type']=="createLearn") {
       session_start();
@@ -112,10 +86,59 @@ elseif ($_POST['type']=="createUserCourse") {
   $buyCourse->saveBuyCourse();
 }
 
+/*--------------------------------- COURSE -----------------------------------*/
+    elseif ($_POST['type2']=="saveCourse") {
+      session_start();
+      $createCourse = new Create();
+      $createCourse->queryCourse();
+      $createCourse->setValuesCourse(
+        $_POST['courseTitle'], $_POST['moduleOption'],
+        $_POST['topicOption'],$_POST['levelCourse'],$_POST['price']);
+      $createCourse->saveCourse();
+
+      $readLastIdCourse = new Read();
+      $readLastIdCourse->queryCourse();
+      $idCourse =  $readLastIdCourse->getLastIdCourse()->idCourse;
+
+      $requirement = new Create();
+      $requirement->queryRequirementsLearn();
+      $requirement->setIdCourseRequirementsLearn($idCourse);
+      $requirement->setRequirementOrLearn('requirement');
+      $requirement->saveRequirementsLearn();
+
+      $learn = new Create();
+      $learn->queryRequirementsLearn();
+      $learn->setIdCourseRequirementsLearn($idCourse);
+      $learn->setRequirementOrLearn('learn');
+      $learn->saveRequirementsLearn();
+
+
+      $Schedule = new Create();
+      $Schedule->querySchedule();
+      $Schedule->setValues();
+    //  $learn->setRequirementOrLearn('learn');
+    //  $learn->saveRequirementsLearn();
+
+    }
 
 
 class Create
    {
+/*----------------------------------------------------------------------------*/
+/*-------------------------------- SCHEDULE -----------------------------------*/
+/*----------------------------------------------------------------------------*/
+private $Schedule;
+
+function querySchedule(){
+  $db = new Database();
+  $this->Schedule = new PDF($db);
+}
+function querySchedule(){
+  $db = new Database();
+  $this->Schedule = new PDF($db);
+}
+
+
 /*----------------------------------------------------------------------------*/
 /*-------------------------------- BUY -----------------------------------*/
 /*----------------------------------------------------------------------------*/

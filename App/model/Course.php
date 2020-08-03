@@ -14,6 +14,7 @@
         private $timeCourseStart;
         private $timeCourseFinish;
         private $liveOnline;
+        private $linkZoom;
 
         private $con;
         function __construct($con) {
@@ -57,6 +58,10 @@
         }
         function setImagenName($imageName){
             $this->imageName = $imageName;
+            //echo $this->imageName;
+        }//setLinkZoom
+        function setLinkZoom($linkZoom){
+            $this->linkZoom = $linkZoom;
             //echo $this->imageName;
         }
         function setIdUser($idUsers){
@@ -133,6 +138,8 @@
 
                       `startTime`= '$this->timeCourseStart',
                       `endTime`= '$this->timeCourseFinish',
+
+                      `zoomLink`= '$this->linkZoom',    
 
                       `liveOnline`= '$this->liveOnline'
 

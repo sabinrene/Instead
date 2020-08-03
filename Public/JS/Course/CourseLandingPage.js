@@ -10,7 +10,7 @@ webshims.polyfill('forms forms-ext');
 document.getElementById("online").onclick =function(e){//
 document.getElementById('timeCourse').style.display = 'none';
 document.getElementById('ScheduleDays').style.display = 'none';
-document.getElementById('linkZoom').style.display = 'none';
+document.getElementById('divLinkZoom').style.display = 'none';
 
 /*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
@@ -27,7 +27,7 @@ document.getElementById("live").onclick =function(e){//
 
 document.getElementById('timeCourse').style.display = 'block';
 document.getElementById('ScheduleDays').style.display = 'block';
-document.getElementById('linkZoom').style.display = 'block';
+document.getElementById('divLinkZoom').style.display = 'block';
 
 /*if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
@@ -218,7 +218,6 @@ document.getElementById('choices').value = data["topic"];
 if (data["startTime"]==null&&data["endTime"]==null) {
   document.getElementById('timeCourseStart').value = "2020-01-01";
   document.getElementById('timeCourseFinish').value = "2020-01-01";
-
 }
 else {
   document.getElementById('timeCourseStart').value = data["startTime"];
@@ -229,7 +228,7 @@ else {
 if (data["liveOnline"]=="live") {//
   document.getElementById('timeCourse').style.display = 'block';
   document.getElementById('ScheduleDays').style.display = 'block';
-  document.getElementById('linkZoom').style.display = 'block';
+  document.getElementById('divLinkZoom').style.display = 'block';
 
 
   /*if (document.getElementById('timeCurriculumStart')) {
@@ -244,7 +243,7 @@ if (data["liveOnline"]=="live") {//
 else if (data["liveOnline"]=="online") {//
   document.getElementById('timeCourse').style.display = 'none';
   document.getElementById('ScheduleDays').style.display = 'none';
-  document.getElementById('linkZoom').style.display = 'none';
+  document.getElementById('divLinkZoom').style.display = 'none';
 
 /*
 if (document.getElementById('timeCurriculumStart')) {
