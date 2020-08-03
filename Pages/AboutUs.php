@@ -177,7 +177,7 @@
 
 
 
-                <div class="Neoph-in">
+                <div class="Neoph">
                   <div class="NeophPic" id="Vipul"></div>
                   <div class="LeadInfo">
                     <h2> Vipul Tyagi </h2>
