@@ -40,6 +40,11 @@
         <h2>My Courses</h2>
       </div>
 
+      <div class="AboutUs">
+          <h2>
+            <a class="btn" id="" href="Pages/AboutUs.php">About Us</a>
+          </h2>
+      </div>
 
     </div>
 
