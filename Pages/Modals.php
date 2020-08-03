@@ -8,8 +8,8 @@
       <input class="firsName" type="text" id="firstName" name="firsName" placeholder="First Name *">
       <input class="lastName" type="text" id="lastName" name="lastName" placeholder="Last Name *">
       <input class="email" type="email" id="email" name="field2" placeholder="Email *">
-      <input class="phoneNumber" type="text" id="phoneNumber" name="phoneNumber" placeholder="phoneNumber *">
-      <input class="education" type="text" id="education" name="education" placeholder="education *">
+      <input class="phoneNumber" type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number *">
+      <input class="education" type="text" id="education" name="education" placeholder="Education *">
 
       <input class="password" type="password" id="password" name="field2" placeholder="Password *">
       <input class="btn btn-signup"  id="save" type="submit" class="save" value="Sign Up" />
