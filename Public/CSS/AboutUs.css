@@ -182,19 +182,22 @@
 
     @media only screen and (max-width: 1050px) {
         .RowAlpha {
-          background: pink;
-          width: 900px;
+          width: 400px;
           height: auto;
+          margin-bottom: 80px;
         }
         .Lead {
           float: left;
-          height: 500px;
-          margin-bottom: 100px;
+          width: 100%;
+          height: 700px;
+          margin-top: -20px;
+          margin-bottom: 150px;
         }
-        .LeadPic {
-          width: 400px;
+        .LeadInfo {
+
         }
-        }
+
+      }
 
 
 
