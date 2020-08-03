@@ -146,11 +146,17 @@
         height: 180px;
       }
 
-      .LeadPic {
-        position: relative;
-        margin-bottom: 10px;
 
-      }
+        .LeadPic {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          margin-top: -50px;
+          margin-bottom: 10px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
         #Jairo { background-image: url("../images/AboutUs/Jairo.png"); }
         #Shani { background-image: url("../images/AboutUs/Shani.png"); }
 
@@ -190,11 +196,10 @@
           float: left;
           width: 100%;
           height: 700px;
-          margin-top: -20px;
           margin-bottom: 150px;
         }
         .LeadInfo {
-
+          background: pink;
         }
 
       }
@@ -214,8 +219,7 @@
           position: relative;
           float: left;
           height: 350px;
-          width: 350px;
-          background: red;
+          width: 20%;
         }
         .Neoph:first-child {
           margin-right: 80px;
@@ -232,7 +236,7 @@
       .Neoph-in:first-child {
         margin-left: 80px;
       }
-        .LeadPic {
+        .NeophPic {
           position: relative;
           width: 100%;
           height: 100%;

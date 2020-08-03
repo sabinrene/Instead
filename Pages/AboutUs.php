@@ -137,7 +137,7 @@
             <div class="RowBeta clearfix">
 
                 <div class="Neoph">
-                  <div class="LeadPic" id="Jules"></div>
+                  <div class="NeophPic" id="Jules"></div>
                   <div class="LeadInfo">
                     <h2> Julian Orozco </h2>
                     <h3> Industrial IoT Architect  </h3>
@@ -156,7 +156,7 @@
 
 
                 <div class="Neoph">
-                  <div class="LeadPic" id="Aelna"></div>
+                  <div class="NeophPic" id="Aelna"></div>
                   <div class="LeadInfo">
                     <h2> Alejandra Rozo </h2>
                     <h3> Software Developer </h3>
@@ -178,7 +178,7 @@
 
 
                 <div class="Neoph-in">
-                  <div class="LeadPic" id="Vipul"></div>
+                  <div class="NeophPic" id="Vipul"></div>
                   <div class="LeadInfo">
                     <h2> Vipul Tyagi </h2>
                     <h3> Operations Head Solar </h3>
@@ -200,7 +200,7 @@
 
 
                 <div class="Neoph-in">
-                  <div class="LeadPic" id="Gaurav"></div>
+                  <div class="NeophPic" id="Gaurav"></div>
                   <div class="LeadInfo">
                     <h2> Gaurav Tiwari </h2>
                     <h3> GM Projects </h3>
