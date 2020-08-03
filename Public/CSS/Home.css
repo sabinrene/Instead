@@ -392,26 +392,22 @@
 }
 .ThreeCols {
     position: relative;
+    margin-top: 75px;
+    margin-bottom: -80px;
 }
 
 .ThreeCols h2 {
+  position: relative;
   text-align: center;
+    margin-bottom: 40px;
 }
+
 
 .ThreeCols-Wrap {
   position: relative;
   width: 1260px;
-  height: 570px;
   margin: 0 auto;
-
 }
-
-  .ThreeCols h2 {
-    position: relative;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    margin-left: 50px;
-  }
 
 
 .Col-Box {
