@@ -32,7 +32,7 @@ require_once('../model/UserCourse.php');
           $updateCourse->queryImage();
           $updateCourse->setValuesImage($_FILES['file'],$_SESSION["idUser"],$_SESSION["idCourse"],'02-Course/Img-Course/');
           $updateCourse->uploadImage();
-
+ 
 
           $updateCourse->setValuesCourse(
             $_POST['courseTitle'], $_POST['courseSubtitle'], $_POST['courseDescription'],

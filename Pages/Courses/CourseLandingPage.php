@@ -98,7 +98,7 @@
 
 <br><br>
 
-<div class="ScheduleDays">
+<div id="ScheduleDays" class="ScheduleDays">
 
   <div class="Schedule">
 
@@ -159,17 +159,19 @@
 
 
 
-        <?php include ("Description.php"); ?>
+        <?php //include ("Description.php"); ?>
 
 
-  <div id="openTextEditDescription" class="">
+<!--  <div id="openTextEditDescription" class="">
   </div>
 
 
   <div id="courseDescription" class="textarea">
+  </div> -->
 
-  </div>
 
+
+  <input class="textarea"  id="textAreaDescription" type="textarea" name="" value="" rows="10">
 
 
 

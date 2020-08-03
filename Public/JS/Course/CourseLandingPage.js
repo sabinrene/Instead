@@ -12,9 +12,9 @@ document.getElementById('timeCourse').style.display = 'none';
 if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
   document.getElementById('timeCurriculumFinish').style.display = 'none';
-} 
-document.getElementById('timeCurriculumStart').style.display = 'none';
-document.getElementById('timeCurriculumFinish').style.display = 'none';
+}
+//document.getElementById('timeCurriculumStart').style.display = 'none';
+//document.getElementById('timeCurriculumFinish').style.display = 'none';
 
 
 };
@@ -198,7 +198,12 @@ else {
 function updateCourseLandingPage(data){
 document.getElementById('courseTitle').value = data["courseTitle"];
 document.getElementById('courseSubtitle').value = data["courseSubtitle"];
-document.getElementById("courseDescription").innerHTML = data["courseDescription"] ;
+//document.getElementById("courseDescription").innerHTML = data["courseDescription"] ;
+
+
+document.getElementById('textAreaDescription').value = data["courseDescription"];
+
+
 document.getElementById('price').value = data["price"];
 document.getElementById('options').value = data["module"];
 addTopic(data["module"]);
@@ -216,14 +221,15 @@ else {
 }
 
 
-if (data["liveOnline"]=="live") {
+if (data["liveOnline"]=="live") {//
   document.getElementById('timeCourse').style.display = 'block';
+  document.getElementById('ScheduleDays').style.display = 'block';
 
 
-  if (document.getElementById('timeCurriculumStart')) {
+  /*if (document.getElementById('timeCurriculumStart')) {
     document.getElementById('timeCurriculumStart').style.display = 'none';
     document.getElementById('timeCurriculumFinish').style.display = 'none';
-  }
+  }*/
 
 
   $('#live' ).prop('checked',true);
@@ -231,11 +237,13 @@ if (data["liveOnline"]=="live") {
 }
 else if (data["liveOnline"]=="online") {
   document.getElementById('timeCourse').style.display = 'none';
-
+  document.getElementById('Monday').style.display = 'none';
+  document.getElementsByClassName('Schedule');
+/*
 if (document.getElementById('timeCurriculumStart')) {
   document.getElementById('timeCurriculumStart').style.display = 'none';
   document.getElementById('timeCurriculumFinish').style.display = 'none';
-}
+}*/
 
 
   $('#online').prop('checked',true);
@@ -259,7 +267,7 @@ document.getElementById("image").src = "../../Public/images/02-Course/Img-Course
 
 
 
-document.getElementById("openTextEditDescription").onclick =function(e){openTextEditDescription()}
+//document.getElementById("openTextEditDescription").onclick =function(e){openTextEditDescription()}
 
 
 function openTextEditDescription(){

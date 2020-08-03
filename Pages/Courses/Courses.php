@@ -70,7 +70,7 @@
 
 
     <!-- END BodyCourse -->
-    <script src="../../Public/JS/Course/Description.js"></script>
+  <!--  <script src="../../Public/JS/Course/Description.js"></script> -->
     <script src="../../Public/JS/Course/Curriculum.js"></script>
     <script src="../../Public/JS/Course/CourseLandingPage.js"></script>
     <script src="../../Public/JS/Course/Course.js"></script>
