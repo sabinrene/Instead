@@ -115,7 +115,11 @@ elseif ($_POST['type']=="createUserCourse") {
 
       $Schedule = new Create();
       $Schedule->querySchedule();
-      $Schedule->setValues();
+
+      for ($i=1; $i < 8; $i++) {
+        $Schedule->setValues($_SESSION['idCourse'], i, 0, null, null);
+        $Schedule->saveSchedule();
+      }
     //  $learn->setRequirementOrLearn('learn');
     //  $learn->saveRequirementsLearn();
 
@@ -131,13 +135,18 @@ private $Schedule;
 
 function querySchedule(){
   $db = new Database();
-  $this->Schedule = new PDF($db);
+  $this->Schedule = new Schedule($db);
 }
-function querySchedule(){
-  $db = new Database();
-  $this->Schedule = new PDF($db);
+function setValues($idCourse, $idWeek, $active, $startTime, $finishTime){
+  $this->Schedule ->setIdCourse($idCourse);
+  $this->Schedule ->setIdWeek($idWeek);
+  $this->Schedule ->setActive($active);
+  $this->Schedule ->setStartTime($startTime);
+  $this->Schedule ->setFinishTime($finishTime);
 }
-
+function saveSchedule(){
+  $this->Schedule->save();
+}
 
 /*----------------------------------------------------------------------------*/
 /*-------------------------------- BUY -----------------------------------*/

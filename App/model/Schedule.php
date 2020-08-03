@@ -2,25 +2,34 @@
     class Schedule {
 
       private $idCourse;
+      private $idWeek;
+      private $active;
+      private $startTime;
+      private $finishTime;
       private $con;
         function __construct($con) {
             $this->con = $con;
         }
-
-
-
-
-
-        
-
         function setIdCourse($idCourse){
           $this->idCourse  = $idCourse;
+        }
+        function setIdWeek($idWeek){
+          $this->idWeek  = $idWeek;
+        }
+        function setActive($active){
+          $this->active  = $active;
+        }
+        function setStartTime($startTime){
+          $this->startTime  = $startTime;
+        }
+        function setFinishTime($finishTime){
+          $this->finishTime  = $finishTime;
         }
 
 
         function save(){
           try{
-            $sql = "INSERT INTO `PDF`( `idLecture`,`namePDF`,`linkPDF`) VALUES ('$this->idLecture','','')";
+            $sql = "INSERT INTO `Schedule`(`idCourse`, `idSchedule`,`day`,`startTime`,`finishTime`) VALUES ('$this->idCourse','$this->idWeek','$this->active','$this->startTime','$this->finishTime')";
             $this->con->conn()->exec($sql);
             $this->con->close();
               }
