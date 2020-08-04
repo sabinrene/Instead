@@ -44,12 +44,10 @@
     }
 /*--------------------------------- SECTION ----------------------------------*/
 elseif ($_POST['type2']=="saveSection") {
-
   session_start();
   $section = new Create();
   $section->querySection();
   $section->setIdCourseSection($_SESSION["idCourse"]);
-
   $section->saveSection();
 }
 /*--------------------------------- LECTURE ----------------------------------*/
@@ -113,15 +111,13 @@ elseif ($_POST['type']=="createUserCourse") {
       $learn->saveRequirementsLearn();
 
 
-      $Schedule = new Create();
-      $Schedule->querySchedule();
 
-      for ($i=1; $i < 8; $i++) {
-        $Schedule->setValues($_SESSION['idCourse'], i, 0, null, null);
+
+
+        $Schedule = new Create();
+        $Schedule->querySchedule();
+        $Schedule->setValues($idCourse, 1, 0, '00:00:00', '00:00:00');
         $Schedule->saveSchedule();
-      }
-    //  $learn->setRequirementOrLearn('learn');
-    //  $learn->saveRequirementsLearn();
 
     }
 
@@ -143,6 +139,7 @@ function setValues($idCourse, $idWeek, $active, $startTime, $finishTime){
   $this->Schedule ->setActive($active);
   $this->Schedule ->setStartTime($startTime);
   $this->Schedule ->setFinishTime($finishTime);
+
 }
 function saveSchedule(){
   $this->Schedule->save();

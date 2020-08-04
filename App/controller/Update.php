@@ -41,8 +41,27 @@ require_once('../model/UserCourse.php');
             $timeCourseStart,$timeCourseFinish,$_POST['liveOnline'],$_POST['linkZoom']
           );
           $updateCourse->upadteCourseImage();
-
       }
+
+
+
+       $myArray = json_encode($_POST['day']);
+
+    // $myArray = json_decode( stripslashes ($_POST['day'] )  );
+       ///$data =
+
+       echo $myArray;
+
+
+
+    /*  foreach($_POST['schedule'] as $i => $item) {
+        echo $item[$i]['day'];
+        echo $item[$i]['timeStart'];
+        echo $item[$i]['timeFinish'];
+    }*/
+
+
+
 
       $updateCourse->setValuesCourse(
         $_POST['courseTitle'], $_POST['courseSubtitle'], $_POST['courseDescription'],//
@@ -50,7 +69,6 @@ require_once('../model/UserCourse.php');
         $_POST['courseTaught'],$_SESSION["idCourse"],$_POST['price'],//
         $_POST['timeCourseStart'],$_POST['timeCourseFinish'],$_POST['liveOnline'],$_POST['linkZoom']
       );
-
       $updateCourse->upadteCourse();
       echo "course has been updated";
     }
@@ -104,13 +122,11 @@ require_once('../model/UserCourse.php');
 
     }
     elseif ($_POST['type']=="updateLinkPDF") {
-
       $savePDF = new Update();
       $savePDF->queryPDF();
       $savePDF->setIdPDF($_POST['idPDF']);
       $savePDF->setLinkPDF($_POST['linkPDF']);
       $savePDF->updateLinkPDF();
-
     }
 
     /*------------------------------- UserCourse  --------------------------------*/

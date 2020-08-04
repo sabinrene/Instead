@@ -1,6 +1,5 @@
 <?php
     class Schedule {
-
       private $idCourse;
       private $idWeek;
       private $active;
@@ -29,23 +28,25 @@
 
         function save(){
           try{
-            $sql = "INSERT INTO `Schedule`(`idCourse`, `idSchedule`,`day`,`startTime`,`finishTime`) VALUES ('$this->idCourse','$this->idWeek','$this->active','$this->startTime','$this->finishTime')";
+            $sql = "INSERT INTO `Schedule`(`idCourse`, `numberDay`,`day`,`startTime`,`finishTime`)
+            VALUES ('$this->idCourse','1','$this->active','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','2','$this->active','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','3','$this->active','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','4','$this->active','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','5','$this->active','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','6','$this->active','$this->startTime','$this->finishTime'),
+                ('$this->idCourse','7','$this->active','$this->startTime','$this->finishTime')
+                ";
+
             $this->con->conn()->exec($sql);
+
             $this->con->close();
+
               }
           catch(PDOException $e){
               echo $query . "<br>" . $e->getMessage();
             }
         }
-
-
-
-
-
-
-
-
-
 
 
         function getPDFByIdCourse(){
